@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import torch
 import transformers
@@ -68,7 +69,33 @@ def create_subsequences(document: str, n: int = 13, stride: int = 5) -> list[str
     return [' '.join(words[i:i + n]) for i in range(0, len(words), stride)]
 
 
-def predict_document(document: str, threshold: float = 0.05, n: int = 13, stride: int = 5):
+def get_result(probabilities, t, n, s):
+    _result: list[tuple[str, set[str]]] = [
+        (_text, {ID_TO_NAME[k] + ' - ' + k for k, v in _clses.items() if v})
+        for _text, _clses in
+        probabilities.gt(t).T.to_dict().items()
+    ]
+
+    _result_iter = iter(_result)
+    current_text, current_labels = next(_result_iter)
+    overlap = n - s
+    out = []
+
+    for _text, labels in _result_iter:
+        if labels != current_labels:
+            out.append((current_text, current_labels))
+            current_text = _text
+            current_labels = labels
+            continue
+        current_text += ' ' + ' '.join(_text.split()[overlap:])
+
+    out_df = pd.DataFrame(out)
+    out_df.columns = ['segment',
+                      'label(s)']
+    return out_df
+
+
+def predict_document(document: str, threshold: float = 0.1, n: int = 13, stride: int = 5):
     text_instances = create_subsequences(document, n, stride)
     tokenized_instances = tokenizer(text_instances, return_tensors='pt', padding='max_length', truncation=True,
                                     max_length=512).input_ids
@@ -88,29 +115,12 @@ def predict_document(document: str, threshold: float = 0.05, n: int = 13, stride
         columns=CLASSES,
         index=text_instances
     )
-
-    result: list[tuple[str, set[str]]] = [
-        (_text, {ID_TO_NAME[k] + ' - ' + k for k, v in _clses.items() if v})
-        for _text, _clses in
-        probabilities.gt(threshold).T.to_dict().items()
-    ]
-
-    result_iter = iter(result)
-    current_text, current_labels = next(result_iter)
-    overlap = n - stride
-    out = []
-
-    for text, labels in result_iter:
-        if labels != current_labels:
-            out.append((current_text, current_labels))
-            current_text = text
-            current_labels = labels
-            continue
-        current_text += ' ' + ' '.join(text.split()[overlap:])
-
-    out_df = pd.DataFrame(out)
-    out_df.columns = ['segment', 'label(s)']
-    return out_df
+    print(probabilities)
+    print("--------------------")
+    return {
+        t: get_result(probabilities, t, n, stride)
+        for t in np.arange(0.1, 1.0, 0.1)
+    }
 
 
 import io
@@ -139,32 +149,14 @@ from itertools import count
 
 COUNT = count(1)
 
-# Use the above button to select one or more PDF, HTML, Word, or txt files to upload.
-# 
-# You can use the default values for n, the stride size, and the probability threshold, or set your own.
-# 
-# - The **n value** is the number of words to include in each segment.
-# - The **stride size** is the number of words apart each ngram should start. This needs to be less than the n value, or some words will be skipped
-# - The **probability** is the threshold for the model. Setting a lower probability means getting more predictions, but with a lower level of confidence. If the threshold is less than 0.5, you can potentially get two predictions (or three if it's less than 0.33, etc.).
-# 
-# When you have uploaded the files and selected the parameters, run the next cell to extract text from the files, create the ngrams, and apply the model. The results will be written to the file indicated by `output_file_name`, which you can modify.
-
-# In[ ]:
-
-
-dfs = []
 name = "Enigma Stealer Targets Cryptocurrency Industry with Fake Jobs _ Trend Micro.pdf"
 with open(f"/home/sougata/projects/MyKEPLER/tram2kepler/data/input/{name}", "rb") as fh:
     content = io.BytesIO(fh.read())
 
 text = parse_text(name, content)
-prediction_df = predict_document("Before executing the payload, the malware attempts to elevate its privileges by executing the mw_UAC_bypass function, which is part of an open-source project. This technique, Calling Local Windows RPC Servers from .NET (which was unveiled in 2019 by Project Zero), allows a user to bypass user acco")
-prediction_df['name'] = name
-dfs.append(prediction_df)
-
-predicted = pd.concat(dfs).reset_index(drop=True)
-i = next(COUNT)
-output_file_name = f"./output-{i}.json"
-predicted.to_json(output_file_name, orient='table')
-
-print(predicted)
+out = predict_document(text)
+for threshold in out:
+    dfs = [out[threshold]]
+    predicted = pd.concat(dfs).reset_index(drop=True)
+    print(f"Threshold: {threshold}")
+    print(predicted.to_markdown())

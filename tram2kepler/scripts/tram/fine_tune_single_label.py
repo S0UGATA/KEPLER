@@ -1,4 +1,5 @@
 import os
+import random
 
 print(os.environ['CONDA_DEFAULT_ENV'])
 
@@ -24,7 +25,7 @@ CLASSES = [
 encoder = OHE(sparse_output=False)
 encoder.fit([[c] for c in CLASSES])
 
-encoder.categories_
+print(encoder.categories_)
 
 # This cell is for loading the training data. You will need to modify this cell to load your data. Ensure that by the end of this cell, a DataFrame has been assigned to the variable `data` that has a `text` column containing the segments, and a `label` column containing individual strings, where those strings are an ATT&CK IDs that this model can classify. It does not matter how the DataFrame is indexed or what other columns with other names, if any, it has.
 # 
@@ -36,8 +37,12 @@ encoder.categories_
 import pandas as pd
 
 data = pd.read_json('/home/sougata/projects/MyKEPLER/tram2kepler/data/input/single_label.json').drop(
-    columns='doc_title').head(500)
-data
+    columns='doc_title').head(50)
+# gpt2 = (transformers.GPT2ForSequenceClassification.from_pretrained(
+#    '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned',
+#    num_labels=50, use_safetensors=True)
+#        .to(device).train())
+print(data)
 
 # In[4]:
 
@@ -57,12 +62,7 @@ gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
 print(gpt2)
 
-# In[19]:
-
-
 from sklearn.model_selection import train_test_split
-
-train, test = train_test_split(data, test_size=0.2, shuffle=True)
 
 
 def _load_data(x, y, batch_size=10):
@@ -82,31 +82,24 @@ def _encode_labels(labels):
     return torch.Tensor(encoder.transform(labels))
 
 
-# In[21]:
+x = data['text'].tolist()
+y = data[['label']]
 
+random.seed(42)
+train, test = train_test_split(x, y, test_size=0.2, shuffle=True)
 
 x_train = _tokenize(train['text'].tolist())
-x_train
-
-# In[23]:
-
+print(x_train)
 
 y_train = _encode_labels(train[['label']])
-y_train
+print(y_train)
 
-# This array may appear to be empty, but taking the sum shows that there is one `1` per row.
+x_test = _tokenize(test['text'].tolist())
+y_test = test['label']
 
-# In[24]:
+print(y_train.sum())
 
-
-y_train.sum()
-
-# This cell contains the training loop. You may change the `NUM_EPOCHS` value to any integer you would like.
-
-# In[25]:
-
-
-NUM_EPOCHS = 30
+NUM_EPOCHS = 150
 
 from statistics import mean
 
@@ -125,33 +118,9 @@ for epoch in range(NUM_EPOCHS):
         optim.step()
     print(f"epoch {epoch + 1} loss: {mean(epoch_losses)}")
 
-# If the loss from the last iteration was not to your liking, do not re-run the previous cell. Uncomment the following cell and run it for however many additional epochs you would like.
-
-# In[ ]:
-
-
-# NUM_EXTRA_EPOCHS = 1
-# for epoch in range(NUM_EXTRA_EPOCHS):
-#     epoch_losses = []
-#     for x, y in tqdm(_load_data(x_train, y_train, batch_size=10)):
-#         bert.zero_grad()
-#         out = bert(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
-#         epoch_losses.append(out.loss.item())
-#         out.loss.backward()
-#         optim.step()
-#     print(f"epoch {epoch + 1} loss: {mean(epoch_losses)}")
-
 gpt2.save_pretrained('/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned')
 
-# The next cells evaluate the performance after the additional fine-tuning. The performance scores on the example data will be high, as the model has already been trained on most of these instances.
-
-# In[30]:
-
-
 gpt2.eval()
-
-x_test = _tokenize(test['text'].tolist())
-y_test = test['label']
 
 batch_size = 20
 preds = []
