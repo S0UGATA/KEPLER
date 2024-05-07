@@ -37,12 +37,8 @@ print(encoder.categories_)
 import pandas as pd
 
 data = pd.read_json('/home/sougata/projects/MyKEPLER/tram2kepler/data/input/single_label.json').drop(
-    columns='doc_title').head(50)
-# gpt2 = (transformers.GPT2ForSequenceClassification.from_pretrained(
-#    '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned',
-#    num_labels=50, use_safetensors=True)
-#        .to(device).train())
-print(data)
+    columns='doc_title')
+print(data.head(10))
 
 # In[4]:
 
@@ -53,6 +49,7 @@ import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 tokenizer = transformers.GPT2Tokenizer.from_pretrained("gpt2")
+
 gpt2 = (transformers.GPT2ForSequenceClassification.from_pretrained(
     '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/', num_labels=50)
         .to(device).train())
@@ -63,6 +60,9 @@ gpt2.config.pad_token_id = gpt2.config.eos_token_id
 print(gpt2)
 
 from sklearn.model_selection import train_test_split
+
+random.seed(42)
+train, test = train_test_split(data, test_size=0.2, shuffle=True)
 
 
 def _load_data(x, y, batch_size=10):
@@ -82,33 +82,27 @@ def _encode_labels(labels):
     return torch.Tensor(encoder.transform(labels))
 
 
-x = data['text'].tolist()
-y = data[['label']]
-
-random.seed(42)
-train, test = train_test_split(x, y, test_size=0.2, shuffle=True)
-
 x_train = _tokenize(train['text'].tolist())
 print(x_train)
 
 y_train = _encode_labels(train[['label']])
 print(y_train)
+print(y_train.sum())
 
 x_test = _tokenize(test['text'].tolist())
 y_test = test['label']
+y_test_enc = _encode_labels(test[['label']])
 
-print(y_train.sum())
-
-NUM_EPOCHS = 150
+NUM_EPOCHS = 3
 
 from statistics import mean
-
 from tqdm import tqdm
 from torch.optim import AdamW
 
 optim = AdamW(gpt2.parameters(), lr=2e-5, eps=1e-8)
 
 for epoch in range(NUM_EPOCHS):
+    gpt2.train()
     epoch_losses = []
     for x, y in tqdm(_load_data(x_train, y_train, batch_size=10)):
         gpt2.zero_grad()
@@ -116,12 +110,21 @@ for epoch in range(NUM_EPOCHS):
         epoch_losses.append(out.loss.item())
         out.loss.backward()
         optim.step()
-    print(f"epoch {epoch + 1} loss: {mean(epoch_losses)}")
 
-gpt2.save_pretrained('/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned')
+    # Validation loop
+    gpt2.eval()
+    val_losses = []
+    with torch.no_grad():
+        for x, y in tqdm(_load_data(x_test, y_test_enc, batch_size=10)):
+            outputs = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
+            val_losses.append(outputs.loss.item())
+    gpt2.save_pretrained(
+            f'/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned/{epoch}')
 
-gpt2.eval()
+    print(f"epoch:{epoch + 1}|loss:{mean(epoch_losses)}|val_loss:{mean(val_losses)}")
 
+
+# eval on weights from epoch = 3, since we have already figured out that it is the best epoch
 batch_size = 20
 preds = []
 

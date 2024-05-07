@@ -1,0 +1,70 @@
+transformer
+[array(['T1003.001', 'T1005', 'T1012', 'T1016', 'T1021.001', 'T1027',
+       'T1033', 'T1036.005', 'T1041', 'T1047', 'T1053.005', 'T1055',
+       'T1056.001', 'T1057', 'T1059.003', 'T1068', 'T1070.004',
+       'T1071.001', 'T1072', 'T1074.001', 'T1078', 'T1082', 'T1083',
+       'T1090', 'T1095', 'T1105', 'T1106', 'T1110', 'T1112', 'T1113',
+       'T1140', 'T1190', 'T1204.002', 'T1210', 'T1218.011', 'T1219',
+       'T1484.001', 'T1518.001', 'T1543.003', 'T1547.001', 'T1548.002',
+       'T1552.001', 'T1557.001', 'T1562.001', 'T1564.001', 'T1566.001',
+       'T1569.002', 'T1570', 'T1573.001', 'T1574.002'], dtype=object)]
+                                                text      label
+0  This file extracts credentials from LSASS simi...  T1003.001
+1  It calls OpenProcess on lsass.exe with access ...  T1003.001
+2  It spreads to Microsoft Windows machines using...      T1210
+3                   SMB exploitation via EternalBlue      T1210
+4                 SMBv1 Exploitation via EternalBlue      T1210
+5  has the capability to exploit SMBv1 via the we...      T1210
+6                      SMB copy and remote execution      T1570
+7  This thread is then used to execute the SMB co...      T1570
+8                      SMB copy and remote execution      T1570
+9                      SMB Copy and Remote Execution      T1570
+GPT2ForSequenceClassification(
+  (transformer): GPT2Model(
+    (wte): Embedding(50265, 768)
+    (wpe): Embedding(514, 768)
+    (drop): Dropout(p=0.1, inplace=False)
+    (h): ModuleList(
+      (0-11): 12 x GPT2Block(
+        (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (act): NewGELUActivation()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (ln_f): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  )
+  (score): Linear(in_features=768, out_features=50, bias=False)
+)
+tensor([[23433,   284, 15560,  ..., 50256, 50256, 50256],
+        [  818,   617,  2663,  ..., 50256, 50256, 50256],
+        [ 1462,  5911,   611,  ..., 50256, 50256, 50256],
+        ...,
+        [ 2539,  6404,  2667,  ..., 50256, 50256, 50256],
+        [43093,   262,  7223,  ..., 50256, 50256, 50256],
+        [ 1904,   428,  8173,  ..., 50256, 50256, 50256]])
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+tensor(4071.)
+epoch 1 loss: 0.10494282695592619
+epoch 2 loss: 0.06258947587133769
+epoch 3 loss: 0.03740456138335753
+epoch 4 loss: 0.02252413090044523
+epoch 5 loss: 0.014853357820196407
+epoch 6 loss: 0.009842128655530842
+epoch 7 loss: 0.00742807229193311

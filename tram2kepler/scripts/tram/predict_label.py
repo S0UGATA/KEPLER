@@ -1,3 +1,5 @@
+from pprint import pprint
+
 import numpy as np
 import pandas as pd
 import torch
@@ -9,12 +11,14 @@ pd.set_option('display.max_colwidth', None)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-gpt2 = transformers.GPT2ForSequenceClassification.from_pretrained(
-    '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/tuned',
-    use_safetensors=True).to(
-    device).eval()
-tokenizer = transformers.GPT2Tokenizer.from_pretrained("gpt2")
+input_dir = '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/single/output/augmented/tuned/2'
+output_dir = '/home/sougata/projects/MyKEPLER/tram2kepler/scripts/results/tram_predict/bestModel/sa/'
+threshold_range = ["0.05", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9"]
 
+gpt2 = transformers.GPT2ForSequenceClassification.from_pretrained(
+    input_dir,
+    use_safetensors=True).to(device).eval()
+tokenizer = transformers.GPT2Tokenizer.from_pretrained("gpt2")
 tokenizer.pad_token = tokenizer.eos_token
 gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
@@ -66,36 +70,11 @@ ID_TO_NAME = {"T1055": "Process Injection", "T1110": "Brute Force", "T1055.004":
 
 def create_subsequences(document: str, n: int = 13, stride: int = 5) -> list[str]:
     words = document.split()
-    return [' '.join(words[i:i + n]) for i in range(0, len(words), stride)]
+    subsequences = [' '.join(words[i:i + n]) for i in range(0, len(words), stride)]
+    return subsequences
 
 
-def get_result(probabilities, t, n, s):
-    _result: list[tuple[str, set[str]]] = [
-        (_text, {ID_TO_NAME[k] + ' - ' + k for k, v in _clses.items() if v})
-        for _text, _clses in
-        probabilities.gt(t).T.to_dict().items()
-    ]
-
-    _result_iter = iter(_result)
-    current_text, current_labels = next(_result_iter)
-    overlap = n - s
-    out = []
-
-    for _text, labels in _result_iter:
-        if labels != current_labels:
-            out.append((current_text, current_labels))
-            current_text = _text
-            current_labels = labels
-            continue
-        current_text += ' ' + ' '.join(_text.split()[overlap:])
-
-    out_df = pd.DataFrame(out)
-    out_df.columns = ['segment',
-                      'label(s)']
-    return out_df
-
-
-def predict_document(document: str, threshold: float = 0.1, n: int = 13, stride: int = 5):
+def get_prob(document: str, n: int = 13, stride: int = 5):
     text_instances = create_subsequences(document, n, stride)
     tokenized_instances = tokenizer(text_instances, return_tensors='pt', padding='max_length', truncation=True,
                                     max_length=512).input_ids
@@ -105,58 +84,75 @@ def predict_document(document: str, threshold: float = 0.1, n: int = 13, stride:
     slice_starts = tqdm(list(range(0, tokenized_instances.shape[0], batch_size)))
 
     with torch.no_grad():
-        for _i in slice_starts:
-            x = tokenized_instances[_i: _i + batch_size].to(device)
+        for i in slice_starts:
+            x = tokenized_instances[i: i + batch_size].to(device)
             out = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int))
             predictions.extend(out.logits.to('cpu'))
 
-    probabilities = pd.DataFrame(
+    return pd.DataFrame(
         torch.vstack(predictions).softmax(-1),
         columns=CLASSES,
         index=text_instances
     )
-    print(probabilities)
-    print("--------------------")
-    return {
-        t: get_result(probabilities, t, n, stride)
-        for t in np.arange(0.1, 1.0, 0.1)
-    }
+
+
+def predict_document(document: str, n: int = 13, stride: int = 5):
+    probabilities = get_prob(document, n, stride)
+
+    ret = {}
+    for threshold in threshold_range:
+        result: list[tuple[str, set[str]]] = [
+            (text, {k for k, v in clses.items() if v})
+            for text, clses in
+            probabilities.gt(float(threshold)).T.to_dict().items()
+        ]
+
+        result_iter = iter(result)
+        current_text, current_labels = next(result_iter)
+        overlap = n - stride
+        out = []
+
+        for _text, _labels in result_iter:
+            if _labels != current_labels:
+                out.append((current_text, current_labels))
+                current_text = _text
+                current_labels = _labels
+                continue
+            current_text += ' ' + ' '.join(_text.split()[overlap:])
+
+        out_df = pd.DataFrame(out)
+        if not out_df.empty and len(out_df.index) != 0 and len(out_df.columns) != 0:
+            out_df.columns = ['segment', 'label(s)']
+            ret[threshold] = out_df
+        else:
+            print(f"Empty dataframe for threshold: {threshold}: df: {out_df}")
+    return ret
 
 
 import io
 import re
 import pdfplumber
-import docx
-from bs4 import BeautifulSoup
+import tabulate
+from tabulate import tabulate
 
 
-def parse_text(file_name: str, content: io.BytesIO) -> str:
-    _text = ''
-    if file_name.endswith('.pdf'):
-        with pdfplumber.open(content) as pdf:
-            _text = " ".join(page.extract_text() for page in pdf.pages)
-    elif file_name.endswith('.html'):
-        _text = BeautifulSoup(content.read().decode('utf-8'), features="html.parser").get_text()
-    elif file_name.endswith('.txt'):
-        _text = content.read().decode('utf-8')
-    elif file_name.endswith('.docx'):
-        _text = " ".join(paragraph.text for paragraph in docx.Document(content).paragraphs)
+def parse_text(content: io.BytesIO) -> str:
+    with pdfplumber.open(content) as pdf:
+        _text = " ".join(page.extract_text() for page in pdf.pages)
 
     return re.sub(r'\s+', ' ', _text).strip()
 
 
-from itertools import count
+with open(
+        '/home/sougata/projects/MyKEPLER/tram2kepler/data/input/Enigma Stealer Targets Cryptocurrency Industry with Fake Jobs _ Trend Micro.pdf',
+        'rb') as file:
+    content = file.read()
 
-COUNT = count(1)
+text = parse_text(io.BytesIO(content))
+prediction_dict = predict_document(text)
 
-name = "Enigma Stealer Targets Cryptocurrency Industry with Fake Jobs _ Trend Micro.pdf"
-with open(f"/home/sougata/projects/MyKEPLER/tram2kepler/data/input/{name}", "rb") as fh:
-    content = io.BytesIO(fh.read())
-
-text = parse_text(name, content)
-out = predict_document(text)
-for threshold in out:
-    dfs = [out[threshold]]
-    predicted = pd.concat(dfs).reset_index(drop=True)
-    print(f"Threshold: {threshold}")
-    print(predicted.to_markdown())
+for threshold in prediction_dict.keys():
+    output_file_name = f"{output_dir}{threshold}"
+    prediction_dict[threshold].to_json(output_file_name + ".json", orient='table')
+    prediction_dict[threshold].to_csv(output_file_name + ".csv")
+    print(threshold)

@@ -1,0 +1,40 @@
+|epoch 011|loss 4.663|ppl 25.34|wps 7801|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 13|lr 0.000584348|gnorm 6.612|clip 0.000|oom 0.000|loss_scale 2.000|wall 2161|train_wall 69046|ke_loss 1.04897|mlm_loss 3.61444
+|epoch 011|valid on 'valid' subset|loss 4.710|ppl 26.18|num_updates 13|ke_loss 0.970877|mlm_loss 3.73926
+|epoch 012|loss 2.395|ppl 5.26|wps 7639|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 26|lr 0.000516522|gnorm 2.211|clip 0.000|oom 0.000|loss_scale 2.000|wall 4435|train_wall 71162|ke_loss 0.722805|mlm_loss 1.67197
+|epoch 012|valid on 'valid' subset|loss 4.802|ppl 27.89|num_updates 26|best_loss 4.71013|ke_loss 0.701703|mlm_loss 4.10023
+|epoch 013|loss 1.230|ppl 2.35|wps 7718|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 39|lr 0.000448696|gnorm 1.910|clip 0.000|oom 0.000|loss_scale 2.000|wall 6690|train_wall 73259|ke_loss 0.65282|mlm_loss 0.577021
+|epoch 013|valid on 'valid' subset|loss 5.135|ppl 35.14|num_updates 39|best_loss 4.71013|ke_loss 0.644107|mlm_loss 4.49095
+|epoch 014|loss 0.789|ppl 1.73|wps 7627|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 52|lr 0.00038087|gnorm 1.036|clip 0.000|oom 0.000|loss_scale 2.000|wall 8962|train_wall 75373|ke_loss 0.589479|mlm_loss 0.199266
+|epoch 014|valid on 'valid' subset|loss 5.312|ppl 39.74|num_updates 52|best_loss 4.71013|ke_loss 0.580601|mlm_loss 4.73174
+|epoch 015|loss 0.632|ppl 1.55|wps 7676|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 65|lr 0.000313043|gnorm 0.969|clip 0.000|oom 0.000|loss_scale 2.000|wall 11218|train_wall 77477|ke_loss 0.549949|mlm_loss 0.082085
+|epoch 015|valid on 'valid' subset|loss 5.416|ppl 42.69|num_updates 65|best_loss 4.71013|ke_loss 0.558078|mlm_loss 4.85776
+|epoch 016|loss 0.561|ppl 1.47|wps 7717|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 78|lr 0.000245217|gnorm 0.837|clip 0.000|oom 0.000|loss_scale 2.000|wall 13468|train_wall 79574|ke_loss 0.518446|mlm_loss 0.0421526
+|epoch 016|valid on 'valid' subset|loss 5.492|ppl 45.02|num_updates 78|best_loss 4.71013|ke_loss 0.546058|mlm_loss 4.94635
+|epoch 017|loss 0.517|ppl 1.43|wps 8760|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 91|lr 0.000177391|gnorm 0.659|clip 0.000|oom 0.000|loss_scale 2.000|wall 15473|train_wall 81443|ke_loss 0.491817|mlm_loss 0.0250738
+|epoch 017|valid on 'valid' subset|loss 5.515|ppl 45.74|num_updates 91|best_loss 4.71013|ke_loss 0.530911|mlm_loss 4.98457
+|epoch 018|loss 0.486|ppl 1.40|wps 7093|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 104|lr 0.000109565|gnorm 0.607|clip 0.000|oom 0.000|loss_scale 2.000|wall 17874|train_wall 83685|ke_loss 0.467501|mlm_loss 0.0188288
+|epoch 018|valid on 'valid' subset|loss 5.539|ppl 46.50|num_updates 104|best_loss 4.71013|ke_loss 0.528897|mlm_loss 5.01022
+|epoch 019|loss 0.466|ppl 1.38|wps 8067|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 117|lr 4.17391e-05|gnorm 0.659|clip 0.000|oom 0.000|loss_scale 2.000|wall 19976|train_wall
+|epoch 019|valid on 'valid' subset|loss 5.539|ppl 46.50|num_updates 117|best_loss 4.71013|ke_loss 0.524816|mlm_loss 5.01446
+|epoch 020|loss 0.456|ppl 1.37|wps 7195|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 130|lr 0|gnorm 0.593|clip 0.000|oom 0.000|loss_scale 4.000|wall 22414|train_wall 87925|ke_loss 0.440974|mlm_loss 0.014878
+|epoch 020|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 130|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 021|loss 0.455|ppl 1.37|wps 7721|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 143|lr 0|gnorm 0.542|clip 0.000|oom 0.000|loss_scale 4.000|wall 24657|train_wall 90012|ke_loss 0.439743|mlm_loss 0.0149086
+|epoch 021|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 143|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 022|loss 0.455|ppl 1.37|wps 7681|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 156|lr 0|gnorm 0.673|clip 0.000|oom 0.000|loss_scale 4.000|wall 26911|train_wall 92115|ke_loss 0.439544|mlm_loss 0.0149747
+|epoch 022|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 156|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 023|loss 0.455|ppl 1.37|wps 7672|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 169|lr 0|gnorm 1.484|clip 0.000|oom 0.000|loss_scale 4.000|wall 29172|train_wall 94223|ke_loss 0.439743|mlm_loss 0.0148941
+|epoch 023|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 169|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 024|loss 0.455|ppl 1.37|wps 7805|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 182|lr 0|gnorm 0.658|clip 0.000|oom 0.000|loss_scale 4.000|wall 31399|train_wall 96295|ke_loss 0.439647|mlm_loss 0.0149938
+|epoch 024|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 182|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 025|loss 0.455|ppl 1.37|wps 7762|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 195|lr 0|gnorm 0.653|clip 0.000|oom 0.000|loss_scale 4.000|wall 33629|train_wall 98375|ke_loss 0.439565|mlm_loss 0.0149376
+|epoch 025|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 195|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 026|loss 0.454|ppl 1.37|wps 7592|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 208|lr 0|gnorm 0.736|clip 0.000|oom 0.000|loss_scale 4.000|wall 35915|train_wall 100502|ke_loss 0.439344|mlm_loss 0.0147051
+|epoch 026|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 208|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 027|loss 0.455|ppl 1.37|wps 7649|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 221|lr 0|gnorm 0.560|clip 0.000|oom 0.000|loss_scale 4.000|wall 38184|train_wall 102609|ke_loss 0.439864|mlm_loss 0.0147951
+|epoch 027|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 221|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 028|loss 0.455|ppl 1.37|wps 7504|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 234|lr 0|gnorm 0.603|clip 0.000|oom 0.000|loss_scale 4.000|wall 40489|train_wall 104757|ke_loss 0.440007|mlm_loss 0.0148002
+|epoch 028|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 234|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 029|loss 0.455|ppl 1.37|wps 7343|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 247|lr 0|gnorm 0.543|clip 0.000|oom 0.000|loss_scale 4.000|wall 42843|train_wall 106910|ke_loss 0.440028|mlm_loss 0.0147999
+|epoch 029|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 247|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862
+|epoch 030|loss 0.455|ppl 1.37|wps 7242|ups 0|wpb 1299056.154|bsz 4563.385|num_updates 260|lr 0|gnorm 0.689|clip 0.000|oom 0.000|loss_scale 8.000|wall 45236|train_wall 109038|ke_loss 0.440236|mlm_loss 0.0147988
+|epoch 030|valid on 'valid' subset|loss 5.545|ppl 46.70|num_updates 260|best_loss 4.71013|ke_loss 0.526584|mlm_loss 5.01862

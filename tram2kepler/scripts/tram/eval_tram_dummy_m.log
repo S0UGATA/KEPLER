@@ -1,0 +1,145 @@
+transformer
+MultiLabelBinarizer(classes=['T1003.001', 'T1005', 'T1012', 'T1016',
+                             'T1021.001', 'T1027', 'T1033', 'T1036.005',
+                             'T1041', 'T1047', 'T1053.005', 'T1055',
+                             'T1056.001', 'T1057', 'T1059.003', 'T1068',
+                             'T1070.004', 'T1071.001', 'T1072', 'T1074.001',
+                             'T1078', 'T1082', 'T1083', 'T1090', 'T1095',
+                             'T1105', 'T1106', 'T1110', 'T1112', 'T1113', ...])
+                                            sentence   labels
+0  title: NotPetya Technical Analysis – A Triple ...       []
+1  Executive Summary This technical analysis prov...       []
+2  For more information on CrowdStrike’s proactiv...       []
+3  NotPetya combines ransomware with the ability ...       []
+4  It spreads to Microsoft Windows machines using...  [T1210]
+5  This is the same vulnerability Microsoft repor...       []
+6  Once a machine is infected by NotPetya, a seri...  [T1570]
+7                             Do NOT pay the ransom.       []
+8  No files will be recovered if the ransom is pa...       []
+9                                     Dropped Files        []
+BertForSequenceClassification(
+  (bert): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(1124, 32, padding_idx=0)
+      (position_embeddings): Embedding(512, 32)
+      (token_type_embeddings): Embedding(16, 32)
+      (LayerNorm): LayerNorm((32,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-4): 5 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=32, out_features=32, bias=True)
+              (key): Linear(in_features=32, out_features=32, bias=True)
+              (value): Linear(in_features=32, out_features=32, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=32, out_features=32, bias=True)
+              (LayerNorm): LayerNorm((32,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=32, out_features=37, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=37, out_features=32, bias=True)
+            (LayerNorm): LayerNorm((32,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=32, out_features=32, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.1, inplace=False)
+  (classifier): Linear(in_features=32, out_features=50, bias=True)
+)
+tensor([[  2,  51, 801,  ...,   0,   0,   0],
+        [  2,  62, 803,  ...,   0,   0,   0],
+        [  2,  46, 805,  ...,   0,   0,   0],
+        ...,
+        [  2,  51, 801,  ...,   0,   0,   0],
+        [  2,  65, 790,  ...,   0,   0,   0],
+        [  2,  43, 806,  ...,   0,   0,   0]])
+tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 1.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]])
+tensor(4075.)
+                                              predicted   actual
+0     (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+1     (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+2     (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+3     (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+4     (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+...                                                 ...      ...
+3831  (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+3832  (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+3833  (T1140, T1090, T1574.002, T1562.001, T1564.001...  (T1140)
+3834  (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+3835  (T1140, T1090, T1574.002, T1562.001, T1564.001...       ()
+
+[3836 rows x 2 columns]
+                  P         R        F1      #
+T1140      0.025547  1.000000  0.049822   98.0
+T1106      0.011992  1.000000  0.023699   46.0
+T1055      0.011236  0.080645  0.019724   62.0
+T1071.001  0.008342  1.000000  0.016546   32.0
+T1090      0.007560  1.000000  0.015006   29.0
+T1562.001  0.006778  1.000000  0.013465   26.0
+T1082      0.006517  1.000000  0.012950   25.0
+T1566.001  0.004692  1.000000  0.009341   18.0
+T1036.005  0.003910  1.000000  0.007790   15.0
+T1110      0.003910  1.000000  0.007790   15.0
+T1016      0.003650  1.000000  0.007273   14.0
+T1056.001  0.003389  1.000000  0.006755   13.0
+T1574.002  0.003128  1.000000  0.006237   12.0
+T1113      0.002607  1.000000  0.005200   10.0
+T1573.001  0.002086  1.000000  0.004162    8.0
+T1012      0.001825  1.000000  0.003643    7.0
+T1552.001  0.001303  1.000000  0.002603    5.0
+T1564.001  0.001303  1.000000  0.002603    5.0
+T1068      0.000784  1.000000  0.001567    3.0
+T1210      0.000782  1.000000  0.001563    3.0
+T1484.001  0.000782  1.000000  0.001563    3.0
+T1548.002  0.000000  0.000000  0.000000    2.0
+T1074.001  0.000000  0.000000  0.000000    3.0
+T1569.002  0.000000  0.000000  0.000000    4.0
+T1570      0.000000  0.000000  0.000000   16.0
+T1033      0.000000  0.000000  0.000000    7.0
+T1518.001  0.000000  0.000000  0.000000    7.0
+T1095      0.000000  0.000000  0.000000   10.0
+T1543.003  0.000000  0.000000  0.000000   10.0
+T1547.001  0.000000  0.000000  0.000000   11.0
+T1190      0.000000  0.000000  0.000000   11.0
+T1218.011  0.000000  0.000000  0.000000   12.0
+T1219      0.000000  0.000000  0.000000   12.0
+T1005      0.000000  0.000000  0.000000   12.0
+T1078      0.000000  0.000000  0.000000   28.0
+T1047      0.000000  0.000000  0.000000   17.0
+T1057      0.000000  0.000000  0.000000   17.0
+T1083      0.000000  0.000000  0.000000   18.0
+T1041      0.000000  0.000000  0.000000   19.0
+T1053.005  0.000000  0.000000  0.000000   21.0
+T1204.002  0.000000  0.000000  0.000000   23.0
+T1070.004  0.000000  0.000000  0.000000   25.0
+T1003.001  0.000000  0.000000  0.000000   25.0
+T1021.001  0.000000  0.000000  0.000000   25.0
+T1112      0.000000  0.000000  0.000000   26.0
+T1105      0.000000  0.000000  0.000000   54.0
+T1059.003  0.000000  0.000000  0.000000   74.0
+T1027      0.000000  0.000000  0.000000  129.0
+T1072      0.000000  0.000000  0.000000    1.0
+(macro)    0.002288  0.409809  0.004476    NaN
+(micro)    0.005081  0.367041  0.010022    NaN
