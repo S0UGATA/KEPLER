@@ -15,8 +15,8 @@ import torch
 
 from fairseq import checkpoint_utils, distributed_utils, options, progress_bar, tasks, utils
 from fairseq.data import iterators
-from fairseq.trainer import Trainer
 from fairseq.meters import AverageMeter, StopwatchMeter
+from fairseq.trainer import Trainer
 
 
 def main(args, init_distributed=False):
@@ -132,7 +132,7 @@ def train(args, trainer, task, epoch_itr):
                 extra_meters[k].update(v)
             stats[k] = extra_meters[k].avg
         if 'precision' in stats and 'recall' in stats and 'f1' in stats:
-            stats['f1']=2.0/(1.0/stats['precision']+1.0/stats['recall']) #wxz: for re
+            stats['f1'] = 2.0 / (1.0 / stats['precision'] + 1.0 / stats['recall'])  # wxz: for re
         progress.log(stats, tag='train', step=stats['num_updates'])
 
         # ignore the first mini-batch in words-per-second calculation
@@ -141,10 +141,10 @@ def train(args, trainer, task, epoch_itr):
 
         num_updates = trainer.get_num_updates()
         if (
-            not args.disable_validation
-            and args.save_interval_updates > 0
-            and num_updates % args.save_interval_updates == 0
-            and num_updates > 0
+                not args.disable_validation
+                and args.save_interval_updates > 0
+                and num_updates % args.save_interval_updates == 0
+                and num_updates > 0
         ):
             valid_losses = validate(args, trainer, task, epoch_itr, valid_subsets)
             checkpoint_utils.save_checkpoint(args, trainer, epoch_itr, valid_losses[0])
@@ -239,8 +239,8 @@ def validate(args, trainer, task, epoch_itr, subsets):
             stats[k] = meter.avg
 
         if 'precision' in stats and 'recall' in stats and 'f1' in stats:
-            stats['f1']=2.0/(1.0/stats['precision']+1.0/stats['recall']) #wxz: for re 
-        
+            stats['f1'] = 2.0 / (1.0 / stats['precision'] + 1.0 / stats['recall'])  # wxz: for re
+
         progress.print(stats, tag=subset, step=trainer.get_num_updates())
 
         valid_losses.append(
@@ -318,7 +318,7 @@ def cli_main():
             print('| NOTE: you may get better performance with: --ddp-backend=no_c10d')
         torch.multiprocessing.spawn(
             fn=distributed_main,
-            args=(args, ),
+            args=(args,),
             nprocs=args.distributed_world_size,
         )
     else:
