@@ -1,4 +1,5 @@
 import os
+import pickle
 import random
 
 print(os.environ['CONDA_DEFAULT_ENV'])
@@ -38,8 +39,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 tokenizer = transformers.GPT2Tokenizer.from_pretrained("gpt2")
 gpt2 = (transformers.GPT2ForSequenceClassification.from_pretrained(
-    '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/multi/output/', num_labels=50)
-        .to(device).train())
+    '/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/multi/output/tuned/2', use_safetensors=True)
+        .to(device).eval())
 
 tokenizer.pad_token = tokenizer.eos_token
 gpt2.config.pad_token_id = gpt2.config.eos_token_id
@@ -50,6 +51,8 @@ from sklearn.model_selection import train_test_split
 
 random.seed(42)
 train, test = train_test_split(data, test_size=0.2, shuffle=True)
+with open('train_test_data_m.pkl', 'wb') as f:
+    pickle.dump((train, test), f)
 
 
 def _load_data(x, y, batch_size=10):
@@ -82,34 +85,34 @@ print(y_train.sum())
 x_test = _tokenize(test['sentence'].tolist())
 y_test = _encode_labels(test['labels'])
 
-NUM_EPOCHS = 3
-
-from statistics import mean
-from tqdm import tqdm
-from torch.optim import AdamW
-
-optim = AdamW(gpt2.parameters(), lr=2e-5, eps=1e-8)
-
-for epoch in range(NUM_EPOCHS):
-    gpt2.train()
-    epoch_losses = []
-    for x, y in tqdm(_load_data(x_train, y_train, batch_size=10)):
-        gpt2.zero_grad()
-        out = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
-        epoch_losses.append(out.loss.item())
-        out.loss.backward()
-        optim.step()
-
-    # Validation loop
-    gpt2.eval()
-    val_losses = []
-    with torch.no_grad():
-        for x, y in tqdm(_load_data(x_test, y_test, batch_size=10)):
-            outputs = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
-            val_losses.append(outputs.loss.item())
-    gpt2.save_pretrained(f'/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/multi/output/tuned/{epoch}')
-
-    print(f"epoch:{epoch + 1}|loss:{mean(epoch_losses)}|val_loss:{mean(val_losses)}")
+#NUM_EPOCHS = 3
+#
+#from statistics import mean
+#from tqdm import tqdm
+#from torch.optim import AdamW
+#
+#optim = AdamW(gpt2.parameters(), lr=2e-5, eps=1e-8)
+#
+#for epoch in range(NUM_EPOCHS):
+#    gpt2.train()
+#    epoch_losses = []
+#    for x, y in tqdm(_load_data(x_train, y_train, batch_size=10)):
+#        gpt2.zero_grad()
+#        out = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
+#        epoch_losses.append(out.loss.item())
+#        out.loss.backward()
+#        optim.step()
+#
+#    # Validation loop
+#    gpt2.eval()
+#    val_losses = []
+#    with torch.no_grad():
+#        for x, y in tqdm(_load_data(x_test, y_test, batch_size=10)):
+#            outputs = gpt2(x, attention_mask=x.ne(tokenizer.pad_token_id).to(int), labels=y)
+#            val_losses.append(outputs.loss.item())
+#    gpt2.save_pretrained(f'/home/sougata/projects/MyKEPLER/tram2kepler/data/checkpoints/convert/multi/output/tuned/{epoch}')
+#
+#    print(f"epoch:{epoch + 1}|loss:{mean(epoch_losses)}|val_loss:{mean(val_losses)}")
 
 batch_size = 20
 preds = []

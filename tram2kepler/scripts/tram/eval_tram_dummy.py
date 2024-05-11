@@ -1,4 +1,5 @@
 import os
+import pickle
 import random
 
 print(os.environ['CONDA_DEFAULT_ENV'])
@@ -56,7 +57,8 @@ print(bert)
 from sklearn.model_selection import train_test_split
 
 random.seed(42)
-train, test = train_test_split(data, test_size=0.2, shuffle=True)
+with open('train_test_data.pkl', 'rb') as f:
+    train, test = pickle.load(f)
 
 
 def _load_data(x, y, batch_size=10):
