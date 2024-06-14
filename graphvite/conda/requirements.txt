@@ -3,7 +3,7 @@ cmake >=3.12
 gxx_linux-64 >=5.4
 glog
 gflags
-cudatoolkit >=9.2
+cudatoolkit <11.0
 python
 pybind11
 

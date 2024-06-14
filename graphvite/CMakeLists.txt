@@ -116,11 +116,11 @@ if (NOT CMAKE_BUILD_TYPE)
 endif()
 
 # compilation flags
-set(CMAKE_CXX_FLAGS "-std=c++11 -Wall")
+set(CMAKE_CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -Og")
 set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -D NDEBUG")
 
-set(CMAKE_CUDA_FLAGS "-std=c++11")
+set(CMAKE_CUDA_FLAGS "")
 set(CMAKE_CUDA_FLAGS_DEBUG "-g -G")
 set(CMAKE_CUDA_FLAGS_RELEASE "-O3")
 set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} ${CUDA_ARCH}")

@@ -110,7 +110,7 @@ Before installation, make sure you have `conda` installed.
 ```bash
 git clone https://github.com/DeepGraphLearning/graphvite
 cd graphvite
-conda install -y --file conda/requirements.txt
+conda install -y --file conda/requirements_conda.txt
 mkdir build
 cd build && cmake .. && make && cd -
 cd python && python setup.py install && cd -
