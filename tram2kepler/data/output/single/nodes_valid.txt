@@ -1,0 +1,212 @@
+adopted DLL sideloading techniques to run their malware.
+running an arbitrary command in a CHM file via an ActiveX object
+C:\Windows\system32\cmd.exe /C
+and hostname
+resolving many different Windows APIs using kernel32.GetProcAddress
+Reflective PE injection is a technique used by malware or advanced attackers to inject a Portable Executable (PE) file directly into the memory of a running process without the need for writing the file to disk
+it creates a scheduled task that runs the Rust executable by passing it as an argument to rhc.exe.
+unpacks the legitimate PsExec utility
+that contains the library mapistub.dll,
+Regardless of whether the file content is compressed or not, it will be encrypted in XOR operations with a specific string
+Sets Run Key with “work/online”
+Using the pattern discovered in these credentials, the team was able to crack the user’s workstation account password
+the most popular obfuscation techniques is execution of Base64-encoded malicious code
+abused to side-load the malicious DLL.
+svcService Type: user mode serviceService Start Type: auto startService Account: LocalSystem
+hosted the PowerShell downloader script
+uses the same type of strong encryption – AES-GCM
+screen
+brute-force attacks on systems
+the adversary had removed the payload file from the system.
+layers of encryption, obfuscation or anti-analysis
+identify the system’s manufacturer
+a batch file
+program first sideloads u2ec.dll, which then loads the payload file usb.ini
+has the ability to collect or extract various types of system information from a targeted or compromised computer
+decrypt the more sensitive data in the user’s database.
+The batch file would download and execute
+EvilExtractor  AllinOne Stealer
+the decryption key for the ZIP folder and access the tool
+segments of base64 data
+established persistence via a run key.
+collect login data from the Google Chrome user profile folders
+uses DLL Side-Loading to launch its second-stage dropper.
+several files were staged for possible, but unconfirmed exfiltration
+the file will be deleted
+compares each hash with 3 hardcoded hashes:\n\n0x6403527E → avp.exe associated with Kaspersky AV\n0x23214B44  → ns.exe associated with Norton Security\n0x651B3005 → ccSvcHst.exe associated with Symantec
+The PowerShell script decoded from the Ir8 variable uses Reflection.
+creating a Windows service
+downloads the payload from the Internet and executes on the target system.
+C:\Windows\system32\cmd.exe /C
+After the PE is decrypted
+as outgoing HTTPS port 443 connections
+the folder included a legitimate copy of rundll32.exe
+appended file\nheaders used to bypass content inspection made this backdoor difficult\nto identify
+the computer name is sent to the C2
+The setup configuration file, which is encrypted with RC4
+Nefilim Ransomware
+This RDP activity was being proxied through the IcedID process running on that host, to a remote proxy over port 8080.
+embedded key to decrypt the source code
+0x0AInject and execute received module in specified process
+Files are dropped/downloaded as Base64-encoded archives.
+uses an AES CBC (256 bits) encryption algorithm for its loader and configuration files.
+Creates a service
+Take a NetWalk on the Wild Side
+the decrypted memory structure
+also leveraging steganography to locate the start of the encoded payload
+the script retrieves NSudo and modifies Windows UAC prompt behavior by allowing administrators to perform operations without authentication or consent prompts
+malware tries to login and get access to the victim server via brute force.
+utilizes a unique onion domain
+Egress communications over HTTP, HTTPS
+The actors used Ngrok to proxy RDP connections and to perform command and control.
+unpacks three files
+is packed with CyaX
+the scheduled task is set to trigger 60 minutes after the malware execution by default.
+It enumerates files and directories
+decryption procedure
+downloads the contents of an HTML file stored in an attacker-controlled server
+T1027
+operators use Mimikatz to dump passwords.
+with obfuscated content
+An encrypted additional shellcode
+requests a data stream from the C2 server through the URL
+Modifies the Windows registry to allow remote desktop connections.
+Themida-packed
+Affiliates have been seen brute forcing
+The emails included an attachment named ‘Credit Transfer Copy.html’
+the code of the decryption algorithm used by RedLine Stealer to decrypt its initial configuration data
+is read from an encrypted resource
+they accessed the server via Anydesk.
+"cmd"  /c
+AES-128 is the encryption algorithm used.
+the current process name
+the decryption algorithm
+possible proxy servers (any indicated in the configuration plus system proxies) and C2 servers
+From the two phishing emails, both attachments contain similar malware.
+using a renamed copy of rundll32.
+Operating system version
+"cmd"  /c
+shared with the C2 server on the initial check-in request (Figure 11) for encrypting subsequent data communicated between the agent and C2 server with AES-256-CTR.
+TCP ports 50123
+When it detects a starting first (or a stopping last) instance of a process from the list
+the malware uses the “del” command
+In order to appear as a working copy of Logic Pro X, the dropper contains a legitimate copy of the lure application
+Makes an initial POST request to the C2 server
+This vulnerability, registered as “CVE-2018-14327,” allows a low-privileged user account to escalate privileges on any Windows machine that had connected to the EE Mini modem via USB.
+The exploit payload created a Scheduled Task
+and then downloads a second-stage backdoor from the OpenDrive cloud service.
+the use of a PowerShell script to execute Mimikatz in-memory
+operating system version
+has been seen using the PowerShell module InvokeGPUpdate to update the group policy.
+stage collected data  locally
+The dll is run using the command “rundll32.exe
+T1105
+cmd"  /c
+conducted credential harvesting\nvia dumping LSASS memory.
+a number of WMI requests via DCERPC from one endpoint to a target endpoint based on the ports.
+NetServerGetInfoto retrieve the current configuration for the local server
+Detect and identify source IP
+establishes a TCP connection
+the threat actors began discovery tasks using Windows utilities
+can also manage the system power policies registry keys to set the minimum and maximum sleep times and the lid open and close action policy.
+removes any files
+decrypt the payload
+Command codes in the PUBLOAD HTTP variant
+Returns process names of the current process tree (i.e. the current process, the parent process, the grandparent process, etc.)
+method names contain junk.
+Modifies the Windows registry
+The decryptor is delivered in a zip archive containing the decryptor executable
+from the decrypted configuration
+, staged on another system of the victim, and from there copied to a OneDrive-account controlled by the adversary.
+Operation Spalax Targeted malware attacks in Colombia
+the documents were exfiltrated over one of the encrypted C2 channels.
+the user account was known to have recently been abused by the threat actor
+Screen capture
+The POST event included a MIME part indicating file upload
+The unpacked sample is approximately 540 KB
+since each payload will be encrypted with different keys and each configuration will uniquely change the hash value.
+Although the decoding algorithm of the C2 response looks quite complex, it is actually Base64 decoding, followed by an XOR operation using the key 0x7A.
+an encrypted blob
+creates a listener that listens for connections to port 443 at the path https://*:
+List of IP addresses
+Disabling PowerShell logging
+they used compromised workstation and domain admin accounts
+The GUID returned from the registry value
+Powershell will be invoked and it fetch the Qakbot payload from Internet
+screen capture
+to delete any remaining FOCUSFJORD\nforensic evidence, including files on disk, configuration data\nencrypted in the registry, and related services and registry keys\nused for persistence.
+and only decrypted in memory when needed.
+Uncommon infection methodspart 2
+generate the HTTP request
+writes the file svchost.bat, which transfers control to winness.exe, to the startup folder
+malware rzlog4cpp.dll is sideloaded
+Create its own registry key in \SOFTWARE\<uniquename>
+by capturing the CredEnumerateA API.
+keylogging
+webshells, mostly obfuscated,
+the threat actor was able to RDP unencumbered across the organization’s infrastructure.
+script with embedded .NET injector and ComRAT payload
+interacts with remote endpoints via WMI
+from API call GetSystemTimeAsFileTime
+cmd /C
+to store and retrieve binary data with\nthe Windows API.
+capturing screenshots
+, side-loaded by the same legitimate executable
+the actor embeds the malicious code inside different legitimate codes.
+The second encoded Base64 string was not only base64 but also Gziped for size and obfuscation.
+for initial access is RDP compromise.
+obfuscated JavaScript code
+decryption
+Operation Tainted Love  Chinese APTs Target Telcos in New Attacks
+Mimikatz allows the user to manipulate the dumped credentials,
+Adversary launched backdoor and some tools as a Windows Service
+Batch script to run
+drop the defenses of the victim, inhibit monitoring, disable networking
+system information,
+They switched to C2 encapsulated in HTTPS in Q3 2019.
+decodes the next element:
+The initial infector is a Visual Basic script, heavily obfuscated
+This code checks if the disk size is greater than a specified threshold (50 GB as example).
+If the data is small enough, it is exfiltrated through the command and control channel of the Cobalt Strike beacons.
+PowerShell to connect to third-party file sharing\nsites to download the UltraVNC application
+The actors used built-in Windows user account DefaultAccount.
+PE is stored as a Base64 encoded string
+proxy server
+using multiple hosts, including an Amazon Web Services (AWS) Elastic Compute Cloud (EC2) instance, accessed through its public URL, to host the malicious files.
+executes an embedded PowerShell command to download the next-stage PowerShell script from the server and execute it on the victim’s machine.
+by side-loading dr.dll, used by a legitimate, signed binary
+Adds Run Registry Key for Persistence
+exe└──cmd.exe: C:\Windows\system32\cmd.exe /c ""rdp.bat"
+using three possible types of messages to try to get a target to open the email and malicious attachment.
+Detect and Identify source IP
+encrypted copy
+suspicious section .kxrt with the packed and encoded malicious code.
+the payload downloaded by the PowerShell script was a .NET downloader, which would subsequently retrieve an encrypted payload from the command-and-control (C&C) server
+using a cracked version of a legitimate tool called PDQ Inventory, which is a legitimate system management solution that IT administrators use to scan their network and collect hardware, software and Windows configuration data
+utilizes Telegram for delivering payloads, sending commands, and receiving the payload heartbeat.
+to disable UAC remote restrictions by setting SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\LocalAccountTokenFilterPolicy to 1.
+PowerShell de-obfuscation routine
+schtasks /create /tn WinSecurity /sc minute /mo 15
+malicious dynamic link library (DLL) file that’s eventually side-loaded to the application.
+connect to a certain URL every 60 minutes using the normal Windows file mshta.exe.
+Installation of malicious Windows service.
+slightly obfuscated URL address
+the encrypted payload
+obfuscated by XOR
+RAM size and usage
+domain fronting
+injecting it into ieinstall.exe
+one to get processes
+decrypts this payload
+the loader allocates memory within the current process and then loads the PE payload into it using the full PE loading procedure.
+Will also skip enumeration and stopping of antivirus software.-
+The malware decompresses a resource
+operators use UPX to pack DC2.exe and DC4.exe to avoid static signature detection.
+used DLL sideloading to launch their malware
+[sic] section of a decoded FlowCloud config
+delivered a hidden directory
+the HTTPS beacon
+which is stored immediately before the encrypted config block.
+XORed with the value
+executed when the victim double-clicked on the shortcut file
+stealer,

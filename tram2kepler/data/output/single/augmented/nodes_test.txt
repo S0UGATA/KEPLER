@@ -1,0 +1,1235 @@
+the threat actor connected via Remote Desktop to a Domain Controller and copied the DSInternals10 PowerShell module to the system.
+malware that communicates over the MQTT protocol.
+with the syscall instruction
+concealed programs and documents at innocuous-seeming locations on victim networks and in victim networks’ “recycle bins.”
+G1002 BITTER
+launched with a command\nline
+consists of two .exe files.
+login credentials
+the malware leverages various functions from the CryptoAPI, including CryptAcquireContextW(), CryptImportKey(), CryptSetKeyParam(), and CryptEncrypt().
+decyrpt its C2 configuration
+supports data upload
+S0053 SeaDuke
+acquire browsing histories, Internet cookies, usernames/passwords, personally identifiable details, credit card numbers, and other highly sensitive information from browsers.
+the malware copied itself to "$CURRENTUSER\AppData\Roaming\Microsoft\Isoaahffo\djkuuhd.dll," as confirmed by the file's hashes shown below, and sets itself to auto run.
+By modifying the below registry value EnableLUA to “0”
+uses COM interfaces to schedule tasks
+To obtain the credentials, the team took a snapshot of lsass.exe
+Windows net commands were run,
+The fields required for HTTP
+Manipulate files and directories (list, download, upload, view, delete
+S0137 CORESHELL
+S0205 Naid
+ProcDump was used to dump LSASS memory.
+have used RATs that allow full access to the Registry,
+This decryption process utilizes the Fernet algorithm
+Run a shell command
+Shellcode which is used for code injection
+adversaries copied and executed the aforementioned PowerShell script on multiple systems across the environment
+decryption.
+injecting a PE executable
+The malware generates a random 32-byte key, which it encrypts using the RSA key.
+it proceeds with scheduled task creation
+S0251 Zebrocy
+file that\nshould be hidden in a CLFS file
+T1484.001
+Credential Access
+will make a POST request
+S1035 Small Sieve
+S1033 DCSrv
+Operation Tainted Love  Chinese APTs Target Telcos in New Attacks
+loads it using rundll32
+G0018 admin@338
+schtasks.exe command to register the file to the task scheduler with
+and process injection
+S0575 Conti
+S1119 LIGHTWIRE
+The actors removed malicious file mde.ps1 from the dis.
+This script is for executing the PowerShell script via a Windows scheduled task
+a PowerShell script block was executed\nto download
+S1111 DarkGate
+use dynamic API resolution to avoid detection.
+have used CyaX packer, which can disable Windows Defender.
+The lures are designed to socially engineer the recipient to download and open an attached RAR file that contains either a Microsoft Compiled HTML Help (CHM) or Excel payload.
+a thread that decrypts and loads the fcClient module
+S0077 CallMe
+the threat actor used private proxy addresses from a Chinese underground proxy IP solution called 'Tigercloud Club' to conceal their real IP address.
+to decode the second buffer using key 58 3E 88 D0
+Decrypts
+malware rzlog4cpp.dll is sideloaded
+All captured information from the transaction is saved to an encrypted file placed in a directory previously set by the malware configuration
+credential stuffing attacks
+OS architecture (x86 or x64)
+G1014 LuminousMoth
+retrieves the MachineGuid of the infected system from the SOFTWARE\Microsoft\Cryptography\MachineGuid registry key
+the malicious authentications into victim O365 tenants had originated from within the victim’s own network.
+to execute encoded scripts.
+Early Bird Catches the Wormhole Observations from the StellarParticle Campaign
+after decrypting the frData member in
+Malware Analysis LummaC2 Stealer
+In some cases, they are then re-encrypted but with a different key
+They switched to C2 encapsulated in HTTPS in Q3 2019.
+modify the subsequent HTTPs requests header to instruct the CDN to direct the traffic to an attacker-controlled host.
+The initial infector is a Visual Basic script, heavily obfuscated
+uses both regular and reflective DLL injection.
+T1059.003
+injects the payload in memory.
+S1070 Black Basta
+before running the ".cmd" file contained within the ISO.
+PowerShell Base64 encoded string:\n\nThe -e is short for -EncodedCommand.
+the installation of the remote management tools
+TOR sites redirecting to a new ransomware operation
+A threat actor could take advantage of this vulnerability by creating a specific file that contains data that is stored in the JET database format, and having the targeted user open it, which would then allow for remote code execution at the level of the current process
+This function is\npatched using Microsoft Detours—a publicly available library used for\ninstrumenting Win32\nfunctions—so
+T1021.001
+The activity thereafter included dumps of LSASS
+The threat actor uses stolen passwords from valid accounts
+used to proxy
+Threat Advisory 3CX Softphone Supply Chain Compromise
+S0381 FlawedAmmyy
+Creates benign-looking services for the ransomware binary.
+Malware using the AtomBombing technique first writes the payload into the global atom table, which can be accessed by all processes.
+hostname, operating system name, OS version, username,
+Sysmon File Created event showing wab.exe created by rundll32.exe
+with the API function IsWindowVisible.
+and remote monitoring software such as ScreenConnect, Remote Utilities, and eHorus.
+GuLoader Demystified Unraveling its Vectored Exception Handler Approach
+Use of non-secure default configurations
+Name of the malicious side-loaded DLL
+The values for these executables and configuration data can be found, encrypted, in the loader’s resource section.
+Cobalt Strike a Defenders Guide  Part 2
+Decrypted and decompressed payload
+the initial vector used by the threat actor was a zip file, which included a malicious JavaScript file, delivered through a phishing campaign.
+ZipJar a little bit unexpected attack chain
+then recursively searches through all local temp folders.
+we found a custom AntivirusCheck class, which can check running processes against a hardcoded list of executable filenames from known security products, including ESET products
+Scheduled Task
+GrandstreamCVE-2020-25223WebAdmin of Sophos SG UTMCVE-2021-42013ApacheCVE-2022-31137Roxy-WICVE-2022-33891Apache SparkZSL-
+S0220 Chaos
+keylogger with logging capabilities using the Telegram API
+S0282 MacSpy
+LSASS process to access credentials.
+Using the remote admin tools
+downloads Security Shellcodes from the C2 server
+injects into the svchost.exe process.
+As long as the dropper successfully launches its legitimate application
+S1046 PowGoop
+The script first deletes itself from the disk.
+service using HTTPS
+S0257 VERMIN
+spear phishing emails that contain a .csv or .xlt file attachment
+by passing the file path to be encrypted as an argument.
+EvilExtractor  AllinOne Stealer
+(base64 encoded with string replacements)
+have been observed using commands, including tasklist, jobs, ps, or taskmgr, to reveal the running processes on victim devices.
+T1569.002
+deletes the HKCU\SOFTWARE\Intel registry key and recreates it
+S0272 NDiskMonitor
+the embedded compressed binaries
+The strings are decrypted in the same algorithm where the data is split into DWORDs and XOR’d against a random key.
+establishing RDP connections
+an ISO file opener that mounts and opens the file with a simple double-click.
+C:\Windows\system32\cmd.exe /C
+outgoing HTTPS port 443 connections to  and  (the prior domain in reverse).
+showing the decrypted botpack structure.
+G0073 APT19
+schtasks /create /F /tn “\Microsoft\Windows\SoftwareProtectionPlatform\EventCacheManager” /tr “C:\Windows\SoftwareDistribution\EventCacheManager.exe” /sc ONSTART /ru system /
+base64 encoded text later in the file
+sensitive data from the victim’s machine.
+the threat actors dropped Powertool64.exe and dontsleep.exe in preparation for their final actions.
+S0017 BISCUIT
+is a small, UPX-packed password protected binary
+The operators deleted tools used for credential harvesting and\ninternal reconnaissance
+An encrypted payload
+performs the injection is contained in an array and is dynamically loaded.
+domain fronting
+S1028 Action RAT
+Use a previously compromised workstation admin account
+After decrypting
+and the rar files were deleted
+ranswomare for Windows can self-propagate in the local area network using the legitimate PsExec utility (contained in its body), which creates a temporary system service.
+uses byte remapping to ensure that the shellcode cannot be easily decrypted without the correct byte map
+and hostname
+has keylogger functionalities
+In order to steal credentials, the attackers employ custom modified versions of Mimikatz
+An endpoint with a system injected
+S0046 CozyCar
+S0096 Systeminfo
+Windows Management Instrumentation
+HTTP by prepending the data with a hardcoded
+The data stored in the BSS section is encoded
+Moreover, all the strings, binaries, and other relevant data within the ViperSoftX DLL also gets decrypted the same way.
+stages collected data in a directory before exfiltration
+G0037 FIN6
+take screenshots during, online conversations.
+exploitation of public-facing applications
+kernel32.GetLastError
+Code injection in LSASS
+base64 data block execution
+and the following data is written into registry:
+regularly obtains the list of running processes.
+acquire a list of the running processes and their loaded modules
+The actor leveraged ONE-FOX - a collection of pentest tools - to copy binaries from actor´s system to the victim.
+a new service that will run its VBS script (4.1) using sc.exe.
+HTTPS activity from IP address  to the organization’s VMware server.
+Software vulnerabilities, such as PrintNightmare (CVE-2021-1675) and (CVE-2021-34527), may be exploited in an attempt to elevate privileges.
+downloads the Zerobot binary
+Creation of syscall table for certain NT APIs.
+Once decoded, this executable, written in Rust and compiled with Cargo, gets the current date and time, and decrypts Chromium-based browsers’ encryption key 
+encrypted Base64 string containing the session GUID
+decrypt these database passwords,
+The script will then execute the downloaded file with Rundll32.exe
+Windows displays a warning message when the user tries to open a file downloaded from the internet.
+Named piped are commonly used by Cobalt Strike perform various techniques.
+adopted DLL sideloading techniques to run their malware.
+contain a section defining specific security software to check for
+T1566.001
+which can check running processes against a hardcoded list
+Base64
+Upload a screen capture
+is a batch script
+G0081 Tropic Trooper
+compromised server that prompts the victim to click
+it acts as both a keylogger
+two TCP connections.
+to disable User Access Control (UAC), a security feature in Windows
+The low-level functions, directly related with performing the injection, are called via raw syscalls
+is a Base64 encoded script with various components split into different variables for obfuscation purposes.
+The CMD file contains commands
+JavaScript obfuscation was used
+brute-forcing and compromising servers
+This downloader simply downloads the loader
+These functions are made to steal credentials from different types of applications and services on the Windows operating system:\nBrowsers: Safari, Internet Explorer, Firefox and Chromium-based browsers
+BeeWare of Trigona An Emerging Ransomware Strain
+S0501 PipeMon
+which can check running processes
+threat actor(s) made sure to add more paths and folders to Windows Defender exclusion including %TEMP% and C:\Windows\* as well as adding .ps1 (PowerShell) extension to the exclusion list.
+cmd /c
+containing the encrypted bot and DLL loader.
+Returns ProcessDebugObjectHandle value returned by NtQueryInformationProcess for current process
+adversary was also observed remotely modifying the Windows Registry on remote systems
+S0560 TEARDROP
+IP addresses intended for scanning and the special “ping” IP address
+Application-level protocol
+decrypt the payload
+S0011 Taidoor
+S0444 ShimRat
+S0197 PUNCHTRACK
+collect information about currently running processes, including: name, process identifier (PID), parent process PID, number of threads, token owner, token domain, process creation time, and command line
+the ransomware will proceed to spawn another instance of itself via rundll32.exe
+S0601 Hildegard
+to the C2 server via a POST request.
+It is a key logger that saves data in the “KeyLogs” folder.
+the new process loads the decoy DLL and manually replaces its content in memory with the fcClientDll module (a process known as module stomping or DLL hollowing),
+Once the PE file is injected and reconstructed in memory, the execution flow can be redirected to the injected code, enabling the malware to operate within the context of the compromised process.
+can communicate over raw TCP sockets.
+S0504 Anchor
+The backdoor\nuses domain fronting to obfuscate its true C2 server
+uses HTTP for command and control
+a part of code from the .text section (roughly 8 KB) is overwritten with heavily obfuscated code
+Credential theft and password spraying
+Get processor information of the compromised host by executing "SELECT * FROM Win32_Processor"
+the actors leveraged RDP to propagate to several hosts within the network.
+utilizes Telegram for delivering payloads, sending commands, and receiving the payload heartbeat.
+reg.exe query
+T1210
+process enumerations.
+manipulating of registry keys
+TcpBindConnector and HttpBindConnector
+S0572 Caterpillar WebShell
+S0333 UBoatRAT
+New IcedID variants shift from bank fraud to malware delivery
+S0033 NetTraveler
+depending on the antivirus installed.
+an encrypted configuration file
+The HTML code in this file contains embedded JavaScript functionality,
+cmd /C "C: & cd \ & whoami"
+encrypted with AES-256-CBC;
+S0472 down_new
+G1004 LAPSUS$
+C0024 SolarWinds Compromise
+the decryption function
+executable abused to side-load malicious DLL 
+S0465 CARROTBALL
+most resources are written to disk encrypted,
+used by the threat actor for the remote management of Tactical RMM Agent.
+starts by decrypting its initial configuration data
+affiliates may exploit group policies, which results in a scheduled task being created (on each host) that launches the ransomware.
+The method InjectAssembly is used to inject a .NET assembly into a native process
+The binaries are compressed using APLib compression algorithm.
+Windows Command Shell
+will create a key using advapi32.CryptDeriveKey
+While other cybercriminals use sideloading to load another non-binary component
+contain the host information
+Although the unpacking procedure happens in multiple steps
+C:\Windows\system32\cmd.exe /C
+registers its file with the name onedrivenew under the Run key in order to make it run after the system is rebooted.
+containing obfuscated PowerShell scripts
+The adversary copied those tools over SMB from compromised system to compromised system wherever they needed these tools.
+download the payloads
+leverages spear-phishing and tries to trick the victims into opening malicious documents
+cyber actors have been observed using a network of VPSs and small office and home office (SOHO) routers as part of their operational infrastructure to evade detection and host C2 activity
+uses the DownloadFile method of the WebClient object to download the file from the specified URL and save it to the specified local file path.
+Some variants used a known UAC bypass method abusing the legitimate fodhelper.exe
+The team ran the DFSCoerce python script, which prompted DC authentication to a server using the server’s NTLM hash. The team then deployed Rubeus to capture the incoming DC TGT.
+leveraging Windows Management Instrumentation (WMI) to identify the system’s manufacturer.
+data exfiltration of sensitive information
+One of the observed commands invoked via WMI was ‘firefox.exe’.
+goes through processes one by one
+S0508 ngrok
+the main task of loading malware is done by an embedded process injector.
+S0277 FruitFly
+when the victim clicked on the LNK file, it triggered the execution of the batch file
+support for TCP network streams (both IPv4 and IPv6),
+cyber actors have been observed using the mv command to export files into a location
+Injecting credentials into LSASS memory
+includes both an encrypted payload and shellcode
+Cobalt Strike Beacon was dropped and executed on the system
+are obfuscated with VMProtect
+decrypt the more sensitive data in the user’s database.
+which is often encoded or encrypted to prevent detection
+CISA Red Team Shares Key Findings to Improve Monitoring and Hardening of Networks
+G0091 Silence
+looping through entries under registry key
+S0161 XAgentOSX
+writes its encrypted C2\nconfiguration into the system’s registry
+Process Hashes and Process Privilege Checks
+execute commands via scheduled tasks/jobs.
+the threat actor renamed their systems prior to connecting to victim’s VPNs to match the victim’s system naming convention
+Tax firms targeted by precision malware attacks
+message to both the Debug server and the Telegram channel,
+creating aservice called InstallSvc
+located in a hidden folder
+upload/download file
+use some victims as proxies, or some vulnerable devices to forward communication to their real C&C servers.
+S1021 DnsSystem
+send traffic simultaneously to one server,
+which were previously encrypted
+S0492 CookieMiner
+S0132 H1N1
+makes modifications to the Registry.
+can log keystrokes.
+If a target opens the malicious attachment,
+from API call GetSystemTimeAsFileTime
+AtomBombing is the write-primitive, which allows writing to the remote process using atom tables and APC.
+obfuscate the execution flow of the program
+The application and the accompanying relevant and malicious DLL were both embedded in the loader’s resources.
+Injecting pc.dll into LSASS as a Security Package
+same sequence of opcodes to obfuscate the program’s flow
+LSASS dump in c:\tmp detected and deleted
+C0004 CostaRicto
+System Information Discovery
+leveraged by a batch file
+Returns ProcessDebugPort value returned by NtQueryInformationProcess for current process.
+S0559 SUNBURST
+encrypting the base encryption key with RSA (with a hard-coded 1024-byte public key) and encoding it in Base64.
+decrypt
+Using this RMM agent they proceeded to install AnyDesk on the host.
+exfiltration of files
+deobfuscates and runs another block of code
+StopRansomware Hive Ransomware
+by redirecting calls to the Windows Sleep API to its own function
+S0254 PLAINTEE
+is encrypted in the standard way
+StopRansomware Royal Ransomware
+In order to establish persistence on the targeted host, the malware starts by saving a copy of itself in a new folder in the %APPDATA% directory
+can disable Windows Defender.
+WmiPrvSe.exe (WMI Provider Host) executed the PowerShell Cobalt Strike beacon on the remote computers.
+Once downloaded and executed, the malicious installer copies its compressed files into a newly created folder with a legitimate-looking name  (i.e., IIS Application Health Monitor) in one of the following directory paths:
+Encrypted payloads will also obfuscate useful strings from static analysis.
+log keystrokes
+S0198 NETWIRE
+Many of the hosts used to support these second-stage operations hosted RDP services
+S0556 Pay2Key
+can use XOR, TEA, RC4 and a modified AES algorithm to encrypt traffic and files.
+scanning IPs specified in the command data to collect additional information about the environment
+The user account was possibly compromised on the Linux server by using credential stuffing
+file listings
+distributed inside an encrypted ZIP folder.
+Windows API functions
+encrypts the Orchestrator’s pages with a cipher based on XOR and ROL operations and assigns the PAGE_NOACCESS attribute to them
+It proceeds by downloading the “sqlite3.dll” file
+WMI
+A new file, again with a JPEG extension
+cyber actors have been observed importing tools from GitHub or infected domains to victim networks
+Download a file from the C2 server
+List of installed security products
+Decoded content
+compressed with GZip prior to encryption
+Returns process names of the current process tree (i.e. the current process, the parent process, the grandparent process, etc.)
+S0366 WannaCry
+the resulting bytes are further decoded with xor 82.
+With the binary named to masquerade as a legitimate file on the system
+installed a second stage persistence backdoor on infected device by abusing Windows Services.
+the threat actor connected to the victim’s O365 tenant
+Windows API functions
+One of the main initial access vector is exploitation of publicly exposed web services.
+the decryptor to clean up their environment.
+and decrypts them using XOR and the key
+whoami
+cmd /c
+and inject processes.
+a single payload\npackage is retrieved that contains both the two-stage shellcode
+URL registered in the task scheduler
+embedded key to decrypt the source code
+encrypted payload
+code is de-obfuscated
+Employing Python scripts to exploit vulnerable servers.
+Once we unpack the file, we can see several elements, as well as directories typical for NSIS:
+the threat actor used a compromised O365 administrator account
+G0035 Dragonfly
+operators use Mimikatz to dump passwords.
+one Zip contained a benign file named screenshot1242.jpeg and another contained a file named privatecopy.pdf.
+used this as a remote access tool to establish an interactive command and control channel
+The use of WMIC was leveraged by a batch file
+the user clicked on the ISO file, which created a new virtual hard drive disk
+decrypting the payload
+Kimsuky Strikes Again  New Social Engineering Campaign Aims to Steal Credentials and Gather Strategic Intelligence
+is another example of custom malware used for packing files;
+the threat actor was making authentications to O365
+The attackers enumerate drives, directories, and files
+disseminate additional phishing emails to the victim’s contacts.
+an injection into a web browser process.
+S0356 KONNI
+attacker use of WMI
+S1124 SocGholish
+G0021 Molerats
+to establish a Remote Desktop Protocol (RDP) session to an internal server
+This threat actor abused access to accounts in the Cloud Solution Partner’s environment with legitimate delegated administrative privileges to then gain access to several customers’ O365 environments
+Where in the beginning of the campaign the adversary was sloppy, during the last months of activity they became more careful and started to remove evidence
+ Process to inject into
+loaded using rundll32.exe.
+For each directory it traverses
+Downloading files and getting a screenshot
+Once the malicious DLL is sideloaded, it will drop the legitimate EXE file and the malicious DLL file, which are embedded in the resource section of the DLL file.
+StartSendScreen, StopSendScreen
+use API calls such as VirtualAlloc to load and execute malicious components into memory
+and decrypted
+module is injected into one of the processes specified by the C&C
+The inspected UEFI firmware was tampered with to embed a malicious code that we dub MoonBounce;
+Windows services ran with the highest privilege, NT AUTHORITY\SYSTEM and execute the malware automatically during system startup, allowing for remote access to the victim device with persistence.
+S0271 KEYMARBLE
+decrypting a shellcode
+payload through rundll32.exe
+a payload download code that grabs malware to download and install the backdoor.
+strongly indicates that it contains another component that is dropped/loaded.
+can see the named pipe created that we specified on the Cobalt Strike interface when we created the SMB listener.
+Heavily obfuscated PowerShell script
+Deobfuscate/Decode Files or Information
+its “intelligent” way of brute forcing: it checks the prompt and, based on the prompt, it selects the appropriate credentials.
+S0212 CORALDECK
+and uploads it back to the server.
+The script performs process injection using the API such as OpenThread (to create a handle to an existing process), VirtualAlloc (memory allocation in the chosen process), and QueueUserAPC, the thread that the APC (Asynchronous Procedure Calls) is queued to has to enter an alertable state
+Several HTTP Post events were observed to the identified domains
+Used to search for the string "DBPath" in all files within the current directory and its subdirectories
+Bypass UAC
+then two batch scripts were dropped and run.
+T1078
+S1085 Sardonic
+net user <username>
+webshells, mostly obfuscated,
+Malicious ISO File Leads to Domain Wide Ransomware  The DFIR Report
+consistently cleaned up evidence of their intrusion after\ngaining access to a system
+the keylogging utility
+get a pointer to the encrypted shellcode and to decrypt it have been broken out into their own separate functions
+S0040 HTRAN
+mass deletion of virtual machines, storage, and configurations
+C0018 C0018
+the scriptlet of the batch file
+folder c:\programdata
+perform a\nnumber of changes on the filesystem or registry,
+Windows Defender tampering
+the victim IP address was publicly serving a web service that contained a phpMyAdmin database.
+Application-level protocol
+S0471 build_downer
+S0537 HyperStack
+threat actors use Themida packer to obfuscate the signature used for detection.
+C:\Windows\system32\cmd.exe /C
+ ShellExecuteA is also used to launch
+decodes it into shellcode with Base64
+encryption
+Victims receive spear phishing emails with attached malicious zip files
+initiating a proxied
+The downloading of the actual malware is done via a variety of possible commands (for example, wget, curl, tftp and ftpget).
+staging the data in encrypted ZIP archives before upload.
+G0117 Fox Kitten
+brute-force activity
+This is sent to the server along with the computer’s name
+G0076 Thrip
+reg add HKLM\software\Microsoft\Windows\CurrentVersion\Policies\System
+Microsoft Exchange Server Privilege Escalation Vulnerability
+The document came in via email in the form of a zip file which included an xls file.
+dynamically loaded from a Base64 constant defined in the main assembly.
+by capturing the CredEnumerateA API.
+S0166 RemoteCMD
+S0228 NanHaiShu
+TCP ports 50123
+the presence of any installed anti-virus software on the machine.
+using other known vulnerabilities for initial access, i.e. vulnerabilities in Citrix gateway devices
+Injecting NETONLY credentials into LSASS process memory
+and decrypts config
+then deletes the registry key
+S0476 Valak
+to establishing a RDP session, including the ability to navigate using a graphical environment and easily move laterally once the necessary access has been granted
+OS Version
+"cmd"  /c
+as several adversaries are exploiting CVE-2022-47966 for initial access.\nApache Log4j2 (aka Log4Shell)
+Gotta Catch Em All  Understanding the NetSupport RAT Campaigns Hiding Behind Pokemon Lures
+and the PsExec Windows Sysinternals tool and net for lateral movement and exploration
+scans for these cryptocurrency wallets in local directories:\nArmory\nAtomic Wallet\nBinance\nBitcoin\nBlockstream Green\nCoinomi\nDelta\nElectrum\nExodus\nGuarda\nJaxx Liberty\nLedger Live\nTrezor Bridge
+WMI Filters\ndefine conditions that will trigger a Consumer, including system\nstartup, the execution of a program,
+CrowdStrike Uncovers I2Pminer MacOS Mineware Variant
+S0174 Responder
+an IP address that had been identified as participating in password spray
+SMB copy and remote execution
+Technical Analysis Black Basta Malware Overview
+The decrypted data consists of a 4 byte size
+an executable Cobalt Strike beacon was copied via SMB to a target machine
+S0059 WinMM
+S0202 adbupd
+Using Mimikatz and dumping of lsass,
+S0362 Linux Rabbit
+using the following command line:\n\n\nC:\Windows\System32\cmd.exe /c
+utilize Splashtop to transfer netscan.exe, netscan.lic, netscan.xml, newuser.bat, start.bat and turnoff.bat.
+by creating immediate tasks through GPO.
+Target specific file path
+is the library Funny.dll
+S0344 Azorult
+Windows Service
+deletes its rootkit’s executable after launching it.
+Understanding DNS attacks Identifying and patching vulnerabilities  Snyk
+Process manager (browses and terminates processes)
+WMIC
+store\na file named update.lnk in the %APPDATA%\Microsoft\Windows\Start\nMenu\Programs\Startup\ directory
+Gets a command to run, executes it
+S1096 Cheerscrypt
+This is done via the GetAsyncKeyState API, with keystrokes being logged
+the computer name is sent to the C2
+The team’s C2 redirectors used HTTPS reverse proxies to redirect C2 traffic.
+The threat actor utilized open-source reverse proxy tools to expose local devices located behind a NAT or firewall, to the Internet.
+S0345 Seasalt
+create scheduled tasks for persistence.
+uploads data to the C2 via a HTTP POST request
+S0063 SHOTPUT
+systeminfo
+Mimikatz allows the user to manipulate the dumped credentials,
+actors disable antivirus software
+deleting the “fb” folder to cover its paths and avoid detection
+basic discovery tasks on the host using built in Windows utilities.
+scheduled task properties
+Access to valid
+Actor signs in to a Microsoft 365 account from an endpoint
+using DeviceControl API methods
+Several hosts showed rundll32 processes exhibiting common process injection behavior
+S1078 RotaJakiro
+S0664 Pandora
+hosted the PowerShell downloader script
+Makes an initial POST request to the C2 server
+This version of Mimikatz has been compressed using UPX
+S0267 FELIXROOT
+authentication from a known attacker IP address into the Azure AD Connector cloud account.
+Tactical RMM is a remote management software platform that uses a combination of agents to allow for remote management and access to systems.
+sends the message "bot getted" to the debug server.
+executed by rundll32.exe.
+wmic
+command pulls down a Visual Basic script, drops it into the C:\Windows\Tasks folder, and executes it.
+accessing browser credentials and cookies, Thunderbird and Outlook profiles
+decrypted dba user password.
+S0635 BoomBox
+unpacking the main module and
+Take screenshots
+G0047 Gamaredon Group
+can be configured as a proxy
+most likely using credentials gathered by the previous LSASS access.
+T1573.001
+screen capture
+G0140 LazyScripter
+used UltraVNC to download an in-memory dropper
+by modifying the Windows Registry on compromised systems.
+program first sideloads u2ec.dll, which then loads the payload file usb.ini
+placed in a hidden directory
+The actors used Mimikatz to harvest credentials.
+S0124 Pisloader
+which is injected to conduct backdoor behaviors.
+added to the startup folder
+unpacks it with aPLib
+The ConsentPromptBehaviorAdmin key has been set to “0”, indicating that the behavior of the consent prompt for actions requiring administrator privileges has been modified
+the original encoded MBR
+a base64-encoded ransom note,
+Process Discovery
+Process Hollowing
+S0561 GuLoader
+used emails with PDF or RTF files attached that contain a link to download malware
+S0339 Micropsia
+S0203 Hydraq
+They then proceeded to dump credentials from the LSASS process on the host.
+reads a string (or binary data) from its resource section
+then executed RDPEnable on the infected machine.
+obfuscated with FinSpy Mutator
+request access level of 0x0040 (64) to LSASS, as well indicating other credential access tools may have been in use by the threat actor.
+leads to payload delivery through the execution of a PowerShell downloader script
+The decryption function is custom
+to search and identify accessible volumes on the targeted system.
+used other victim networks to proxy their C2\ninstructions, likely to minimize the risk of detection and blend in\nwith normal network traffic.
+Credentials that have either been reused across multiple platforms or have previously been exposed
+proxy/tunneling utilities (HTran, LCX, EarthWorm
+"cmd"  /c
+S0554 Egregor
+deletes all files written to disk in the current working directory
+uploads it to the C2 server.
+C0028 2015 Ukraine Electric Power Attack
+utilizes the same Common Name in their TLS certificate.
+the malware decrypts\neach block using HC-128
+it downloads the file from its command and control (C2) server,
+sends phishing messages with malicious attachments
+the malware was distributed as email Word document attachments
+The threat actor primarily focused on exploiting four different remote code execution (RCE) vulnerabilities to target web services
+the project file has an encoded and compressed payload
+To limit the disk space used, images where fewer than 5% of the pixels differ from the most recently stored capture aren’t saved.
+uses DLL Side-Loading to launch its second-stage dropper.
+logs keystrokes for windows with titles containing substrings specified in its configuration
+XOR-decrypts its contents,
+The decrypted data consists of 4 bytes containing the payload size,
+The Threat actor also used valid accounts to create persistence within the environment
+Take screenshots
+the threat actors often opened Internet Explorer to download their beacons
+MoonBounce the dark side of UEFI firmware
+Just Because Its Old Doesnt Mean You Throw It Away Including Malware
+uses wmic to obtain the UUID of the compromised host.
+has installed and used PsExec to execute payloads on remote hosts.
+the ‘Powershell.exe’ process initiated the WMI requests.
+sends the output of ipconfig in a POST request
+by compromising a web-facing application such as Microsoft Exchange or SharePoint
+Optical Disc Image files (ISO) containing LNK files that had slightly modified PowerShell scripts, and Hangul Word Processor decoy documents
+can be injected to processes
+After the validation of the JSON and Base64 decoding
+an information stealer used to harvest internal information.
+the threat actors added AnyDesk to the same server running Tactical RMM, providing an additional means of access prior to the deployment of ransomware.
+the threat actor was running tasklist remotely on these systems specifically to see which of the target systems was running Google Chrome.
+contained encoded executables and shellcode,
+These credentials are used in a credential stuffing
+a batch file
+G0100 Inception
+scan specific IP addresses
+Files commonly observed transferred via SMB include
+or download additional stages.
+Shellcode decryption loop
+can self-propagate in the network by using the legitimate PsExec utility
+G0112 Windshift
+S0129 AutoIt backdoor
+C:\Windows\system32\cmd.exe /C gpupdate 
+capable of modifying Windows UAC prompt, disabling Windows Defender notifications, disabling Task Manager, disabling command prompt, preventing users from accessing Windows registry tools, disabling the Run command, and modifying the display timeout
+script to deobfuscate the control flow of shellcode
+optimizing the brute forcing implementation
+Fernet is a symmetric encryption algorithm and token format used for secure communication and data protection
+The team attempted to leverage these credentials
+SOC Team Essentials  How to Investigate and Track the 8220 Gang Cloud Threat
+The team ran the DFSCoerce python script, which prompted DC authentication to a server using the server’s NTLM hash
+The process injection technique was used multiple times to inject into different processes
+injects the ProcessWorm if needed.
+Attempts to delete malicious batch files.
+The threat actors downloaded the lsass.exe beacon from their attacker hosted infrastructure
+Reverse proxy tool
+handle to the current process for the purpose of allocating memory with PAGE_EXECUTE_READWRITE permissions
+lists the command line arguments accepted
+These were either dropped directly via the webshell or downloaded from a remote server
+Threat Assessment BlackCat Ransomware
+S0359 Nltest
+to the C2 through the HTTP protocol.
+downloaded and run by the plaintext PY files from external infrastructure.
+of mstsc.exe being executed after being injected with malware
+to get files from drives
+starts a hidden file in the directory
+The actors’ exploit payload created Scheduled Task
+The mirrored bundle contains the legitimate application instead of the dropper binary.
+Start of encrypted and compressed loader configuration and payload
+A closer look at the document reveals the graphical elements are all images placed in a layered style by the malicious actor.
+injects the rootkit when new processes are created
+Additional data is gleaned via WMI queries
+use of WMI to both store and persist the backdoor
+S0438 Attor
+Disables Windows Defender with batch scripts
+Decoded content
+the threat actors again used Get-System to elevate and then dumped LSASS.
+used various RATs that can read the Registry.
+cmd /C "C: & cd \ & tasklist"
+scan of the selected IP addresses
+S0430 Winnti for Linux
+collect login data from the Google Chrome user profile folders
+It will then create a reverse shell via ncat.exe to the server
+encryption
+The actors used built-in Windows user account DefaultAccount.
+An obfuscator similar to OLLVM is used to protect FinSpy
+running native Windows commands on compromised servers,
+information about specific registry keys
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\iXqrVo
+S0075 Reg
+S0409 Machete
+has a functionality to capture a screenshot of the targeted or compromised host as part of its data collection and exfiltration
+binaries are padded with a random number of zero bytes to change its hash and expand its size.
+and again on a server with Administrator privileges.
+S0451 LoudMiner
+using the API
+performed through the CryptUnprotectData API function
+Option to embed additional malware to be executed
+Its main purpose is to download and execute a second stage malware payload
+file would execute a batch script
+file was concealed beneath the "open" text which, if clicked, executed the HTA file.
+These discovery actions were completed several times again in other various batch files.
+S0552 AdFind
+HackTool.Win32.CCPASS is another tool that is also used for Windows 10 UAC bypass
+the embedded .NET injector and PE payload(s).
+Downloading files remotely
+T1110
+uses the command shell to run appropriate commands
+C0027 C0027
+can send and receive data over HTTP.
+DeviceControl API methods
+the adversary accessed the company portal with the valid account.
+It is obfuscated with a protector resembling the open source OLLVM obfuscator.
+This trampoline is protected with an obfuscator
+detect memory dumps of the lsass process
+pulling additional BatLoader payloads and scripts from C2
+Once the user had mounted the ISO and the LNK file was executed by the user, the complex execution flow started.
+a successful sign-in to the Microsoft Azure environment was observed.
+the threat actor began attempting to connect into the environment via VPN
+S0481 Ragnar Locker
+C:\Windows\system32\cmd.exe /C
+S0044 JHUHUGIT
+can capture screenshots
+Version of the Oracle
+downloads and executes
+Hancitor Infection Chain Analysis An Examination of its Unpacking Routine and Execution Techniques
+functions has been resolved by their hashes.
+The decrypted shellcode
+collect system information and steals user information
+S0134 Downdelph
+Disable or Modify Tools
+executes these files through WMIC.
+Upon execution, an attempt to alter the Windows firewall settings is made.
+The PowerShell command contains various obfuscated strings
+S0615 SombRAT
+Some of these nodes operate as part of an encrypted proxy service to prevent attribution by concealing their country of origin and TTPs
+S0363 Empire
+S0617 HELLOKITTY
+Obfuscated PowerShell script
+the dropper is distributed in the form of a UPX-packed DLL
+writes the file svchost.bat, which transfers control to winness.exe, to the startup folder
+Other tools and scripts were dropped onto one endpoint
+S0140 Shamoon
+download, and configure
+S0074 Sakula
+Uses EnumWindows API
+cmd /c
+The decryption function is shown below, the decryption function can be represented as the following pseudocode:
+S0156 KOMPROGO
+S0147 Pteranodon
+While UPX is often legitimately used to reduce file size, we have observed threat actors utilizing UPX and other packing programs to evade static detection of the underlying payload.
+enables the data transfer with URL syntax for protocols such as HTTP/HTTPS
+the decrypted payload
+S0594 Out1
+BazarLoader Mocks Researchers in December 2020 Malspam Campaign
+The Rising Trend of OneNote Documents for Malware delivery
+The decrypted password will be sent to its C2 Server as part of its data exfiltration.
+Additionally, the threat actor was observed attempting to dump the Local Security Authority Subsystem Service (LSASS) process
+Disables MAPS (Microsoft Active Protection Service) reporting
+Capturing screenshots
+Is able to steal/gather information on CPU type, screen resolution
+S0693 CaddyWiper
+Uses EnumDeviceDrivers and GetDeviceDriverBaseNameA APIs.
+remote shell functions.
+Attempted to blend in with a file name that matched the system name it resided on
+has used an email with an Excel sheet containing a malicious macro to deploy the malware.
+Cobalt Strike beacons accessing LSASS on multiple occasions, on almost every compromised host.
+was deployed using DLL side-loading
+process listing
+writing the batch file to disk and executing.
+T1112
+Internet-facing applications and systems vulnerabilities can be exploited, such as PrintNightmare (CVE-2021-1675) and (CVE-2021-34527), to gain initial access.
+the adversary collected the data from various sources within the victim’s network.
+The campaigns used a variety of email attachments such as Microsoft OneNote attachments and somewhat rare to see .URL attachments,
+Delete file or folder
+HTTP POST request used for FlowCloud C&C communication
+observed the RC4 key\nUwOdHsFXjdCOIrjTCfnblwEZ used for RC4 encryption and\ndecryption.
+using Mimikatz and dumping lsass,
+S0441 PowerShower
+the batch file in Figure 7, which Sandals creates on remote systems to launch
+keylogging
+to obfuscate their malware.
+It installs itself by creating aservice called InstallSvc which will trigger “C:\programdata\netsky\netsky.exe online”.
+execute an encrypted payload located in the embedded DLL
+reg.exe: reg  add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v "fDenyTSConnections" /t REG_DWORD /d 0 /
+collecting system information such as hostnames
+phishing email
+LAPSUS Recent techniques tactics and procedures
+obfuscated PHP code (again using character code obfuscation):
+creates a registry key in HKEY_CURRENT_USER\SOFTWARE\
+The malware only targets fixed drives on the system.
+avoid system processes that might attract attention if caught communicating over the network
+Upload a recording file with a specified name to the C2 server.
+then created a WMI event subscription in order to execute the\nbackdoor
+RDP connections
+Local Data Staging
+the decrypted payload address
+it also invokes the API NTRaiseHardError.
+Most strings in this version are base64 encoded.
+G1016 FIN13
+the shellcode is stored in files instead of the registry, and the stored shellcode is loaded and executed on Dolphin’s startup
+Once decrypted, the configuration file reveals several parameters,
+S0240 ROKRAT
+Commands are used to download and run the Trojan Installer.
+is a legitimate AutoIt interpreter.
+S0127 BBSRAT
+Upload and execute a well-known (e.g., with a signature) malicious file to a target DC system
+applies obfuscation techniques
+S0032 gh0st RAT
+The code in the injected PE
+G1012 CURIUM
+MiniDump, “a C# implementation of mimikatz/pypykatz minidump functionality to get credentials from LSASS dumps”
+execute an IcedID loader with rundll32
+C0005 Operation Spalax
+The attack revolves around a DLL sideloading
+the decoded strings
+SharpPanda APT Campaign Expands its Arsenal Targeting G20 Nations
+S1034 StrifeWater
+uses the CreateProcessWithLogonW Windows API
+Orchestrator is unpacked
+DLL for sideloading
+the threat actor succeeded in authenticating into victim O365 tenants
+deployed additional tools
+is read from an encrypted resource
+variety of packers used for these executables
+decrypting them from Windows registry values
+The actors were able to proxy [T1090] RDP sessions, which were only observable on the local network
+collect inside of the “Web Data” SQLite file
+Syncro RMM can also be used as a persistence mechanism
+T1036.005
+have used packers that read pixel data from images contained in PE files’ resource sections and build the next layer of execution from the data
+Allows known Windows Defender Threat IDs to execute
+schtasks /Create /TN test /SC MINUTE /MO 15 /TR
+connect by sending a GET request to a URL from the configuration and provide a special cookie value
+local accounts.
+for the infected system by gathering the username and hostname
+it can be downloaded from a remote location (by the loader, also known as a Downloader).
+SMB beacons are mostly used to make network detection harder and to get access to isolated systems where communication to the internet is prohibited
+After deobfuscation
+S0514 WellMess
+G0079 DarkHydrus
+Dark Web Profile MuddyWater APT Group
+TA0004
+S0042 LOWBALL
+The actor in this campaign has used domain fronting, which is a technique which can use high reputation domains to conceal the Cobalt Strike command and control traffic.
+cmd /C
+executed a spam campaign with malicious OneNote file attachments,
+creating a Windows service
+encrypted configuration
+the team found a .txt file containing plaintext credentials for the user
+S0660 Clambling
+CatB Ransomware  File Locker Sharpens Its Claws to Steal Data with MSDTC Service DLL Hijacking
+using PowerShell.
+invokes the Windows API function DisableThreadLibraryCalls
+then proceeded to access lsass memory on the host to extract credentials.
+deobfuscate it.
+encodes the email addresses in the “.Outlook” file to a data stream
+file download/upload
+the encrypted payload
+Defending Users NAS Devices From Evolving Threats
+T1041
+S0674 CharmPower
+created in the Startup folder to execute the script.
+After decryption, it then checks if the first byte of the decrypted payload
+ListUsers
+Retrieves  system default language, timezone and OS version
+S0010 Lurid
+Deja Vu All Over Again Tax Scammers at Large
+G0098 BlackTech
+The decryption key
+There were also instances of the malware actors using PsEXEC to enable the remote desktop protocol (RDP) of a target system
+S0606 Bad Rabbit
+A thread with trampoline shellcode is created inside exe.
+C:\Windows\system32\cmd.exe /C getsystem
+the threat actor deactivated antivirus protocols
+DLL side-loading is a highly effective technique for tricking Windows systems into loading malicious code.
+S0395 LightNeuron
+Service Type: user mode serviceService Start Type: auto startService Account: LocalSystem
+attempts to disable Windows Defender
+domain fronting
+AA20336A Advanced Persistent Threat Actors Targeting US Think Tanks
+S0226 Smoke Loader
+is padded with a random number of \x00 bytes.
+URL registered in the task scheduler appears to be a normal homepage
+The user is also asked to permit push notifications in the browser,
+user must click to download the malware
+The malware injects the ProcessWorm into all processes running on the system
+G0061 FIN8
+WMI provides many administrative capabilities\non local and remote systems, including querying system information,\nstarting and stopping processes, and setting conditional triggers.
+Keylogging
+In the main thread the SFX/ZIP file is executed/decompressed,
+include saved credentials
+func_GetProcessor()
+employs dynamic API resolving to conceal its API imports
+Creates a scheduled task to be executed with d as an argument 
+SCHTASKS /Create
+can be found in the two bytes of the HTTP payload
+injects its main bot into a hollowed instance of svchost.exe
+recursively deletes all files
+its installation as a service was used in order to persist and create a backdoor to the network.
+enumerate processes
+it is written to the registry key SOFTWARE\\Google_Authenticator\\b52dKMhj,
+Smoking Out a DARKSIDE Affiliates Supply Chain Software Compromise
+The bytes at 25 hardcoded offsets within this stub are replaced with random bytes to hinder shellcode detection.
+HTTP variant
+S0401 Exaramel for Linux
+Microsoft CryptoAPI
+observed targeting the LSASS process or Active directory (NDST.DIT) for credential dumping.
+injects in itself a new PE (Portable Executable) file,
+cmd.exe /C
+Create its own registry key in \SOFTWARE\<uniquename>
+a virtual private server (VPS) behind which the attacker has parked the actual command and control (C2) server
+decrypts it using the denoted decryption key
+exfiltrates information to the C2 through the HTTP protocol.
+cleanup scripts from other threat actors are usually smaller and more specific to the tools used by that actor.
+to escalate privileges using valid accounts
+Performs payload injections through syscalls via mapping a shellcode to a remote process and creating a remote thread.
+S0483 IcedID
+many obfuscated strings that are being covered by a random string, “edx765“, to evade detection.
+wmic /node
+use a SoftPerfect Network Scanner executable renamed to svchost.exe.
+transferred to the C2 server as a zip file.
+pads the resulting Mach-O with a random number of \x00 bytes
+WinAPI file manipulation functions.
+executing PowerShell code as an EncodedCommand
+The threat actor attempted to log in to the VPN using several user accounts
+Scheduled Task Creation or
+to decrypt the password stored
+and then decrypts the content
+the decryption function into RC4
+shows a HTTP POST request and its corresponding message body.
+Vice Society Profiling a Persistent Threat to the Education Sector
+, side-loaded by the same legitimate executable
+Not just an infostealer Gopuram backdoor deployed through 3CX supply chain attack
+capture screenshots,
+sending an HTTP Post message
+S0131 TINYTYPHON
+It starts its code by decrypting its initial configuration
+Evasive NoEscape Ransomware Uses Reflective DLL Injection
+S0591 ConnectWise
+The method Invoke is used to inject a native PE into a remote process and InvokeVoid to call any exported function of the injected payload.
+".bat" files
+Setup a profile to facilitate domain fronting
+create a new service for persistence.
+Creates a service
+most of the connection attempts to the C2 IP’s are conducted over TCP port 443.
+The first base64 data blob
+S0064 ELMER
+the adversary achieving credentials access by brute force
+such as Mimikatz
+Mimikatz publicly available code (top); strings from a Mimikatz modification
+S0094 Trojan.Karagany
+encoded PowerShell scripts
+wmic
+highly obfuscated commands and encrypted shellcode.
+that had the remote desktop service enabled.
+S0184 POWRUNER
+S1032 PyDCrypt
+S0262 QuasarRAT
+reconstructs the imports table of the DLL and calls the DllEntryPoint,
+S0530 Melcoz
+creating a hash for each export function name
+is used to connect to a server using the default credentials
+likely exploited known vulnerabilities in unpatched applications for initial access
+S0089 BlackEnergy
+S0458 Ramsay
+Windows batch script
+of a Security Package into LSASS using RPC calls.
+It provides\napplications with API functions—available
+looks for specific processes
+it creates a one-time scheduled task.
+then deletes the file.
+using multiple hosts, including an Amazon Web Services (AWS) Elastic Compute Cloud (EC2) instance, accessed through its public URL, to host the malicious files.
+The batch file contained one line,
+exfiltrates data over its C&C channel.
+the folder included a legitimate copy of rundll32.exe
+This RDP activity was being proxied through the IcedID process running on that host, to a remote proxy over port 8080.
+Setup the CDN service to create a new CDN endpoint and redirect traffic to your domain.
+Malware immediately decrypts the third layer
+G0031 Dust Storm
+cmd.exe" /c
+steals credentials from LSASS
+S1089 SharpDisco
+S0353 NOKKI
+registers its file with the name onedrivenew under the Run key
+is decrypted
+Sends the shellcode execution results to the C2 server
+calling API functions from this library
+S0348 Cardinal RAT
+Parse firewall and Anti Virus Product install in the compromised host by running\n"SELECT * FROM ROOT\\SecurityCenter2"\n"SELECT * FROM ROOT\\SecurityCenter"\n"SELECT * FROM AntivirusProduct"\n"SELECT * FROM FirewallProduct"\n"SELECT * FROM AntiSpyWareProduct"
+S0449 Maze
+XOR encrypted with a 16-byte key
+T1547.001
+passes control to a.bat.
+C0016 Operation Dust Storm
+The algorithm used for the buffer decryption differs across the samples.
+Once the payload is decoded
+The DLL’s used were side-loaded in memory on compromised systems.
+Restart Telnet brute forcing
+that uses command and control servers to collect information on compromised systems
+Those files will later be sent to the malware C2 server
+S1027 Heyoka Backdoor
+The malware started to open up both UDP and TCP ports to connect with a C2 server
+the malware first creates a syscall table for NT APIs
+config via the XMRig miner’s native API.
+obfuscated using Crypto Obfuscator,
+T1016
+that decrypts hardcoded shellcode
+The adversary installs a hackers best friend during the intrusion: Cobalt Strike.
+SeDebugPrivilege
+S0450 SHARPSTATS
+to obfuscate control flow of program.
+downloading a specific payload
+Transport-level protocol
+S0588 GoldMax
+the scheduled task
+copied to the folder %appdata%\Microsoft\AddIns\
+This function decrypts strings
+registers a new scheduled task to trigger every day and repeat every hour with option “d” as an argument.
+samples have used HTTP over ports 447 and 8082 for C2.
+Identify processes
+strings and the APIs used by
+func_GetFirewalls()
+Decryptor execution
+Once user credentials have been compromised, this tool takes “full control” of the account
+support for multiple transport protocols for connecting to C2 servers
+S0136 USBStealer
+S0189 ISMInjector
+the payload is either loaded into its own process or a remote one.
+the computer name and the domain of infected system.
+to perform initial intrusion leveraging exposed vulnerable applications, for example, continuing to exploit Log4j 2 vulnerabilities in unpatched systems in
+have been observed using Base-64 encoded commands
+the hardcoded key to decrypt the configuration file.
+These scripts contain an embedded PE loader to execute an embedded malware payload.
+to extract the URL, login, and password fields from the file
+the command line dump of the memory:\ncmd /c
+G0090 WIRTE
+Encoded Royal Road payload
+we can see one more HTTP request
+it is decrypted and executed
+cmd.exe /c
+including API hashing and execution flow obfuscation through exception mechanism
+Enigma Stealer Targets Cryptocurrency Industry with Fake Jobs
+rundll32.exe binary downloaded approximately 0.4 MB of data.
+using Active Directory group policies allows the malicious actor to hit all systems in the environment for as long as that group policy is active in the victim’s environment.
+The backdoor writes captured\nkeystrokes to memory
+G0143 Aquatic Panda
+S0041 Wiper
+Keylogger database
+As before, they are resolved by their hashes.
+it communicates to its C&C servers over the MQTT protocol, which is commonly used in internet-of-things (IoT) devices
+utilizing comsvcs.dll
+obfuscated by XOR
+If the fetched data by cURL command
+AA21076A TrickBot Malware
+The authors cleverly utilized these legitimate dependencies via symbolic links when dynamically creating the legitimate bundle in the temp folder.
+begins to decrypt and parse its embedded configuration
+S0448 Rising Sun
+Decryption routine
+S0517 Pillowmint
+exfiltrated over HTTP using GET requests
+And that Run key references a different Registry key
+Uses MsiEnumProductsA and MsiGetProductInfoA APIs.
+S0527 CSPY Downloader
+The malicious DLL “gtn.dll”, which we named as “ShellFang”, loads when a legitimate executable is launched.
+G0003 Cleaver
+gather information on an infected host, and send details back to the attackers.
+decrypts the hidden page
+S0249 Gold Dragon
+the command "net stop Cisco AMP".
+G0087 APT39
+have adopted more obfuscation techniques
+S0637 NativeZone
+brute forcing attempts on some of the internal FTP servers inside victim network
+utilizing string encryption
+sideloads the DLL to the AutoIt interpreter process
+downloads the next part
+enticing users to click on malicious shortcut files
+Mimikatz to steal credentials from host memory.
+rasomware deployment to all hosts over SMB.
+The actors added an exclusion rule to Windows Defender.
+embedded malware:
+The actors used Mimikatz to dump credentials from the OS using a variety of capabilities resident within the tool.
+AES decrypts, and GZIP decompresses it to produce two separate byte arrays
+can take away system
+S0682 TrailBlazer
+When decoded, the content of the Ir8 variable (a segment of which is shown below) turns out to be just another encoded PowerShell script, which the VBS decodes and then executes.
+Returns names of shortcuts in the Desktop directory.
+Config decryption within IcedID Lite Loader.
+func_GetGraphicCards
+Microsoft SharePoint vulnerability CVE-2019-0604 was used to deliver\nweb shells
+S0681 Lizar
+which perform asymmetric/symmetric encryption of the C&C server communication channel.
+the process imbedded itself into wermgr.exe, the Windows Error Reporting Manager (Process ID 6660).
+suspicious APIs often used in code injection techniques like CreateRemoteThread or NtSetContextThread.
+brute-force attacks
+relies on other parts of the HTTP request, including the Host header and the actual C2
+Threat actors used Atera and Splashtop remote access tools on two compromised hosts during the intrusion.
+Username
+HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Monitoring\DisableRealtimeMonitoring \nDeleteValue 
+is created using the same API call;
+evade detection
+In addition to containing obfuscated strings, the installer’s code\nis protected using various control flow obfuscation techniques that\nmake static analysis cumbersome
+T1071.001
+The Orchestrator (as well as plugins) are packed with aPLib and encrypted with AES.
+HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection \nDeleteKey 
+S0100 ipconfig
+control flow obfuscation
+This enables the document to fetch the .dotm file from the remote server required for further actions
+execute embedded scripts
+used for HTTP server responses
+It uses GetSystemDefaultUILanguage and GetUserDefaultUILanguage to
+bat deletes itself
+padding the contents with benign data
+TLS_SOCKETContinuously sends random payloads on an open TLS socket.
+capturing screenshots
+Batch files create a new admin user 
+S0248 yty
+Injection type: Current process (1) or in the new process
+operators utilize RDP to move laterally in the victim’s environment.
+checking on running tasks,
+Process access to LSASS was observed, likely to dump credentials
+S0396 EvilBunny
+began enumerating the network using native Windows binaries
+The file that was uploaded 775E.bin was deleted by the injected ‘Explorer.exe’ process from the target endpoint
+The data blob in HEX decodes
+G0121 Sidewinder
+to read\nand decrypt those registry key values for proper execution.
+download files from an attacker-controlled bucket in Alibaba Cloud
+wipes all the files and registry keys created by the backdoor
+its unpacking routine
+decryption of credentials
+It then sets specific registry keys and files as guardrails to skip the setup on subsequent runs.
+the batch file to run
+a batch script or a specially crafted command line script.
+attackers take advantage of this technique using proxychains
+decrypts the array by doing a single-byte XOR operation, cycling through the key
+systeminfo
+employ proxychains from the attacker’s Kali Linux host
+to report some basic information about the compromised system
+G1001 HEXANE
+using login credentials from what the company suspects are past data breaches from other companies
+Users downloaded and executed the team’s initial access payloads after clicking buttons to trigger download and execution.
+This code checks if the disk size is greater than a specified threshold (50 GB as example).
+The threat actor in this case uses domain fronting with the Cloudflare Content Delivery Network
+they use tools such as Mimikatz to dump credentials.
+we found the original email that included a ZIP file attached, which contained an ISO file.
+Responsible for installing persistence via scheduled tasks
+Once establishing the RDP connection, they deployed Powertool64.exe,
+a cyber-attack in the form of credential stuffing,
+obfuscated with SmartAssembly
+Injected Processes
+C0025 2016 Ukraine Electric Power Attack
+G1013 Metador
+G0001 Axiom
+to decrypt the configuration file.
+sideload a malicious DLL
+S0191 Winexe
+the threat actor installed RSAT (Remote Server Administration Tools) on the beachhead host
+the malware creates a scheduled task to execute its copy from this randomized path:\n\nschtasks /Create /TN 8NaZrCq3pGeDRXKF /SC MINUTE /MO 15 /TR "explorer.exe c:\users\public\8NaZrCq3pGeDRXKF.zip\8NaZr.exe" /f
+executed using the Command-Line Compiler.
+contain encrypted C2 strings
+Name of the executable vulnerable to side loading
+S0629 RainyDay
+Network adapter IP addresses\nMAC address of one of the adapters
+discover commands using the Windows utilities systeminfo
+Adds Run Registry Key for Persistence
+the data will be published on our TOR darknet sites.
+proxy tools depending on their intended use.
+deceive the user into thinking that the application has failed to execute, even as it silently continues the malicious execution in the background.
+trying to dump LSASS process.
+Looking at the decrypted data
+the threat actors deployed Tactical RMM, a remote management agent, for additional access and persistence in the environment.
+will make a HTTP GET request
+S0384 Dridex
+The attackers collect information from the local system for exfiltration purposes.
+S0641 Kobalos
+S0376 HOPLIGHT
+The LockBit ransomware kinda comes for macOS
+decrypts configuration data as well as decrypts and unpacks the legitimate PsExec utility
+cyber actors used valid accounts to log into a service specifically designed to accept remote connections,
+T1068
+decrypted
+transmits information as a zip file
+Log in to O365 as a user with privileged access to cloud resources.
+this technique for encryption-decryption is easily more discernable during analysis because both the encrypted data and the mapping are in the same file
+S0233 MURKYTOP
+– proxy server address and credentials
+can be set via the command-line as well.
+it can create a service or scheduled task.
+DLL that decodes and drops three files
+malware samples are packed with UPX Packer.
+Unpacking of GuLoader’s shellcodes.
+embeds legitimate DLLs using the SmartAssembly feature 
+the final payload is an HTTPs Cobalt Strike beacon.
+the encryption key for sensitive data
+S0695 Donut
+svcService Type: user mode serviceService Start Type: auto startService Account: LocalSystem
+users still need to manually mount them and run the fake PDFs to trigger the infection chain
+The task file is then used to create a task which in turn starts a script when triggered.
+Maintain Presence via Windows Service Installation
+S0565 Raindrop
+The account used to perform this lateral movement
+then collects the credentials, host information, files,
+C0010 C0010
+S0080 Mivast
+which use certutil (renamed here as slaughterhouse.exe) to decode
+uses other tools to gather credentials that include Mimikatz, LaZagne, and NirSoft’s NetPass.
+decryption
+G0136 IndigoZebra
+passed as an argument on the\ncommand line.
+the execution of the downloaded DLL via the tool rundll32.exe.
+The minidump function of comsvcs.dll can be used to dump lsass.exe.
+S0521 BloodHound
+uses filenames that are either similar to those of legitimate Windows files (e.g., rebare.dll which could be mistaken for rebar.dll) or innocuous looking (e.g., AC146142) to avoid suspicion.
+Once the sector is decrypted,
+these are the same commands as observed in the ".bat" files:
+resolving many different Windows APIs using kernel32.GetProcAddress
+usually compile all necessary libraries in a single binary, making malware classification more difficult for analysts and resulting in a large binary
+it searches the drives of compromised systems for interesting files
+ran another round of discovery activity with native windows utilities
+. The malware will try first to write in the registry-hive “HKEY_LOCAL_MACHINE” but if it cannot create it, it will use the registry-hive “HKEY_CURRENT_USER”:
+checks if the system is 64-bit
+Upload a screen capture to its C2\nserver
+S0698 HermeticWizard
+German users targeted with Gootkit banker or REvil ransomware
+downloading and executing two other PowerShell scripts from a different attacker-controlled server.
+CreateFileW API.
+cyber actors also used on-premises Identity and Access Management (IdAM) and federation services in hybrid cloud environments in order to pivot to cloud resources.
+DeleteFile
+an encrypted payload
+Registry Run Keys / Startup Folder
+send commands.
+The output is then parsed to the targeted process ID with the help of tasklist filters.
+actors often use RDP to move laterally across the network
+inject Remcos RAT into a legitimate Windows process such as ieinstal.exe.
+persists by means of a registry run key or a startup folder
+unpacking the Orchestrator
+It uses bat files
+wmic
+"C:\Windows\System32\schtasks.exe" /create /sc minute /mo 15 /tn
+Abusing cloud services to fly under the radar
+List of IP addresses
+Exploit Public-Facing Applications
+the malicious ZIP file is deleted.
+has exploited web server vulnerabilities for initial access.
+used in the code to call the corresponding API function
+Exfiltrated credentials
+distributing phishing emails containing malicious files
+S0360 BONDUPDATER
+Use a previously compromised domain admin account
+After this is decrypted,
+This obfuscated process
+execute it with rundll32.exe
+then a malware downloader is uploaded to the device
+writes the extracted email addresses from the array to a file called “.Outlook” created by the script in the roaming user profile’s Microsoft application data folder.
+G0114 Chimera
+some strings, such as web browser paths and Geolocation API services URLs, are encrypted with the AES algorithm in cipher-block chaining (CBC) mode
+this code comparing the local IP address with a predefined list of network addresses

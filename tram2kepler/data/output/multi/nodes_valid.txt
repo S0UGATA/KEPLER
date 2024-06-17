@@ -1,0 +1,776 @@
+When this stage is reached, the best ways to detect the running Cobalt Strike code are through static signatures or genetic code analysis.
+The phishing attachment was submitted to the target in a response to an ongoing conversation that was being held between a member of Quadrant’s client and the TPV.
+Although many other rulesets are used to screen for malicious activity, Quadrant has custom rules in place to detect SSH over nonstandard ports, such as TCP 2222.
+Block uncommon file types in emails that are not needed by general users (.exe, .jar,.vbs) 
+Application Layer Protocol: Web Protocols T1071.001 TrickBot uses HTTPS to communicate with its C2 servers, to get malware updates, modules that perform most of the malware logic and various configuration files. 
+Since the decryption mechanism wasn’t publicly available, there are at least three possible scenarios of how the attackers could have created the algorithm: The most probable option is that the attackers acquired and reverse engineered the implementation of the ORACLE MICROS RES 3700 POS and the libraries responsible for encryption and decryption of the database passwords. 
+UKRTA410 Rootkit/Keylogger driver. 
+Microsoft Threat Intelligence consistently tracks threat actor activity, including Mint Sandstorm and its subgroups, and works across Microsoft Security products and services to build detections into our products that improve protection for customers.
+Ingress Tool Transfer T1571: Non-Standard Port T1573: Encrypted Channel: T1573.001: Symmetric Cryptography References: 
+These extensions are associated with ESXi snapshots, log files, swap files, paging files and virtual disks.
+Consider utilizing the Antimalware Scan Interface (AMSI) on Windows 10 to analyze commands after being processed/interpreted. 
+HTTP POST request (type 27 / data exfiltration).For a detailed list of each data field (offset and size) of the HTTP body (payload) please refer to the Appendix section. 
+Threat actors can use information sources such as Shodan, the Common Vulnerabilities and Exposure (CVE) database, and the National Vulnerabilities Database (NVD).[3][4][5] Shodan is an internet search engine that can be used to identify vulnerable devices connected to the internet.
+This operation shares up to 30% of its cryptomining code base with tools developed by the group “Pacha.”
+" System::Call ::$0() Call func_80 
+[T1030].
+The defaults are chrome and internet explore (sic).
+Afterwards, it drops the following files to it: File name Description <4 random hexadecimal characters>.cab The setup configuration file, which is encrypted with RC4 (key: the name of the working directory). 
+-s cbdhsvc beacon: cmd.exe /C
+The first two monitor the connection and are relevant only at the TcpConnector/TcpBindConnector level.
+Instead, IAT entries point to buffers of randomly generated junk code.
+Ability to shutdown the system. PRIV_FLAG
+Then, one after the other, it tries combinations of possible proxy servers (any indicated in the configuration plus system proxies) and C2 servers until it connects successfully. 
+Indicator Description hxxps://titlecs[.]com/issues/284 BazarLoader Encrypted Payload URL hxxps://titlecs[.]com/issues/282 BazarLoader Encrypted Payload URL hxxp://ds46x1[.]com/1/run BazarLoader Encrypted Payload URL labelcs[.]com BazarLoader C2 Domain (Employment Termination Malspam) 
+TA551 – Proofpoint has observed TA551 deliver IcedID in campaigns since November 2018.
+Antivirus / EDR evasion:
+This is also useful in the case of removable drives that may not be connected when the command is issued. 
+POST /robots.txt
+This is in the form of two .NET assemblies: CSStub2.InstallStager.exe, and CSStub2.UninstallStager.exe.
+Multiple versions of FlowCloud have been identified since 2020, most notably versions 4.1.3 and 5.0.1 described by Proofpoint.
+EXFILTRATION 
+The identified C2 server was 185.161.211.97 TCP/80. 
+Scan systems to identify unauthorized archival utilities or methods unusual for the environment. 
+The size and length of connection indicates that the second stage was downloaded from "193[.]3[.]19[.]37"[Russia]. 
+Building the file name with PL shellcodeAmong all the loaders, we encountered three different shellcode payloads: Crosswalk Metasploit stager Cobalt Strike Beacon 2.3 Attack examples 2.3.1 An encrypted resume This malicious file is a RAR archive, electronic_resume.pdf.rar (025e053e329f7e5e930cc5aa8492a76e6bc61d5769aa614ec66088943bf77596), with two files: Figure 20.
+If the response status code is 404, we can say attack is concluded and we could insert a potential a canary token for notification purposes . 
+Kronos mapped a suspended svchost.exe into its own process and patched it in its own memory address space.
+This general trend can be seen in recent years as detection of Powershell based threats became better, but also due to security mechanisms like AMSI introduced by Microsoft. 
+008f7b98c2453507c45dacd4a7a7c1b372b5fafc9945db214c622c8d21d29775 The .exe file is a valid and signed executable and, in this case, an executable from HP (HP Customer participation).
+echo NGAtoDgLpvgJwPLEPFdj>\"%s\"&exit" fullword ascii$s2 = "veniamatquiest90.dll" fullword ascii$s3 = "Quaerat magni assumenda nihil architecto labore ullam autem unde temporibus mollitia illum" fullword ascii$s4 = "Quaerat tempora culpa provident" fullword ascii$s5 = "Velit consequuntur quisquam tempora error" fullword ascii$s6 = "Quo omnis repellat ut expedita temporibus eius fuga error" fullword ascii$s7 = "Dolores ullam tempora error distinctio ut natus facere quibusdam" fullword ascii$s8 = "Corporis minima omnis qui est temporibus sint quo error magnam" fullword ascii$s9 = "Officia sit maiores deserunt nobis tempora deleniti aut et quidem fugit" fullword ascii$s10 = "Rerum tenetur sapiente est tempora qui deserunt" fullword ascii$s11 = "Sed nulla quaerat porro error excepturi" fullword ascii$s12 = "Aut tempore quo cumque dicta ut quia in" fullword ascii$s13 = "Doloribus commodi repudiandae voluptates consequuntur neque tempora ut neque nemo ad ut" fullword ascii$s14 = "Tempore possimus aperiam nam mollitia illum hic at ut doloremque" fullword ascii$s15 = "Dolorum eum ipsum tempora non et" fullword ascii$s16 = "Quas alias illum laborum tempora sit est rerum temporibus dicta et" fullword ascii$s17 = "Et quia aut temporibus enim repellat dolores totam recusandae repudiandae" fullword ascii$s18 = "Sed velit ipsa et dolor tempore sunt nostrum" fullword ascii$s19 = "Veniam voluptatem aliquam et eaque tempore tenetur possimus" fullword ascii$s20 = "Possimus suscipit placeat dolor quia tempora voluptas qui fugiat et accusantium" fullword asciicondition:uint16(0) == 0x5a4d and filesize < 2000KB and( pe.imphash() == "a6d9b7f182ef1cfe180f692d89ecc759" or ( 1 of ($x*) or 4 of them ) )}rule conti_v3 {meta:description = "conti_yara - file conti_v3.dll" author = "pigerlin" reference = "https://thedfirreport.com" date = "2021-05-09" hash1 = "8391dc3e087a5cecba74a638d50b771915831340ae3e027f0bb8217ad7ba4682"strings: $s1 = "AppPolicyGetProcessTerminationMethod" fullword ascii $s2 = "conti_v3.dll" fullword ascii $s3 = " <requestedExecutionLevel level='asInvoker' uiAccess='false' />" fullword ascii $s4 = " Type Descriptor'" fullword ascii $s5 = "operator co_await" fullword ascii $s6 = " <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">" fullword ascii $s7 = "api-ms-win-appmodel-runtime-l1-1-2" fullword wide $s8 = " Base Class Descriptor at (" fullword ascii $s9 = " Class Hierarchy Descriptor'" fullword ascii $s10 = " Complete Object Locator'" fullword ascii $s11 = " delete[]" fullword ascii $s12 = " </trustInfo>" fullword ascii $s13 = "__swift_1" fullword ascii $s15 = "__swift_2" fullword ascii $s19 = " delete" fullword asciicondition:uint16(0) == 0x5a4d and filesize < 700KB andall of them}rule conti_cobaltstrike_192145_icju1_0 {meta:description = "files - from files 192145.dll, icju1.exe"author = "The DFIR Report"reference = "https://thedfirreport.com"date = "2021-05-09"hash1 = "29bc338e63a62c24c301c04961084013816733dad446a29c20d4413c5c818af9"hash2 = "e54f38d06a4f11e1b92bb7454e70c949d3e1a4db83894db1ab76e9d64146ee06"strings:$x1 = "cmd.exe /c
+The backdoor uses the Data field to send command output to its C2 server.
+Windows Command Shell 1.059.003 Command and Scripting Interpreter:
+up to date to protect your computer from new variants of malware.
+PsExec.exe /accepteula -d -u “<username>”
+[T1071.002] Application Layer Protocol: Mail Protocols [T1071.003] Application Layer Protocol:
+A similar scheduling methodology occurs in the case of Microcin, but with a bitmask that simply represents the days of the week on which the malware ought to be active. 
+20 Returns information about the operating system. 
+Table 1: Measurable Events Measurable Event Description MITRE ATT&CK Technique(s) Expected Detection Points Expected Network Defender Reactions Reported Reactions Internal Port Scan Launch scan from inside the network from a previously gained workstation to enumerate ports on target workstation, server, and domain controller system(s). 
+The keylogging utility was configured to capture and record keystrokes to C:\ProgramData\psh\System32Log.txt. 
+Phishing: Spearphishing Attachment Phishing: Spearphishing Link Execution T1059.003 T1059.005 T1204.001 T1204.002 Command and Scripting Interpreter:
+It is a combination of Quasar RAT, r77-rootkit and the command line NirCmd. 
+In this section, we will mention some noteworthy hacking tools used in their operation. 
+The infection chain is divided into two parts: the loader, and the Inno-Setup installer that drops the final payload.
+T1497Virtualization/Sandbox EvasionSome versions of FlowCloud use the Pafish utility to detect virtualization, sandboxes, and debuggers. 
+Thus, when computing the Pedersen hash and taking only the first coordinate as a result, there is a natural collision, namely the negation of the point.
+Creates a scheduled task to be executed with d as an argument Option d checks if the file %localappdata%\m.txt exists.
+This command exports a text file with comma separated fields.
+As part of the legacy of spreading through file-sharing utilities, MyDoom also litters the “C:\Program Files\Common Files\Microsoft
+The installer downloads a CAB file from OneDrive, containing a legitimate Python 2.7 interpreter.
+If updates or workarounds were not promptly applied following VMware’s release of updates for Log4Shell in December 2021, treat those VMware Horizon systems as compromised.
+Introduction Embark on a journey into the intricate world of cyber attacks as we unravel paths taken by adversaries from malware creation to data exfiltration. 
+This malware can exfiltrate files and extract data from specific applications.
+net group "enterprise admins" /domain ➝ C:\Windows\system32\cmd.exe /C
+TimeDateStamp: 05/12/2020 08:23:47 – Date and time the image was created PlugX Another major and characteristic privilege escalation technique the adversary used in this long-term campaign was the malware PlugX as a backdoor.
+This technique is often employed to bypass security mechanisms that monitor or block external DLL loading or code injection. 
+Pseudocode for the DLL decryption routine This newly loaded module uses the same anti-debugging and anti-analysis techniques as the hijacking DLL described above.
+September 2020 – Operation Quicksand – Israel: According to ClearSky, MuddyWater targeted many prominent Israeli organizations.
+It is the file that defines the posts_layouts_finish() function that is hooked to the “pre_current_active_plugins” action on the last line of the posts-layouts.php.
+Require phishing-resistant multifactor authentication for all services to the extent possible, particularly for webmail, virtual private networks, and accounts that access critical systems. 
+Figure 4.
+= ⟨M1‘⟩ ⋅ G1 + ⟨M2‘⟩ ⋅ G2 \n= – H(M) = – (⟨M1⟩ ⋅ G1 + ⟨M2⟩ ⋅ G2)\n
+Token Impersonation/TheftAttackers were seen using partially modified PrintSpoofer tool to drop and subsequently execute loader with SYSTEM privileges. 
+T1055Process InjectionTA410’s backdoors perform process injection to masquerade as harmless processes. 
+FILES 
+The attacker has defined separate scanning modules against all the aforementioned services, as shown in Figure 4. Figure 4.
+Follow these instructions if you need an invitation to our Splunk user groups on Slack. 
+Finding another note.gif (SHA2: 0487ef401345aa17c6aaeac23151219863e1363f82fe76edd0066bbf3fb07715) based on the same infection chain let us continue our quest to the payload. 
+Tactics, Techniques and Procedures We have observed Black Basta affiliates leveraging the following TTPs: Tactic / Technique Notes TA0001 Initial Access T1566.001.
+* /tr "cmd.exe /c start c:\windows\system32\vmnat.exe" /sc
+The script, which is used to download this RAT, is called impst.sh: Figure 1.
+Maintaining a rigorous patching cycle continues to be the best defense against the most frequently used attacks. 
+The operators deleted tools used for credential harvesting and internal reconnaissance including a custom scanner dubbed WHEATSCAN after use.
+Unlike the installers that we described previously, this version contains an XOR-encrypted payload, divided into three files: Micr.flv, Micr2.flv, and Micr3.flv, each file encrypted with a different, single byte XOR key.
+Indicator Removal: Clear Windows Event Logs Trigona operators use turnoff.bat to clear event logs via wevtutil cl. T1070.004.
+22174c47cb1aa38ee0f5030597671b2436f1394f8229dc9708863e2e567576e6 2bc6c21d35ed63b135b4723444a9ac532e4cb6aaa2bbd63c557136edb4e4756f 30f0207b74d6d2d17cd8f4dc9f9131bd8763702f19c87ce74ea13a634f52c995 33da23085fb6fd7aad89e0c55b7ccbc2ee50fec4e8e31030e4b2a4ef034ac5f6 34b547b567309618422d7075322ddf5b9e0b3a4fb652f3845d12fd649f23923e 36ca9f84864ad022c255b7d91e75997f035716e4df5dc1c90ee2651f092f5d79 3b14c84525f2e56fe3ae7dec09163a4a9c03f11e6a8d65b021c792ad13ed2701 3b280a4017ef2c2aef4b3ed8bb47516b816166998462899935afb39b533890ad 3b53ed760142431ad45e550fd7a8d5c44ea4342619d9882909d8e3936283ec72 3d8a6f5d8162e8eb78e7b95384ec6418f65b904dffa8fd983a6a19a5645ad707 3e6cf5ae8ce6ff7305da4e218a20ec7f57933235ec07d7ff6e6a18c7c844ff29 428633aee75f7c69a7c0612e591d5fcecbcf13619d6c05b86c8303a248c7c8d7 466823948c92531a171a5ecb04339074cabd9d700ae67ea332f82cb3838490d2 49366ae4766492d94136ca1f715a37554aa6243686c66bf3c6fbb9da9cb2793d 62957aa4421c044927269e9bf3300515cf01225fd4c3c3811f8ebfac7a9f8585 64072e7c56895f59124c4e26e0dd65a4de0bd8280c83372c18f9835978cda0e9 7848fc64c9977796dcc0ee67c293f006d715d3b3e257a3c0f4654cefab637c45 7a8c91f4228be4d36e1087acc9bb046373ddfde506fe4645ad1b0967c08bfa8b 7b6f7c48256a8df2041e8726c3490ccb6987e1a76fee947e148ea68eee036889 8adc8be4b7fa2f536f4479fa770bf4024b26b6838f5e798c702e4a7a9c1a48c6 8d9bdcae4a4559e52b3d03209a1ef880e948d9f3969f7779119d9322c5f7cf7c ab73aedbee66081cd047b19a4bb036f85791a9ae9abc90545c5d8756bbc2a428 ae3e4a1c8a2b661265e6c8c756e3ba472dc7177cae79fe1861ab0c2d1af5167a ae6822d1fd097e8c52cea3731cd49f50600b7da83e9f0ea6dbc689685f907739 af611a41c55e9afcfaced8b067a470caa70825fce0a44167f44a8d3880ae6674 c141eaeab461a2481124a73ee2d254301573d8722dbf3221f5fc54d7770e67a2 c850fa9c2cdcf77dc0e7732785473db8881efe49935ddb7c6da9f3d1911a469f cbf54a9e5771fcb3760e4e282f003a879164e76b9df9fed0fe4e4e8aaaef11ae cf890e288f4fb7a2cfb0aa7e91229cc51c224e767c6ca69bbbb9d06e999ede64 e1d7014b84618cd7fbf94439c78fe7d67f351cbc5536885fa3d94ea15325d83b e47802d7f44fc9e594b89ef33298367d21695d5ec1ae5e6c526b9f3124c555ca eca42c42f0909cf4e6df6bf8de35ab93ef6a3dd10d0d5e556721ec1871a9990c f235c021baa6c8801e724d45003b1b1541eea5483810abc9c3eb4df6bf05afbf Get updates from Palo Alto Networks! Sign up to receive the latest news, cyber threat intelligence and research from us 
+Therefore, enterprise networks must deploy a solution to detect credential stealing attacks as they can be used to pivot to other systems on the network and move laterally once an attacker establishes an attack path to a high value target.
+As of December 2021, BlackCat has the seventh largest number of victims listed on their leak site among ransomware groups tracked by Unit 42 – impressive considering that this group has only been publicly known since November 2021.
+To achieve this, an attacker might choose to embed the tool within a malicious executable or use the operating system’s internal legitimate tools and services to perform its lateral movement operations, consequently making this network traffic harder to distinguish. 
+getsystem 
+T1548.002 Abuse Elevation Control Mechanism: Bypass User Account Control LockBit 2.0 has utilized a UAC bypass tool. 
+This happened following the exploitation of the Exchange ProxyShell vulnerability on that server, as we describe in ESET Threat Report T3 2021. 
+Privilege Escalation Use of Cobalt Strike’s Get-System named pipe technique was observed on the Domain Controller and other hosts to elevate to System privileges. 
+Finally, the ACNSHELL malware rzlog4cpp.dll is sideloaded.
+The decrypted data is the header of a PE file, overwriting the recovered header to the original file.
+Malware Analysis LummaC2 Stealer
+The ModScan 2.20 module is injected into one of the processes specified by the C&C via an InstallMod command (0x72).
+-w 1 -enc
+For example, if the size is 18, it will append zero bytes to the file until it has a size of 32, which is now divisible by 16.
+The website says its owners have worked with Russian cybercriminals in the past, another claim we cannot confirm.
+We reported these ads to Google and they were promptly removed. 
+Or, as an alternative, the group has reached an agreement with other attackers for use of their software in return for a part of the proceeds.
+In recent years, NFTs have exploded in popularity, and are now starting to enter the mainstream consciousness.
+Click here for a PDF version of this report. 
+Cyber criminals can also directly monetize stolen data via extortion operations, post it for sale on underground forums, or leverage it in secondary operations such as business email compromise.
+Host: 195[.]123[.]226[.]91 You can find Shodan results about the host address here. 
+Within it, the Loader overwrites the current PE with the final payload’s PE.
+A management panel that affiliates can use to manage victims and affiliate accounts, generate new ransomware builds and generate the decryptor if the demanded ransom is paid also exists. 
+The malware will look for the location of a particular set of executables and libraries in order to apply the patch, thus overwriting the original code.
+TA544 uses the Standard IcedID variant. 
+Disable or Modify System Firewall Discovery T1012:
+There are strong indications of intertwined traditional intelligence tradecraft and cyber collection efforts, indicative of a highly coordinated and sophisticated cyberespionage operation.
+Indicator Removal on Host: File Deletion Deletes some of its files used during operations as part of cleanup, including removing applications such as 7z.exe, tor.exe, ssh.exe T1070.003.
+The threat actor first ran some initial discovery on the host using built-in Windows utilities like ipconfig, systeminfo, net, and ping.
+The batch file executes an embedded PowerShell command to download the PowerShell downloader script from the attacker-controlled server using the URL hxxp[://]tributaria[.]website/esp/12/151222/up/up” and executes it.
+T1005
+Those hooks are used to divert the flow of these functions to malicious shellcode that is appended by the attackers to the CORE_DXE image, which in turn sets up additional hooks in subsequent components of the boot chain, namely the Windows loader. 
+However, the observed TTPs show common cybercrime threat actors tradecraft which may have lead to domain wide ransomware had the threat actors had enough time. 
+Four hours after initial access, the threat actor started their first lateral movement using RDP to pivot to a server using the local Administrator account.
+title: BazarLoader Mocks Researchers in December 2020 Malspam Campaign url: https://www.gosecure.net/blog/2021/02/01/bazarloader-mocks-researchers-in-december-2020-malspam-campaign/ BazarLoader Mocks Researchers in December 2020 Malspam Campaign by Lilly Chalupowski | Feb 1, 2021 Our Inbox Detection and Response (IDR) team has observed a new BazarLoader campaign targeting the information technology, aeronautic and financial industries.
+Example error messagesIt is important to note that we observed code segments that seem to be modified versions of publicly available code.
+For example, some MD5 IOCs in the STIX file identify legitimate tools—such as Putty, cmd.exe, svchost.exe, etc.—as indicators of compromise.
+TYPE INDICATOR DESCRIPTION SHA256 a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92 WhisperKill (stage1.exe) SHA256 dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78 WhisperKill (stage2.exe) SHA256 0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da HermeticWiper SHA256 1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591 HermeticWiper SHA256 13037b749aa4b1eda538fda26d6ac41c8f7b1d02d83f47b0d187dd645154e033 IsaacWiper SHA256 9b4dfaca873961174ba935fddaf696145afe7bbf5734509f95feb54f3584fd9a AcidRain SHA256 47f521bd6be19f823bfd3a72d851d6f3440a6c4cc3d940190bdc9b6dd53a83d6 AcidRain SHA256 Fc0e6f2effbfa287217b8930ab55b7a77bb86dbd923c0e8150551627138c9caa CaddyWiper SHA256 7062403bccacc7c0b84d27987b204777f6078319c3f4caa361581825c1a94e87 Industroyer2 SHA256 3b2e708eaa4744c76a633391cf2c983f4a098b46436525619e5ea44e105355fe DoubleZero SHA256 30b3cbe8817ed75d8221059e4be35d5624bd6b5dc921d4991a7adc4c3eb5de4a DoubleZero Mapped to MITRE ATT&CK The findings of this report are mapped to the following MITRE ATT&CK Matrix techniques: TA0001: Initial Access T1190: Exploit Public-Facing Application TA0002
+Command and ControlT1071.001Application Layer Protocol: Web ProtocolsDolphin uses HTTPS to communicate with Google Drive. 
+This server contained backups of the MDM MySQL database on its D: drive in the Backup directory.
+Figure 2: WindowsParentalControlsMigration
+As seen in the screenshot below, the BP stopped on the call to VirtualAlloc, which is in the Kernel32.dll, and in the stack view (right low corner) we can see the arguments passed to the function.
+More information on this service and others can be found here. 
+However, the list of processes to be stopped differs slightly, as Rorschach omits notepad.exe, which is used as a target for code injection. 
+TrueBot is also using Raspberry Robin (a worm) as a delivery vector. 
+This value contains version 111, which could indicate the fork happened when the Standard Bot was using that version. 
+Malicious service installation is accomplished via the below command line argument: sc create WindowsUpdate binPath= C:\Windows\Temp\svchost.exe start= auto obj= LocalSystem DisplayName= windowsupdate When this command is executed on remote victim device, it will install a fake Windows service called “windowsupdate”.
+Multiple tools can be used to detect indicators of a sample being packed: PEstudio, DiE (Detect it Easy), CFF explorer, and more.
+The table below shows an example of ProcDump deletion from the ProgramData folder of all targeted workstations after dumping their LSASS process: Credential Access LSASS Dump MiniDump Threat actors dumped the LSASS process from the beachhead using the comsvcs.dll MiniDump technique via the C:\Windows\system32\svchost.exe -k ClipboardSvcGroup -p
+Enable logging for new user creation, especially domain administrator accounts
+If we analyze the graphic below, we can see that Turkey, Israel, Iraq, UAE, and Pakistan are among the top targets of MuddyWater.
+To avoid detection by these tools, malware developers can use crypters.
+During the installation of the software, the following command was observed: "C:\Program Files\TacticalAgent\tacticalrmm.exe"
+ad_subnets.txt adfind.exe -f "(objectcategory=group)"
+For any inquiries about this service, visit the ESET Threat Intelligence page. 
+Since approximately September 2022, cyber criminals have compromised U.S. and international organizations with a Royal ransomware variant.
+Readpe.py: Used to read Portable Executable files. 
+Data staging Dolphin exfiltrates data to Google Drive storage, staging the data in encrypted ZIP archives before upload.
+The attacker might have used the IronPython MSI to install the interpreter to C:\ProgramData\IronPython-2.7 on the victim’s system.
+To this end, AddSecurityPackage64.dll issues an RPC call to LSASS – to the ncalrpc:[lsasspirpc] RPC endpoint, providing the file path to pc.dll to LSASS.
+The blog hinted at its operators’ connection to REvil with the claim that the newer group offered “the same, yet improved software.” 
+The Orchestrator configuration is stored on the VFS with ID 0xFFFFFFFE. 
+Details of the vulnerable Intel driver binary Figure 33.
+See Microsoft Mitigating NTLM Relay Attacks on Active Directory Certificate Services (AD CS) and Microsoft Overview of Server Message Block signing for more information. 
+Symmetric Cryptography Winnti uses AES for encrypting traffic in its backdoors T1008 Fallback Channels The Winnti configuration supports indicating multiple C2 servers of various types T1095 Non-Application Layer
+Organizations can implement mitigations of varying complexity and restrictiveness to reduce the risk posed by threat actors who use Tor (The Onion Router) to carry out malicious activities.
+This tool is useful, as the attackers did not embed the C&C servers directly in the intermediate stages, but rather used GitHub as a dead drop resolver.
+AutoLogonCount /t REG_DWORD /d
+Appendix A 
+WMI classes can contain methods (code) and properties (data).
+DS-LDS.Tools~~~~0.0.1.0” ➝ C:\Windows\system32\cmd.exe /C
+These functions are made to steal credentials from different types of applications and services on the Windows operating system: Browsers: Safari, Internet Explorer, Firefox and Chromium-based browsers FTP/SSH apps and clients Backup applications Email applications Notes applications Poker applications Password managers Windows credentials The main function of the malware is looping over these stealer functions to execute them, as shown in Figure 5. Figure 5.
+Next, the threat actor transferred Sysinternals tool Procdump over SMB, to the ProgramData folders on multiple hosts in the environment.
+The second server 193[.]56[.]146[.]29 is used for DevOps and logging purposes.
+Overview SentinelLabs has been tracking a recently disclosed cluster of malicious Office documents that distribute Crimson RAT, used by the APT36 group (also known as Transparent Tribe) targeting the education sector.
+In addition, it appears that compiler optimization is prioritized for speed, with much of the code being inlined.
+We could then decrypt the remaining files.
+Figure 14: BAT (.bat) file displayed in a text editor. 
+Consider leveraging a centralized patch management system to automate and expedite the process. 
+There are clear similarities around the methodology of the VSS removal. 
+Crypto wallet NordVPN (existence of and credentials) Stored web browser information (credit card, username, and password) 
+It was prominently used against Russian-speaking targets including military, governmental entities and think-tanks. 
+Isolate the infected system.
+network configuration discoveryping -n
+The dropper utilizes /bin/sh for subprocess execution. 
+In the IronPython script, the embedded .NET injector (SHA256: a56f69726a237455bac4c9ac7a20398ba1f50d2895e5b0a8ac7f1cdb288c32cc) and ComRAT DLL payload (SHA256: a62e1a866bc248398b6abe48fdb44f482f91d19ccd52d9447cda9bc074617d56) get decoded and decrypted.
+/password:”password” process CALL CREATE “cmd.exe /c C:\WINDOWS\TEMP\kill.bat" Below images shows A batch file to stop services/kill processes Fig.
+Social engineering awareness training for all staff. 
+It was dropped by the Emotet malware soon after the actor returned to the e-crime landscape after a nearly four-month break. 
+This post details the multi-component architecture and functionality of a sample, referred to as mim221. 
+For the execution, the injector process dispatches another APC using NtQueueApcThread to force the remote process to execute NtSetContextThread.
+Then Fantasy sleeps for two minutes before overwriting the system’s Master Boot Record. 
+Packers may change the final payload’s section names, as seen in the screenshot below.
+It contains a number of tools that complement the cyber threat actor’s exploitation efforts, such as a keystroke logger, file injection capability, and network services scanners.
+The below image shows the malicious document. 
+Network Activity When LummaC2 is run, the address it sends the POST request to and the C2 addresses are different.
+Adversary-in-the-middle: LLMNR/NBT-NS Poisoning and SMB Relay T1557.001 
+On a separate attacker-controlled compromised device, evidence indicates cloning of the AADInternals tool.
+This allows it to minimize command line arguments and additional files dropped to disk. 
+[T1546.001] Event Triggered Execution: Windows Management Instrumentation Event Subscription
+Well known SPN values are listed out here.
+The SEASHARPEE web shell was developed and used by Iranian APT actors until the code was leaked online in the telegram channel Lab Dookhtegan a few weeks earlier in March 2019.
+The screenshot below demonstrates this implementation. 
+Details on how the SPN values are registered and used in Kerberos authentication is documented here.
+Interestingly, most of the Linux samples we found used the new DNS tunneling feature we detailed in Figure 2, while only one of the Windows’ samples used it. 
+Payments to the bc1q98 and 1DgLhG addresses that are not being split continue up until the end of May.
+The following files are downloaded and written to disk: http://103.139.2[.]93:1702/tdr.dat written to %localappdata%\Tendyron\Tendyron.exe (SHA-1: 09C76522136B5E9BAB74381FEEE265F7E9B1D550) http://103.139.2[.]93:1702/okt.dat written to %localappdata%\Tendyron\OnKeyToken_KEB.dll (SHA‑1: F359D3C074135BBCA9A4C98A6B6544690EDAE93D) http://103.139.2[.]93:1702/md.dat written to %localappdata%\Tendyron\Tendyron.conf (we were not able to retrieve this file) 
+During the incident, the first warning sign of compromise came from the victims Cisco Advanced Malware Protection alerting.
+Once the encrypted shellcode has been copied to executable memory, it will then use advapi32.CryptEncrypt to decrypt the shellcode.
+This would be possible for an attacker having ongoing and remote access to the targeted machine. 
+In addition, we reviewed reports published around that time and found the decryption algorithm in ShellFang was once used in the campaign by 1937CN, which was revealed by Fortinet in 2017.
+The second stage payload, UpdatTask.dll, is a dynamic-link library (DLL) written in C++ that comprises two export functions (DllEntryPoint and Entry).
+Figure 6: Detection in VirusTotal of one of the .img files. 
+In this blog entry, we will introduce and analyze the other tools and malware used by the threat actor. 
+Creates a scheduled task that runs at system startup and launches the Post-Validator Loader via regsvr32 (task action:
+Payload deobfuscation and decompression Before executing the payload, the malware attempts to elevate its privileges by executing the mw_UAC_bypass function, which is part of an open-source project.
+To deflect the lateral movement path, decoy systems can be configured with real looking hostnames that match the production systems.
+However, cool as their leak site design may be, this matters none to victims of this ransomware, which regrettably includes a daycare service in Canada.
+Mori: Mori is a backdoor that uses Domain Name System tunneling to communicate with the group’s C2 infrastructure. 
+[WINDOWS-CLIPBOARD] Service being stopped 5008364 
+Demon communicates with the C2 server specified in the configuration via HTTP or HTTPS POST requests.
+This blog entry discusses in depth the findings from our investigation of samples of this new piece of ransomware, as well as the tools that Royal ransomware actors used to carry out their attacks. 
+Go implant: a formerly unknown backdoor used to contact a C2 server using a RESTful API, where a combination of a hardcoded IP address and a hypermedia directory path on the underlying server are used for information exchange.
+T1562.001.
+The public-facing application compromise approach is what we have seen the most.
+This Service Principal was granted company administrator privileges.
+We’ll also describe how those techniques can be blocked.
+*name) { int next_chunk; int hash; for ( hash = HASH_INIT; ; hash = next_chunk + 33 * hash ) { next_chunk = *name++; if ( !next_chunk ) break; } return hash; } view raw nsis_calc_hash.cpp hosted with :red_heart: by GitHub The algorithm used for the buffer decryption differs across the samples. 
+The Kerberos authentication mechanism in Active Directory involves multiple requests and responses like Ticket Granting Ticket (TGT) and Ticket Granting Service (TGS) supported by a Key Distribution Server (KDC), usually a Domain Controller.
+Escalate Privileges with Stolen Credentials The threat actor uses stolen passwords from valid accounts as the primary vector for privilege escalation.
+Detects the sandbox environments such as SunBelt and Joe sandboxes.
+We have little confidence in these claims: the site could be operated by copycats trying to impersonate the group and catch some money using the reputation Prilex has earned over the years. 
+The proficiency of the operators could stem from multiple scenarios, including stealing and reverse engineering the proprietary software product, misusing its leaked parts or buying code from an underground market. 
+Plugins overview In the chart below we summarize information about plugins. 
+Bypassing execution blocking After playing with some file extensions, it turns out that this protection is not bulletproof. 
+In this blog, we’ll share our in-depth analysis of the backdoor’s behavior and functions, and show why it represents a high risk for business environments.
+The decryption procedure: Is obfuscated with FinSpy Mutator Involves applying 10 operations (ADD, SUB, XOR, ROL, ROR) to every byte of the stager Is different in every backdoored installer. 
+Thanks for reading and hope this helps! 
+Figure 1 shows the list of URLs from the data related to RedLine Stealer.
+Loading a configuration file by SimplexTea for Linux, cf.
+Fig.4 RC4 decryption The decrypted payload is shown below.
+T1219
+Spearphishing Attachment (T1193) 
+Phishing accounts for majority of initial access intrusion events. 
+The activity was observed in Windows Security Event ID 4662, with known indicators including non-computer based account, an access mask of 0x100, and object IDs. 
+Windows Management Instrumentation WMI is an administrative framework that is built into every version of Windows since 2000.
+Once the expected log entry is found, its contents are decrypted using the HC-128 encryption algorithm.
+The exposed info.php page of the threat actors’ command-and-control (C&C) infrastructure 
+Each email has an HTML attachment. 
+This is not the case with CatB. Despite that, the threat lacks in overall sophistication, and a modern, properly configured, XDR/EDR solution should alert quickly upon initiation of a CatB attack in the environment. 
+Online advertising platforms offer advertisers the possibility to bid in order to display brief ads in search engines, such as Google, but also websites, mobile apps and more.
+Table of Contents Trigona OverviewRansomware AnalysisRansomware BinaryRansom NoteVictimologyLeak Site AnalysisSimilarities to CryLock RansomwareTools and TechniquesTTPsConclusionIndicators of CompromiseAdditional ResourcesProduct Protection Guide Trigona Overview The first mention of Trigona, also the name of a family of stingless bees, comes from a tweet by security researchers in late October 2022.
+Local encryption targets in oci.dll The lack of post-encryption alterations is a trait that sets CatB apart from other contemporaries.
+However, the overall functionality of Fantasy is that of a wiper without any attempt to masquerade as ransomware.
+When an IronPython script is run, it is loaded into the IronPython interpreter.
+However, since Gh0st RAT’s source code is publicly available, it remains plausible that any threat actor could download and modify the code for their own needs.
+The target would then, naturally, double click the other file in the Zip archive — a Windows Shortcut (.LNK file) labeled with a PDF file suffix and with an icon that makes it appear to be a PDF document. 
+The Pre-Validator ensures that the victim machine is not used for malware analysis. 
+While it was unclear exactly why the malicious actors were using ‘PerfectData Software’ as part of their account hijacking, it is clear that either the legitimate or spoofed version of the application is becoming an very likely emergent piece of threat actor tradecraft.
+The targeted browsers are: Chrome Firefox QQBrowser Sogou Explorer Download and execute a file Execute shell commands This malware contains various checks to determine whether it’s running in a virtualized environment.
+This may offer a limited advantage in evading detection by some antivirus or security solutions. 
+Named Pipes are used to facilitate the transition of data. 
+Figure 1 below highlights where lateral movement falls within the attack chain and its different stages.
+The Site 1 krbtgt account password had not been updated for over a decade.
+They often leverage dual-use tools for various purposes to minimize their footprint and evade detection.
+A subdomain of kasprsky[.]info, db311secsd.kasprsky[.]info, is the C2 domain.
+Campaign Details Proofpoint has only observed the IcedID Lite Loader variant delivered as a second-stage payload following Emotet infections associated with November 2022 campaigns.
+Based on evidence obtained from the bash history data, EclecticIQ researchers observed that the threat actor primarily focuses on four different known remote code execution (RCE) vulnerabilities during their operations:• CVE-2023-21839 Oracle WebLogic Server RCE
+These samples helped us to understand how this tool works, what malware it loads and which threat actor uses it. 
+For each client, the following occurs: Obtains the IP address from the ClientIpAddress field in the DHCP_CLIENT_INFO structure Attempts to establish a socket connection to the client IPs over ports 445 and 139 (both associated with SMB) SMB Copy and Remote Execution There are two approaches to using valid credentials to copy and execute the malware to a remote host: Token impersonation Requires the process to have “SeTchPrivilege” Stolen credentials Each of these methods will be used to do a UNC write to Admin$ and then execute the malware on the target machine. 
+[TA0011] Table XII: Chinese state-sponsored cyber actors’ Command and Control TTPs with detection and mitigation recommendations Threat Actor Technique / Sub-Techniques Threat Actor Procedure(s) Detection and Mitigation Recommendations Defensive Tactics and Techniques Application Layer
+Figure 2.
+Looking into our reporting, we don’t see many instances of domain fronting.
+Given this subgroup’s capabilities, the profile of past targets, and the potential for cascading effects, Microsoft is publishing details on known tradecraft alongside corresponding detections and mitigations to help organizations protect against this and similar threats. 
+3658B7CCA13C8C8AD03E9B6AEFE4B9CBE48E3C81hidmouse.sysWin64/Agent.
+Three-layer infection chain delivers and detonates the payloadsMalicious batch file downloads the PowerShell downloaderThe RAR file containing a malicious batch file with a .cmd extension is downloaded to the user’s machine.
+It has been reportedly used by several ransomware groups to aid in their operations [1][2][3][4]. 
+Follow the pro-active incident response procedures outlined above prior to applying updates.
+Given its numerous native options, Rust is highly customizable, which facilitates the ability to pivot and individualize attacks. 
+With these developments in mind, we may deduce that the cyber-espionage activities carried out by MuddyWater between September 2020 and March 2021 were a reaction to these agreements.
+but if we follow the execution of the code (hitting F8 several times), we will see that the memory contains some values, but they look random.
+Various attributes including the computer name and the OS version of the compromised system were sent through encoded cookie values. 
+After deobfuscation and cleaned up, the code in the macro looks as follows. 
+Fake websites created by the attackers to deliver malicious installers (click to enlarge) 
+The 3CX supply-chain attack 3CX is an international VoIP software developer and distributor that provides phone system services to many organizations.
+The method Invoke is used to inject a native PE into a remote process and InvokeVoid to call any exported function of the injected payload. 
+Code in "contain.pyc" 
+This unique combination of executables wasn’t seen in previous LockBit attacks. 
+The user-specific encryption keys for DPAPI are stored under C:\Users\<user>\AppData\Roaming\Microsoft\Protect\. To leverage these encryption keys, the threat actor must first decrypt them, either by using the user account’s Windows password, or, in Active Directory environments, by using a DPAPI domain backup key that is stored on domain controllers. 
+In addition to the website defacement, Microsoft Threat Intelligence Center (MSTIC), identified in a report destructive malware samples targeting Ukrainian organizations with two malware samples.
+Zerobot 1.1 increases its capabilities with the inclusion of new attack methods and new exploits for supported architectures, expanding the malware’s reach to different types of devices.
+[SPF]) and integrity of messages (using Domain Keys Identified Mail
+Recent attack methodologyThroughout the course of our analysis of a recent human-operated ransomware attack associated with Vice Society, we observed several notable tactics, techniques, and procedures (TTPs) used throughout each stage of the attack lifecycle.
+Although Ghost RAT has a history of use by nation-state threat actors, Cofense Intelligence does not have conclusive evidence that this recent campaign is associated with known nation-state activity.
+Credential Theft Using Get-ADReplAccount 
+The SMOKEDHAM backdoor source code is embedded as an encrypted string.
+In some instances.
+After this the adversary dumps the domain admin credentials from the memory of this machine, continues lateral moving through the network, and places Cobalt Strike beacons on servers for increased persistent access into the victim’s network.
+Threat actors will attempt to make the communication appear to originate from a source that the recipient would be familiar with and/or deem trustworthy.
+The IcedID loader connected to the C2 server and delivered and executed the IcedID core bot if specific conditions were met. IcedID Loader Configuration: C2:
+Simple downloader with fake password file It’s possible that the actor delivered the above Windows executable file in archive file format or disk image file format with an encrypted decoy document. 
+After conducting reconnaissance, Trigona operators used Splashtop – a remote access and management (RMM) tool – to transfer the following malware into the target’s environment. 
+The infection is spread via 3CXDesktopApp MSI installers.
+Malicious activity such as “Kerberoasting” takes advantage of Kerberos’ TGS and can be used to obtain hashed credentials that threat actors attempt to crack. 
+This library is a part of Sybase SQL Anywhere, which is used by RES 3700 POS. 
+Summary of domain fronting of Myanmar government's domain. 
+The FortiGuard AntiVirus service is supported by FortiGate, FortiMail, FortiClient, and FortiEDR, and the Fortinet AntiVirus engine is a part of each of those solutions.
+On the compromised machine, they use tools such as Mimikatz to dump credentials.
+Malicious ISO file First, the user clicked on the ISO file, which created a new virtual hard drive disk.
+Another sample discovered in late August 2021 consisted of the C2 host URI xxx[.]xxxx[.]tk and the host header setting configured to point to test[.]softlemon[.]net. 
+It then calls CallWindowProcW API.
+Example File Infector Let’s take a look at one file that has been infected by the Sality malware, which requires external dependencies to run inside a sandbox.
+“Mary tax docs.pdf.lnk”, along with another clean Microsoft Office file, “R&P Sales Summary.docx”, are included in an archived file labeled “2022 tax docs.zip”.
+FEC3 FE_Trojan_Raw32_SILKWRAP_1 FE_Autopatt_Win_FOCUSFJORD Trojan.
+-t u1 < /bin/sh | tr -d ' '` case $arch in 1) 
+Figure 16.
+Microsoft has documented multiple ways to configure additional LSASS process protection which can prevent credentials being compromised. 
+Download the PDF version of this report: pdf, 528 kb. 
+Figure 3: When ffmpeg stepped onto Twitter to defend its code In a normal DLL sideloading scenario, the malicious loader (ffmpeg.dll) would replace the clean dependency; its only function would be to queue up the payload.
+The tool appeared to be still under development as several command options were not yet implemented. 
+\Public\DESKTOP-UT9NJ4S.cmd Next, the script downloads a malicious ZIP file — “m.zip” — from a server using the URL “hxxp[://]216[.]238[.]70[.]224/20/t/e/m.zip” to the random name folder.
+2 Killing Process Data exfiltration It copies data from servers/shared directories to the local directory and compresses with dropped 7zip binary.
+T1105
+When the victim machine starts up, the infected MBR copies the initial loader code from the last megabyte of the hard drive to the highest available memory located before the EBDA1.
+Store passwords in hashed format using industry-recognized password managers. 
+The command run by the shortcut also contains the opening of a URL file extracted from the archive.
+Read.
+It attempts to specifically gain root access to these devices via a default password, despite having the same credentials in the list embedded in the binary. 
+Using its anomaly-based detection, Darktrace DETECT:trade_mark: was able to identify the activity chain surrounding the use of this application, potentially uncovering a novel piece of threat actor tradecraft in the process.
+Once the gathered data has been formatted into the JSON structure, it is then encrypted using the same procedure that Ransom Cartel follows to generate session_secret blobs, which will be discussed shortly; put simply, it involves AES encryption, utilizing the SHA3 hash of a Curve25519 shared key for the AES key. 
+Every device and website has an IP address that other devices, websites, and online services use to communicate with it.
+For example, to open a registry key in a transaction, the functions RegCreateKeyTransacted(), RegOpenKeyTransacted(), and RegDeleteKeyTransacted() are available. 
+Almost two months later, on August 20, 2020, the file CV.pdf____________________________________________________________.exe (e886caba3fea000a7de8948c4de0f9b5857f0baef6cf905a2c53641dbbc0277c) was uploaded to VirusTotal.
+The software has been used by multiple APT and cybercrime groups in the past to obfuscate their malware. 
+T1059.003Command and Scripting Interpreter:
+We believe that the threat actors use it to further track which files have been processed.
+The other new flags -low-key, --low-key will cause the ransomware to focus on only its encryption of data and not perform pre-encryption tasks, including deleting shadow copies (malicious use of vssadmin.exe, wmic.exe), deleting backup catalogs (malicious use of wbadmin.exe), and disabling Windows Recovery Mode (malicious use of bcdedit.exe).
+One other interesting aspect of the injector is its ability to load an assembly into an unmanaged process.
+Recommended reading to response for malicious connector incidents: New transport rule removing antispam header –
+These two Monero wallets are just two of the three known Monero wallets that are associated with the WatchDog cryptojacking group.
+In this case, the function and the corresponding library are dynamically loaded at runtime – also known as explicit linking. 
+Once the key is entered, the code attempts to decrypt the contents of Sector 33, which were previously encrypted using Salsa20 key.
+Also, avoid browsing, opening documents, or other regular work activities while logged in as an administrator. 
+Figure 2. Embedded JavaScript containing campaign ID and victim ID.Victimology By looking at the victim ID in the embedded JavaScript in the Trigona ransom notes, we were able to identify at least 15 potential victims that were compromised in December 2022.
+Since the RAR file is downloaded automatically by Internet Explorer, Letter Head.docx will be treated as its execution parent.
+The current detections, advanced detections, and IOCs in place across our security products are detailed below and shared with the broader security community to help detect and prevent further attacks. 
+Extracting Packed Locky Payload In this section, we will present a guide on extracting packed malware from 2 popular malware:
+These message types are used to establish a direct connection between relays. 
+We recommend that our readers follow the best practices given below: Safety Measures Needed to Prevent Ransomware Attacks Conduct regular backup practices and keep those backups offline or in a separate network Turn on the automatic software update feature on your computer, mobile, and other connected devices wherever possible and pragmatic Use a reputed anti-virus and Internet security software package on your connected devices, including PC, laptop, and mobile Refrain from opening untrusted links and email attachments without verifying their authenticity Users Should Take the Following Steps After the Ransomware Attack Detach infected devices on the same network Disconnect external storage devices if connected Inspect system logs for suspicious events Impact of Ransomware Loss of valuable data Loss of the organization’s reputation and integrity Loss of the organization’s sensitive business information Disruption in organization operation Financial loss MITRE ATT&CK:registered: Techniques Tactic Technique ID Technique Name ExecutionT1059 T1204Command and Scripting Interpreter User ExecutionPersistenceT1547.001 Registry Run Keys / Startup FolderDiscoveryT1083File and Directory DiscoveryDefense EvasionT1070 T1562Indicator Removal Impair DefensesImpactT1486 T1490Data encrypted for impact Inhibit System RecoveryIndicators of Compromise (IOCs) Indicators Indicator Type Description 65f35ae4203cf5041a0aaa358dd3d74c ea1f7940271fc80d06b2f222506020b650ad41bc 68e5caa3f0fd4adc595b1163bf0dd30ca621c5d7a6ad0a20dfa1968346daa3c8MD5
+Persistence AnyDesk and its installation as a service was used in order to persist and create a backdoor to the network. 
+1: min_disk_size_gb = float(sys.argv[1]) _, disk_size_bytes, _ = win32api.
+Modify Registry T1113 Screen Capture T1115 Clipboard Data T1133 External Remote Services T1134 Access Token Manipulation T1140 
+Even though we believe that this version of FlowCloud is still undergoing development and testing, the cyberespionage capabilities of this version include the ability to collect mouse movements, keyboard activity, and clipboard content along with information about the current foreground window.
+Figure 3: Two FOCUSFJORD samples configured to proxy C2 traffic FOCUSFJORD Changes We have observed numerous variants of the FOCUSFJORD malware family since 2017.
+We find these backdoors on compromised sites:wp-content/plugins/hellopress/wp_mna.php – file uploaderwp-content/plugins/hellopress/wp_filemanager.php – web shellTo summarize:The attacker successfully logs into the vulnerable WordPress site through wp-login.phpThey use the update.php?action=upload-plugin endpoint to install the malicious pluginNext, the plugin is activated via plugins.php?action=activate&plugin=posts-layouts%2Fposts-layouts.phpSeveral requests are made to both theme-editor.php and admin-ajax.php to inject further malware into the website files, specifically the header.php and footer.php files (these are further injections of the same malicious JavaScript)Further requests are made to the additional backdoor injected into the docrootThe malware is not identical for each and every affected website so the workflow and logs will vary slightly from site to site, but this is the gist of how they are exploiting this unauthenticated privilege escalation vulnerability to take over websites and inject malware.
+Base64 encoded string with several string replacements.
+While investigating a malicious MSI file (MD5: ec3f99dd7d9dbce8d704d407b086e84f) that has been uploaded to a multiscanner service, we observed the following two events: The dll library dropped from the MSI was observed to launch an in-memory payload that contacts the oilycargo[.]com domain.
+One unexpected result of the compromise was cryptocurrency mining at both the foreign office and headquarters.
+The beginning of obfuscated strings and the field where browser cookie information is collected.
+Trend Micro Vision One can help you prevent threats like this with multiple security layers across all platforms, and its intuitive threat detection, investigation and response system makes it a key factor to stop Earth Zhulong’s evolving methods of infiltrating systems. 
+Figure 2 – Checking for required privileges We can see that the NTLM hash of the user’s credentials is revealed, and this can be brute forced offline as shown below.
+More in-depth analysis of this technique was described here. 
+Figure 4.
+If updates or workarounds were not promptly applied following VMware’s release of updates for Log4Shell in December 2021, treat those VMware Horizon systems as compromised.
+Message logging in FunnySwitch6.
+T1083File and Directory DiscoveryFlowCloud can search through connected file systems and obtain directory listings. 
+This is done with the Python Base64 module and the RijndaelManaged class from the C# cryptography namespace.
+It captures screenshots and extracts clipboard content and VPN configurations. 
+If any of these versions are installed on the system, the script will attempt to uninstall the vulnerable application. 
+These incidents constitute a significant escalation in the severity and impact of ransomware targeting.
+Since the war with Russia began, Ukraine’s energy sector has been under constant cyberattack.
+The malware expects to find specific entries which match our analysis of the installer. 
+We will discuss each exception and understand its pattern to write a script. 
+T1070.004
+This is achieved by locating the process that hosts the Event Log, enumerating the processes’ threads, identifying the threads assigned to the service by their service tag (eventlog), and terminating them. 
+Abusing cloud services to fly under the radar
+Disable Windows Security 5008347 
+FortiGuard Labs provides Backdoor.
+The team ran the DFSCoerce python script, which prompted DC authentication to a server using the server’s NTLM hash.
+SettingsRemote system discoverytype \\<host>\c$\Users\<username>\Favorites\Links\Bookmarks bar\Imported From IE\*citrix*Remote system discoverytype
+T1558.001 Golden Ticket Attackers acquiring credentials for KRBTGT account can forge the Kerberos ticket called Golden Ticket, allowing them to get unrestricted access to any system in the domain T1558.002 Silver Ticket Allows attacker to get admin level access to the service accounts by abusing Kerberos authentication T1558.003 Kerberoasting Allows attackers to extract the Kerberos tickets for service accounts from memory and brute force offline to get credentials Conclusion As credential theft attacks play a significant role in an attacker’s lateral movement, so as in-network defense for the defenders.
+By opening a backdoor, they were able to hijack the institution’s wireless connection and target ATMs at will.
+The meeting invite took them to a red team-controlled domain [T1566.002] with a button, which, when clicked, downloaded a “malicious” ISO file [T1204].
+REvil configuration storage.
+Figure 39.
+ShadowPad During the investigation we also discovered two samples containing ShadowPad malware. 
+Small Sieve: 
+[T1555], OS Credential Dumping [T1003], LSASS Memory [T1003.001] Cortex XDR Prevent Enable Anti-Exploit Protection Enable Anti-Malware Protection Discovery 
+Then create a new thread in the remote process to execute an export named ReflectiveLoader within the copied payload DLL.
+Both were designed to turn off antivirus and anti-malware software.
+SFTP Support: It includes a built-in SFTP (SSH File Transfer Protocol) implementation, enabling you to securely transfer files between the local and remote systems over the SSH connection. 
+title: WTB:
+MeshAgent.exe -kvm1 - Initiating Process File Name, column 6, row 12 "MeshAgent.exe" -b64exec cmVxdWlyZSgnd2luLWNvbnNvbGUnKS5oaWRlKCk7cmVxdWlyZSgnd2luLWRpc3BhdGNoZXInKS5jb25uZWN0KCczNzQ3Jyk7 The decoded base 64 content reveals commands for console access and connect actions. 
+We will also discuss our strategies of stealthy instrumentation for analysis of encrypted network traffic, to combat the ways SSL can be used to complicate command-and-control (C2) traffic analysis. 
+We also observed other valid executables being used, ranging from AV vendors to video software.
+Most hosts in the Commerce environment HAD more restrictions placed on their operating system by default which likely contributed to the lack of success by the threat actors in the Commerce environment. 
+This script determines the victim machine architecture.
+John Althouse has created a medium post that accurately conveys the differences between JA3/S and JARM: “JARM actively scans the server and builds a fingerprint of the server application.
+SELECT meta_hostname, sophos_pids, domain, clean_urls, source_ips, destination_ips, timestamps, ingestion_timestamp FROM xdr_data WHERE query_name = 'sophos_urls_windows' AND (LOWER(domain) LIKE '%akamaicontainer[.]com%' OR LOWER(domain) LIKE '%akamaitechcloudservices[.]com%' OR LOWER(domain) LIKE '%azuredeploystore[.]com%' OR LOWER(domain) LIKE '%azureonlinecloud[.]com%' OR LOWER(domain) LIKE '%azureonlinestorage[.]com%' OR LOWER(domain) LIKE '%dunamistrd[.]com%' OR LOWER(domain) LIKE '%glcloudservice[.]com%' OR LOWER(domain) LIKE '%journalide[.]org%' OR LOWER(domain) LIKE '%msedgepackageinfo[.]com%' OR LOWER(domain) LIKE '%msstorageazure[.]com%' OR LOWER(domain) LIKE '%msstorageboxes[.]com%' OR LOWER(domain) LIKE '%officeaddons[.]com%' OR LOWER(domain) LIKE '%officestoragebox[.]com%' OR LOWER(domain) LIKE '%pbxcloudeservices[.]com%' OR LOWER(domain) LIKE '%pbxphonenetwork[.]com%' OR LOWER(domain) LIKE '%pbxsources[.]com%' OR LOWER(domain) LIKE '%qwepoi123098[.]com%' OR LOWER(domain) LIKE '%sbmsa[.]wiki%' OR LOWER(domain) LIKE '%sourceslabs[.]com%' OR LOWER(domain) LIKE '%visualstudiofactory[.]com%' OR LOWER(domain) LIKE '%zacharryblogs[.]com%' OR (LOWER(domain) LIKE '%raw.githubusercontent[.]com%' AND LOWER(clean_urls) LIKE '%/iconstorages/images/main/%')) 
+However, “Forked” uses a different file type (COM Server) and features additional domain and string-decryption code, making the payload 12KB larger than the “Standard” version. 
+We have also included an example Sigma detection rule for the activity shown in incident #1. title: Listing Directories of Remote Hosts description: Threat actors can use windows binaries and commands to discover interesting to them directories on remote hosts and redirect the output to a file on disc for later consumption. 
+The dropped Windows executable is a .NET application.
+Establish, and backup offline, a “known good” version of the relevant server and a regular change management policy to enable monitoring for changes to servable content with a file integrity system. 
+Rather, as noted in a report by SOCRadar, Vice Society focuses on targets of opportunity. 
+Gaining access to such reports would provide Kimsuky with valuable insights into how the international community assesses and interprets developments related to North Korea, contributing to their broader strategic intelligence-gathering initiatives. 
+IoCs SHA-1FilenameDetectionDescription 1A62031BBB2C3F55D44F59917FD32E4ED2041224fantasy35.exeMSIL/KillDisk.
+[T1053.005],
+Automated Playbooks All of the detections associated with this analytic story create entries in the Splunk Enterprise Security risk index by default and can be used seamlessly with risk notables and the Risk Notable Playbook Pack.
+EnableLUA By modifying the below registry value EnableLUA to “0”, malware aims to deactivate User Account Control (UAC) on the target system.
+As previously published, historically there has been just one version of IcedID that has remained constant since 2017.
+This cyber-incident has made headlines in recent days.
+The shift in collection priorities toward intelligence regarding specific areas also indicates that Earth Preta is targeting critical infrastructure and key institutions that can affect national and international relations, economies, and securities. 
+Virtualization/Sandbox Evasion are those techniques utilized by adversaries as a part of their defense evasion strategy to detect and avoid virtualization and analysis environments, such as malware analysis sandboxes. 
+Setup a profile to facilitate domain fronting. 
+Do not keep offline backups connected to your system as this data could be encrypted when ransomware strike. 
+It also corroborates this threat actor’s interest in the gambling industry and the South East Asia region, as we previously noted in 2020 and 2021. 
+In this blog, we describe the IronPython scripts and how they’re used to load one or more payloads with the help of an injector. 
+[rsp+10h],rdx ss:00000000`0014fdf8=0000000000612b77 Landing on the first COOP vfgadget After tracing into the CFG LdrpDispatchUserCallTarge routine
+BRLoader DLL. 
+The post Nation-state threat actor Mint Sandstorm refines tradecraft to attack high-value targets appeared first on Microsoft Security Blog. 
+Revix encrypting a QNAP NAS device Figure 3.
+EclecticIQ researchers observed that the threat actor used private proxy addresses from a Chinese underground proxy IP solution called 'Tigercloud Club' to conceal their real IP address. 
+:grinning_face_with_sweat: 
+It starts from bytes: 0x55, 0x8B, 0xEC, 0x81, 0xEC Analogous shellcode can be found in the second sample from this campaign. 
+Ensure logging is in place to record MFA device enrolmentSecurity controls such as Conditional Access can help restrict or prevent unauthorised access based on criteria such as geographical location.
+In the case of Domino Backdoor a hash is generated from the system username and hostname and the process ID is appended.
+Create file listing recordings CommandShell (0x04) Create remote shell sessions TaskScheduler (0x05) Create different types of recordings (file listings, microphone, screen, webcam) at a specified time by dispatching commands to appropriate plugins MicRecorder (0x10) Livestream the victim’s microphone or capture its recordings. 
+The reconnaissance tool getHttpsInfo is able to discover HTTP servers within the range of a network. 
+Wireshark:
+Virtual environment and scanner/virtual machine checking After passing the environment check, EvilExtractor downloads three components from http://193[.]42[.]33[.]232 used for stealing data.
+At the time, we attributed the sample to Iron Tiger but had not yet identified the final payload.
+PowerShell T1059.003 Command and Scripting Interpreter: Windows Command Shell T1070.004 Indicator Removal on Host: File Deletion T1070.006 Indicator Removal on Host: Timestomp T1071.001 Application Layer Protocol: Web Protocols T1078 Valid Accounts T1082 System Information Discovery T1083 File and Directory Discovery T1087 Account Discovery T1090 Proxy T1095 Non-Application Layer Protocol T1098 Account Manipulation T1105 
+While investigations are underway, we want to provide the defender community with intelligence to understand the scope, impact, remediation guidance, and product detections and protections we have built in as a result.
+Guidance Understanding the intention of a dual-use tool being executed is challenging; however, it’s best practice to document which tools are approved for corporate use and block all others by default until they can be reviewed.
+When decoded, the following script injection is revealed from cdn[.]scriptsplatform[.]com:<script src='hxxps://cdn[.]scriptsplatform[.]com/scripts/stats.js' type='text/javascript'></script>
+Downloadable module: ModScan 2.20 
+The line can be seen below: for /f
+Valid Accounts Uses legitimate VPN, RDP, Citrix or VNC credentials to maintain access to an environment. T1133.
+Example: Below, the network traffic shows the SMB lateral transfer of one of the Atera Agent MSI installers (1.msi) used to gain access laterally on a host and provide persistence for later access. 
+The malware Hancitor Hancitor (aka Chanitor) is a downloader which is used to gain initial access to a victim’s computer.
+Using shellcode that injects implants into newly created instances of the Service Host process (svchost) 
+After the victim’s machine is rebooted, the malicious Windows startup files run the payloads by sideloading them to the legitimate executables and downloading and executing two other PowerShell scripts from a different attacker-controlled server.
+This enabled the malicious actor to laterally move throughout the victim’s environment using the graphical user interface.PSEXESVC.exe: C:\Windows\PSEXESVC.exe└──cmd.exe: C:\Windows\system32\cmd.exe /c ""rdp.bat" "└── reg.exe: reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v
+Figure 17: Process injection We have observed ISFB injecting itself into a running explorer.exe process.
+Dolphin evolution timeline November 2021 – version 2.0 Version 2.0 introduced the following changes to the version found in April 2021: 
+Group overview Agrius is a newer Iran-aligned group targeting victims in Israel and the United Arab Emirates since 2020.
+The DefaultSerializer class exposes four public methods: InjectAssembly Invoke InvokeAssemblyMethod InvokeVoid These methods are used pairwise.
+We strongly advise organizations and users in the targeted industries to reinforce their security measures to defend their systems and stored information from this ongoing campaign. 
+CSC 7 – Email and Web Browser Protection CSC 8 – Malware Defenses Endpoint Security Platform 10.7, Threat Prevention, Adaptive Threat Protection, Web Gateway (MWG), Advanced Threat Defense, Web Gateway Cloud Service (WGCS) Initial Access Valid Accounts (T1078) RDP Compromised CSC 5 Secure Configuration of hardware and software CSC 9 Limitation of Network Ports and Protocols CSC 12 Boundary Defense Endpoint Security Platform 10.7, Threat Prevention 
+This functionality can also be invoked via a C&C command.
+The final type of payload that we will mention is AsyncRAT.
+The unique signatures can represent several values collected from fields in the Client
+Yet, we can see some minor differences. 
+Monitor for newly constructed processes and/or command-lines that execute from the svchost.exe in Windows 10 and the Windows Task Scheduler taskeng.exe for older versions of Windows [DS0009] Detection:
+All these different fields provide control and flexibility over the indicators of the C2 channel.
+Segment and segregate networks and functions. 
+Contents of TaxReturn2022.img Figure 9.
+Due to its distribution on the web, it can be related to multiple cybercriminals.
+In HelloKitty’s case, this key is typically obfuscated with AES 256 encryption.
+Since the initial discovery of Dolphin in April 2021, ESET researchers have observed multiple versions of the backdoor, in which the threat actors improved the backdoor’s capabilities and made attempts to evade detection. 
+TacticIDNameDescription Initial AccessT1566.001Phishing:
+These teams, referred to below as FlowingFrog, LookingFrog, and JollyFrog, have overlaps in TTPs, victimology and network infrastructure. 
+However, malware would need to execute with local administrator privileges and enable “SeDebugPrivilege” on the current process to be able access the LSASS process memory. 
+Active since at least 2012, Gallium is likely a Chinese state-sponsored group that is targeting telecommunication, financial, and government entities in Southeast Asia, Europe, Africa, and the Middle East.
+g (16c0.f68): Security check failure or stack buffer overrun - code c0000409 (!!!
+The threat actor subsequently set up MFA for the account and successfully connected to the victim’s network via VPN. 
+This Joint Cybersecurity Advisory (CSA) provides information on tactics, techniques, and procedures (TTPs) used by Chinese state-sponsored cyber actors.
+The generated script is executed via a /bin/sh subprocess.
+We advise users and organizations to update their systems with the latest patches and apply multilayered defense mechanisms.
+The bash script that attempts to download different Zerobot binaries tries to identify the architecture by brute-force, attempting to download and execute binaries of various architectures until it succeeds, as IoT devices are based on many computer processing units (CPUs).
+T1113
+This botpackn1.dat contains the later stages of the infection chain, so with some pivoting on the VirusTotal relationships, researchers land on the distribution URL (VT Link) “http[:]//lepriconloots[.]com/botpackn1.dat”.
+Step 1, the Python script, reads a specified file, XOR-decrypts its contents, and executes the resulting shellcode. 
+MVISION Insights customers will have the full details, IOCs and TTPs shared via their dashboard.
+[D3-DQSA] File Access Pattern Analysis
+However, malware authors usually try to hide these system calls.
+We learned the basics of assembly and how to use disassemblers.
+These four facts allow us to conclude that Lazarus is likely the threat actor deploying the Gopuram backdoor. 
+Fig.9 SQL queries for collection The info stealer also collects information on infected hosts, such as domain name, Hostname and OS Version, using NetWkstaGetInfo() API.
+This type of action can make it more difficult for incident responders to reconstruct what happened during a compromise. 
+The threat actor was later evicted from the network. 
+The broad range of attack methods utilized by attackers seems to present an insurmountable problem: how do you defend against a playbook that does not yet exist?Faced with the growing number of novel and uncommon attack methods, it is essential for organizations to adopt a security solution able to detect threats based on their anomalies, rather than relying on threat intelligence alone. 
+Refer to our Log4j related blogs to learn about this vulnerability and for a list of Microsoft Defender for Endpoint alerts that can indicate exploitation and exploitation attempts. 
+The bat file format is always very similar and looks like the contents of Figure 4, followed by base64 encoded text later in the file. 
+= r.text.strip('\n') elif r.status_code == 404: exit() #
+Malware Deep Dive This section contains a deeper look at the Dave Loader, Domino Backdoor, Domino Loader, and Project Nemesis Infostealer malware. 
+Threat actors staged a malicious website, hosting a Pokemon-based NFT game, offering both a fun and financially rewarding experience.
+PT. 
+More on this and other tools in the next report. 
+Like Drokbk, Soldier C2 infrastructure is stored on a domain rotator on a GitHub repository operated by Mint Sandstorm.
+file that only contains metadata and can be found in various locations including user profile directories. 
+Figure 5.
+Decryption of layer 3. 
+Endpoint solutions like User Entity Behavior Analytics (UEBA) and Endpoint Detection and Response (EDR) could also play a significant role in building the deception infrastructure.
+Use different passwords for corporate and personal accounts. 
+CISA has observed Chinese MSS-affiliated actors using the Command and Control [TA0011] techniques listed in table 11. 
+Permission Level | where AppRoleValue == "full_access_as_app" | project PermissionTime=Timestamp, InitiatingUser=AccountDisplayName, OuthAppName, OAuthApplicationId, AppRoleValue, AccountObjectId, FullAccessPermission ) on AccountObjectId Microsoft Sentinel Microsoft Sentinel has a range of detection and threat hunting content that customers can use to detect the post exploitation activity detailed in this blog in addition to Microsoft Defender detections list above. full_access_as_app Granted To Application Potential SSH Tunnel to AAD Connect Host Suspicious Sign
+We have observed the values “galway”, “iceland”, “helen”, and “idapro”. 
+The variants Tohnichi (active in 2021), Mallox, and Fargo (both active in 2022) targeted vulnerabilities in Microsoft SQL (MS SQL) Server for initial access.
+Upon execution of cy.exe, due to DLL side-loading, the loader/injector winutils.dll is loaded into memory and runs in the context of cy.exe.
+[WINDOWS-CLIPBOARD] copy from share drive to local C: command 5008380 
+The anti-debugger bypass technique will be done during dynamic analysis. 
+Fig.3 Embedded encrypted payload 
+The name of the next file is loaded as a stack-based wide stringThe base of kernel32.dll is fetched from PEBA set of function from kernel32.dll is retrieved – each of them by the name’s checksums.
+Attribution Preliminary analysis has not yet yielded evidence of concrete overlaps between UNC4857 and existing threat clusters at this time.
+It is precisely for this reason, as well as the fact that NFTs are rising in popularity, that we have decided to take a look at this particular campaign distribution in more detail. 
+Indicator Removal: File Deletion (T1070.004) 
+MFA was used for some SBSs.
+Perhaps part of the code was accidentally deleted during the development process. 
+Figure 7.
+We’ve been aware of their existence since the end of 2019, when we first found and analyzed its “basic” components. 
+SM_CLEANBOOT Values Description 0 Normal Boot 1 Fail-Safe Boot 2 Fail-Safe with Network Boot Table 1.
+The following morning, the client’s CISO contacted the Quadrant team to report that there was indeed an active compromise within their environment. 
+title: GoBruteforcer: Golang-Based Botnet Actively Harvests Web Servers url: https://unit42.paloaltonetworks.com/gobruteforcer-golang-botnet/ This post is also available in: 日本語 (Japanese)Executive Summary Unit 42 researchers recently discovered a new sample of Golang-based malware.
+Additionally, Objective-C selectors that may reveal information about method names contain junk. 
+rundll32.exe C:\Windows\syswow64\rundll32.exe win_cobalt_strike_auto BEACHHEAD 996 svchost.exe C:\Windows\system32\svchost.exe -k DcomLaunch -p
+Post-encryption, the following file extensions have been observed: .zmi5z, .nwixz, .ext, .zje2m, .5vm8t and .m4tzt. 
+We have seen NetWalker activity before March but there has been a noticeable uptick in larger victims since their advertisement.
+However, they appear to have been unfamiliar with the tools and called up the help menu before using Get-ADComputer to collect the details on hosts in the environment.
+SophosLabs is actively investigating additional detection opportunities for activity stemming from this software.
+Figure 6: Collecting the cbData “manifest” is a file that the malware writes to the system under the “3cxdesktopapp” folder during the initial stage of the infection.
+This technique utilizes hooking to get code execution, usually by hooking a frequently called API function with a jump to a payload/shellcode.
+5008361 [WINDOWS-SYSMON] CMD executed from spool directory 5008345 
+Conclusion Open source malware is often used by less skilled cybercriminals.
+[2] zan8in, “afrog.”
+After a careful investigation, we confirmed that the actor had adopted new techniques to convey the final payload.
+Additionally, the LockBit 2.0 RaaS leak site has the most significant number of published victims, with over 850 in total.
+According to leak site data for LockBit 2.0, since its inception in June 2021, the RaaS has affected many companies globally, with top victims based in the U.S., Italy and Germany. Figure 4.
+Win32.QAKBOT.DRSV QakBot 2718dcbb503b6334078daf4af61e17a547fb80c9b811c26cfc9d32f5ce63a826 Trojan.
+Look at the user agent that generates the TLS traffic for discrepancies that may indicate faked and malicious traffic. 
+While UPX is often legitimately used to reduce file size, we have observed threat actors utilizing UPX and other packing programs to evade static detection of the underlying payload. 
+See the MITRE ATT&CK Tactics and Techniques section for a table of the threat actors’ activity mapped to MITRE ATT&CK:registered: tactics and techniques with corresponding mitigation and/or detection recommendations. 
+Secure your backups.
+Function sets the virtual memory page permission to Read-Write-Execute. 
+Looking at leak site data in more detail, the group appears to be targeting more educational organizations based in California, as shown in Figure 5. 
+As a second argument, the macro passes the entry function “DllUnregisterServer” to rundll32.exe so that the execution starts correctly. 
+StopRansomware Hive Ransomware
+Figure 3: UAC bypass implementation. 
+These messages, with a few very minor spelling or grammar errors, were very hard to discern from ones that might be sent by a legitimate, prospective client of a tax firm. 
+Remote Data StagingTechniqueT1074.002https://attack.mitre.org/techniques/T1074/002/Email Collection: Local Email CollectionTechniqueT1114.001https://attack.mitre.org/techniques/T1114/001/Command and ControlTacticTA0011https://attack.mitre.org/tactics/TA0011/Application Layer Protocol: Web ProtocolsTechniqueT1071.001https://attack.mitre.org/techniques/T1071/001/Application Layer Protocol: DNSTechniqueT1071.004https://attack.mitre.org/techniques/T1071/004/Encrypted Channel:
+Archive Collected Data: Archive via Utility Uses 7-Zip to compress stolen data for exfiltration. 
+The Middle East has been a traditional customer for many large-scale construction projects for multiple South Korean companies, and there has been a recent push by the South Korean administration to what’s known as the ‘2nd construction boom’. 
+Before inserting data into the CLFS log file, the malware decrypts each block using HC-128.
+5. 
+Masquerading: Match Legitimate Name or Location (T1036.005) 
+The insurance company will try to derail negotiations in any way they can so that they can later argue that you will be denied coverage because your insurance does not cover the ransom amount.
+It also generates a ransom-demanding message saved in “KodexRansom”, shown in Figure 16. Figure 14.
+Remote Access Software;To remotely access the compromised infrastructure, the attackers may use the legitimate tools TeamViewer and ScreenConnect. 
+The process dump also revealed further indicators.
+Attackers execute DNS spoofing attacks using two methods:Intercepting the communications between the target device and the DNS server and redirecting users’ requests to a malicious websiteDirectly attacking the legitimate DNS server and forcing it to return malicious IP addressesTo counter this attack, we should:Update and patch the DNS server software regularly.
+The usage of this tool is shown as follows: malware.exe passcode time Argument Name Format Example Value Description Passcode String start A unique code in order to execute it Time String 20221221 The start date Table 6.
+According to the FBI and other US and UK-based agencies, they operate as a subordinate element of the Iranian Ministry of Intelligence and Security (MOIS).
+The batch script will delete the malware sample with its path using the command “del” and finally delete the bat file with the command “del %0%”.
+During this time, cyberattacks are often more effective as security and other personnel take this time off. 
+Also, cryptojacking groups such as “Rocke” began as a forked GitHub repository from the cryptojacking operation created by “The 8220 Mining Group.”
+The other domain “tourdeworldsport”, also started resolving to the IP “5[.]61[.]34[.]46” on 18 Nov 2022. 
+{meta:description = "files - file icju1.exe"author = "The DFIR Report"reference = "https://thedfirreport.com"date = "2021-05-09"hash1 = "e54f38d06a4f11e1b92bb7454e70c949d3e1a4db83894db1ab76e9d64146ee06"strings:$x1 = "cmd.exe /c
+It takes a lot of effort for any security team to constantly monitor the behavior changes in the malware and add the necessary protections. 
+– Want to learn more about automating your pipeline for phishing email investigations with Intezer? 
+NGROK is a publicly available utility that can expose local servers behind NATs and firewalls to the public internet over secure tunnels. 
+Read N bytes (cbLength) after Reserved 8 bytes in FileDataStoreObject. 
+This suggests a low-confidence connection between Microcin and MoonBounce and may indicate usage of shared resources between SixLittleMonkeys and APT41 or involvement of the former’s operators in the MoonBounce activity. 
+The UAL database is available by default on Server editions of Windows starting with Server 2012.
+%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\desktop.lnk 
+Both types of stolen data are very useful for nation states. 
+c:\windows\system32\nltest.exe
+The asking price for what is supposedly a Prilex PoS kit is $3,500. 
+Shell commands Dolphin can execute shell commands; this is done via the popen API and their output is retrieved. 
+Shell"); sh[reverseString(ar(1))]("me\\123.com me/itsIt.db,"+reverseString(a The JS file was then executed with wscript.exe and used the provided command line arguments, which created and executed the following command using WScript.
+0x8070A0 Retrieve the list of files with data prepared for exfiltration. 
+Connect with an eSentire Security Specialist. 
+Email communication has been dropped completely with victims now required to make contact through the NetWalker Tor interface where, after submitting their user key, they will then be redirected to a chat with NetWalker technical support.
+It included a standalone file padded with over 200MB of blank spaces, likely to impede analysis of the decompressed ISO file. 
+The FortiGuard Web Filtering Service blocks the malicious URL and IP address. 
+CaptureThe attackers have used various RATs that can access the victim’s webcam. Command and ControlT1132.001Data Encoding: Standard EncodingThe attackers have used njRAT, which uses base64 encoding for C&C traffic. 
+Its primary purpose seems to be to steal browser data and information from compromised endpoints and then upload it to the attacker’s FTP server. 
+[T1087.002] System Owner/User Discovery [T1033] Remote System Discovery [T1018] Network Monitoring and Analysis Tools Intrusion Detection or Prevention Systems Endpoint Protection Platform Detect target hosts and ports Identify associated scanning process Analyze scanning host once detected Develop response plan Collection process stopped before completion.
+The first stage (a version with cleaned formatting available here) decodes the next element: Figure 6: First stage script The decoded output is a comma-separated array of JavaScript blocks: Figure 7: Decoded comma-separated array of scripts There are four elements in the array that are referenced by their indexes.
+["10.0.2.
+Information Stealer update routine upload Asks for a file to be uploaded to the C2, checks whether the file exists, and uploads it. 
+The same values are hardcoded in the following stages, which leads us to think that the samples are generated using a builder.
+This was typically performed via the following command-line syntax:C:\Windows\system32\mstsc.exe /v
+The task is used to start an IronPython script with the 64-bit version of the interpreter.
+This is described in Section 5.4.9.4 of the Zcash protocol specification [Zcash], where Lemma 5.4.7 shows that if a given point P = (u, v) is on the curve, then (u, -v) is not on the curve, thereby preventing the potential issue outlined.\n
+We pick two generators of this group, G1 = E(1, 60) and G2 = E(2, 59).
+The ModScan module handles pipe commands listed in Table 2. Table 2.
+G1 + ⟨M2⟩ ⋅ G2 + … + ⟨Mk⟩
+Next-Generation Firewalls:
+A large number of damaged files is itself a very visible attack indicator that enabled detecting the intrusion.
+nltest /dclist: Towards the third and fourth day of the intrusion, Cobalt Strike was dropped to disk as a PE executable and executed.
+The threat actors went quiet for around seven hours.
+_
+-m nuitka --standalone --onefile maccaronic2_server.py Our newly generate PE file is ready to go.
+It makes direct system calls using the “syscall” instruction.
+When executed, mde.ps1 downloaded file.zip from 182.54.217[.]2 and removed mde.ps1 from the disk [T1070.004]. file.zip contained XMRig cryptocurrency mining software and associated configuration files. 
+Windows Defender tampering On one host, the threat actors ran the following command to try and clear the way for their activity, likely due to the difficulty the threat actors were having with beacons crashing. 
+Command and Control CISA analysts often observe cyber threat actors using external proxy tools or hop points to enable their cyber operations while remaining anonymous.
+For example, within seconds, you can use the below query to identify assets with instances of the 3CX Desktop Application. software:(name:”3CX Desktop App 18.12″) 
+TA0011 Command and Control;T1071 Application Layer Protocol;Remote access tools used by the attackers may use application layer protocols (HTTP, HTTPS, DNS). ;T1105
+The fact that the compromised file is digitally signed suggests the attackers were able to access the company’s software development or distribution pipeline.
+Familiar brand logos, names, and websites were used throughout the spam email, likely to give an illusion of legitimacy. 
+For the next several hours, repeats of previous discovery actions and additional beacons executed using remote WMIC commands, were observed.
+This list served as input for OneForAll - a subdomain enumeration tool. 
+The two phishing samples provided by the client show two different techniques: Email response as part of an Email Chain: "Re: RE: Logistics": 
+It is also a common gimmick for cybercriminals to pose malware as a keygen or an activator.
+Monitor common ports and protocols for command and control (C2) activity.
+Jumps between instructions occur by means of calls to a special function (rel_jmp), which emulates the jmp command.
+Kronos hook stub template – x86 opcodes for push and ret.
+This stealer may acquire browsing histories, Internet cookies, usernames/passwords, personally identifiable details, credit card numbers, and other highly sensitive information from browsers.
+Keep in mind, that a Java Runtime Environment must be installed! 
+In order to make the injection stealthier, the loader uses a common technique of “stealing syscalls”, also known as “hell’s gate”.
+# ======================================== #\n# Vulnerability 3 - Variable-length Input  #\n# ======================================== #\n\nmessage =
+Instead, it goes right to work wiping data.
+Whether we put name ‘X’ or ‘Y’ on the adversary, we strongly believe that we are dealing with a Chinese actor whose long-term objectives are persistence in their victims’ networks and the acquisition of the intelligence needed to make political/strategic or manufacturing decisions. 
+We observed the use of the Eazfuscator obfuscator in a Crimson RAT sample named NewOrleans.
+This process is performed with a different thread, but it would still take a long time to write the full partition since both concurrent threads are actually attempting to write random data on the full disk. Figure 4.
+Type: multipart/form-data; boundary=Ð¾aj195iak20ka99441aj1″ We observed the IP address in Debugger, and via IDA, we found that the exact IP address is also referred to in the .rdata section. 
+Adhere to the 3-2-1 rule when backing up important files.
+The dropper is installed into a legitimate file path, posing as the legitimate application. i2pd and XMRig also utilize legitimate file paths to mask their execution. 
+OutlookRansomware will likely continue to be incorporated into the attack methods of threat actors targeting public and private entities in LATAM due to their availability as ransomware-as-a-service (for non-technical threat actors) and highly successful infection rates.
+• D3FEND is a trademark of The MITRE Corporation.
+Below, we’ll explore the most common attacks against DNS and review mitigation strategies to avoid them.
+T1082System Information
+For example: hxxp://sery.brushupdata.com/B4BBDCC029E119719F065622 hxxp://sery.brushupdata.com/07FDB1B97D22EE6AF2482B1B hxxp://sery.brushupdata.com/273CDC0B9C6218BC1187556D Other PlugX samples we observed injected themselves into Windows Media Player and started a connection with the following two domains: center.asmlbigip.com sec.asmlbigip.com 
+Its purpose remains unclear. 
+In order to avoid being detected by security products, threat actors use Themida packer to obfuscate the signature used for detection. 
+If the response on at least one of the ports provides the appropriate value, the module will start the scan of the selected IP addresses.
+Figure 3.
+30 Nov 2022 - 11:30AM 
+The spam tool compromises Yahoo, Gmail and Outlook webmail accounts, enabling the threat actor to take control of those mailboxes, exfiltrate their contacts’ email addresses, and send spam emails.
+(So function and method names are left intact ….yay!) 
+[HOSTNAME]The attacker also attempted to execute PowerShell scripts on remote systems in the environment while moving system-to-system.
+Affected organizations are in the manufacturing, finance, construction, agriculture, marketing and high technology industries. 
+FCSmemtasmepocsPDVFSServiceQBCFMonitorServiceQBFCServiceQBIDPServiceRTVscanSavRoamsophossqlstc_raw_agentsvc$veeamVeeamDeploymentServiceVeeamNFSSvcVeeamTransportSvcVSNAPVSSvssYooBackupYooITzhudongfangyuThe following is a hardcoded list of directories and files to be omitted from encryption: ...
+The first two samples had 2010/2011 as the compilation date, as shown on the graph below.
+Debuggers also allow you to see how strings and payloads are deobfuscated and constructed – making it easier to find the interesting patterns of the malware. 
+These batch scripts’ purposes were to identify all online servers and workstations in the environment, often a precursor to ransomware deployment by creating the target list for that deployment. 
+After further review of the environment (post encryption), we realized multiple systems (including a domain controller) were unable to be accessed and would not have been restorable even if the ransom had been paid. 
+The macOS version of FinSpy has the following components: The Installer.
+LoadLibraryW loads the module, VirtualAlloc allocates the memory, CreateProcessW created a process, and ZwUnmapViewOfSection is used to unmap memory from a virtual space.
+Ensure that your backup data is offline and secure.
+[7] 影舞者, “fscan.”
+06.13.2022.lnk.lnk" author = "The DFIR Report" reference = "https://thedfirreport.com" date = "2022-11-28" hash1 = "1bf9314ae67ab791932c43e6c64103b1b572a88035447dae781bffd21a1187ad" strings: $x1 = "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" fullword ascii $s2 = "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" fullword wide $s3 = "<..\\..\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" fullword wide $s4 = "-c \"&{'p8ArwZsj8ZO+Zy/dHPeI+siGhbaxtEhzwmd3zVObm9uG2CGKqz5m4AdzKWWzPmKrjJieG4O9';$BxQ='uYnIvc3RhdHMvUkppMnJRSTRRWHJXQ2ZnZG1pLyI" wide $s5 = "WindowsPowerShell" fullword wide $s6 = "black-dog" fullword ascii $s7 = "powershell.exe" fullword wide /*
+Privilege Escalation 
+It is executed with the following arguments: #1 → This is the ordinal number of the exported function 18 → Minutes used to determine how long to wait for the scheduled shutdown “username:pass” → Credentials to be used to propagate the malware on the network. 
+Notes that are missing the key submission feature suggest that they are artifacts of an earlier ‘test’ version of the ransomware. 
+In this instance, AdFind was renamed to masquerade as a legitimate Windows binary.
+Impact There was no impact (exfiltration, data encryption, or destruction) during this intrusion.
+At that time, the threat actor became active by initiating a proxied RDP connection via the Cobalt Strike beacon to the domain controller.
+Deploying a public proof of concept (POC) exploit targeting a public-facing appliance vulnerability. 
+Some of these crashes may have been in response to being detected by Microsoft Defender.
+McAfee ATR is actively monitoring ransomware threats and will continue to update McAfee MVISION Insights and its social networking channels with new and current information.
+We have identified the embedded shellcode as a Cobalt Strike shellcode which will be used to build connection to a remote hacking machine.
+CISA and the Federal Bureau of Investigation (FBI) assess that the FCEB network was compromised by Iranian government-sponsored APT actors. 
+Despite its relatively simple goals, the library’s code makes heavy use of anti-debugging tricks and control flow obfuscation to hinder analysis.
+Doina.13437 
+A notable feature of earlier Dolphin versions we analyzed is the ability to modify the settings of victims’ signed-in Google and Gmail accounts to lower their security. 
+This was performed using the following commands:C:\Windows\system32\reg.exe delete HKLM\Software\Policies\Microsoft\Windows Defender /fC:\Windows\system32\reg.exe add HKLM\Software\Policies\Microsoft\Windows Defender\Real-Time Protection /v
+At the time of writing, both victim portals remain active.
+Network requirements vary across different NetSupport Manager configurations and sessions.
+It obtains the ScrambleCross shellcode by applying a modified ChaCha20 algorithm on an encrypted blob, which may reside as an additional file on disk or be embedded in the loader itself.
+It has several interesting capabilities, including: Controlling connected microphones and triggering recording when sound levels above a specified threshold volume are detected. 
+This means that newer infections will not occur.
+Consider using Office Viewer software to open Microsoft Office files transmitted via email instead of full Microsoft Office suite applications. 
+For these reasons, we would not be surprised to see SysUpdate samples for the Mac OS platform in the future.
+If this is successful, the CRYPT_FLAG is set to 2 (decrypted), and the same key is used to decrypt the MFT. 
+It also performs several checks in order to ensure it is running on bare metal systems, and not on a virtual machine.
+As of November 2022, Hive ransomware actors have victimized over 1,300 companies worldwide, receiving approximately US$100 million in ransom payments, according to FBI information.
+The spam tool also showed us information-stealing capabilities such as logging keystrokes, capturing screenshots and tracking or intercepting the mouse events on the victim’s machine.
+If system, software, or web browser credential disclosure is a significant concern, technical controls, policy, and user training may be used to prevent storage of credentials in improper locations [M1027]. 
+Even though we do not have complete visibility into the BTC flow before NetWalker started ramping up, one thing is certain, this quarter alone it has been highly successful at extorting organisations for large amounts of money.
+These impersonated events are not logged verbosely by the Unified Audit Logs and can be difficult to detect. 
+The attack was a multi-stage chain where attackers compromised a version of the 3CX VoIP desktop client, which was then used to target the company’s customers.
+Note: password vaults associated with PAM solutions should be treated as HVAs with additional restrictions and monitoring (see below). 
+(see Figure 3).
+If the module cannot be discovered, it will load with “LdrLoadDll”, a native function of Windows, to try avoiding hooks in the usual functions, e.g. “LoadLibraryW”: Figure 9.
+DiscoveryThe attackers have used droppers and RATs that gather information about opened windows. T1083File and Directory
+By “living off the land” they were able to make an extremely discrete backdoor that they can deploy alongside their more conventional and noisier backdoor families, in order to help ensure persistence even after remediation.
+The i2pd and XMRig binaries are padded with a random number of zero bytes to change its hash and expand its size.
+In some cases, it took weeks or months before the application was utilized.
+Following HTTPS activity, CISA observed a suspected LDAP callback on port 443 to this IP address.
+The variants utilize the same variable names and directory naming schema, and also date back to Summer 2021. 
+Furthermore, Python and Go-lang executables usually compile all necessary libraries in a single binary, making malware classification more difficult for analysts and resulting in a large binary.
+The TTPs detailed below area sampling of new or otherwise notable tradecraft used by this actor. 
+If you believe this or any other cybersecurity threat has impacted your organization, please contact our Global FortiGuard Incident Response Team. 
+Since the sample we obtained is a PE file, when we run it after the appropriate environment is prepared and watch its mobility, it continues to run under the name “tmp.exe” by unpacking itself to the “C:\Users\admin\AppData\Local\Temp\” file path. 
+Here is a list (not exhaustive) of NetWalker-related threat events as reported by Endpoint Protection Platform Threat Prevention Module and McAfee Web Gateway. 
+While analysts will see the pattern of the arrangement, it is unlikely that they would be able to decrypt this without the correct sequence of bytes used in the mapping.
+The Winnti malware is known to be used by several actors.
+The script then enters a download loop that contains two subloops, one to download the MD5 hash of the XMRig payload, and a second to download the XMRig payload.
+After this, we discuss the changes in modus operandi since September 2019, especially regarding payment behaviour.
+Enforce principle of least privilege. 
+This time zone is used in all predominantly Chinese-speaking regions. 
+It encrypts users’ data using a combination of ChaCha20 and RSA-4096, and to speed up the encryption process, the ransomware encrypts in chunks of 64 bytes, with 128 bytes of data remaining unencrypted between the encrypted regions.
+DiscoveryT1135Network Share DiscoveryAgrius operators used cached credentials to check for access to other systems within an internal network. 
+Threat Advisory 3CX Softphone Supply Chain Compromise
+In addition, it initiates a loop that waits for the user to input the purchased key.
+The lsasrv.dll is a LSA (Local Security Authority)
+droppers The dropper contains code that is not executed.
+It is believed that they have been active since late 2017 and have been in close contact with MOIS since 2018. 
+wdigest.dll → Digest authentication security package.
+It uses a different custom packer than TEARDROP, also leveraging steganography to locate the start of the encoded payload.
+.rpm .rss .rtf 
+The adversary heavily relies on scheduled tasks for executing a batch-file (.bat) to perform their tasks.
+This shellcode is similarly structured as the previous one.
+Below is the type of information that would be available in a TrustedForm certificate, as demonstrated in their demo webpage. 
+Oldest Linux sample gets uploaded to Virus Total We observed that the attacker registered the oldest domain name one month before starting the C&C configuration then waited one more month before compiling the malicious sample linked to that domain name.
+At this writing, 3CX has deprecated the affected versions of the Windows application. 
+DSInternals is a PowerShell module that makes use of internal Active Directory features.
+The PDF contains a link to a macro-enabled template file (dotm) hosted on Dropbox.
+[D3-UGLPA] Server Software Component [T1505]: Web Shell [T1505.003] Chinese state-sponsored cyber actors have been observed planting web shells on exploited servers and using them to provide the cyber actors with access to the victim networks. 
+In a nutshell, this is an intermediate step between high-level instructions in a Visual Basic program and the low-level native code executed by a CPU.
+To determine the command and control (C2) servers waiting for the data to be sent to, the malware calls a decryption function that uses the RC4 algorithm to get a list of potential C2 URLs. 
+AA20258A Chinese Ministry of State SecurityAffiliated Cyber Threat Actor Activity
+We outline how we responded to the confirmed threat and what recommendations we have going forward. 
+We then continue tracing inside the vfgadget: 
+As tasklist uses WMI “under the hood,” this activity was captured by Falcon as SuspiciousWmiQuery events that included the query and the source system.
+Common credential dumpers such as Mimikatz access LSASS.exe by opening the process, locating the LSA secrets key, and decrypting the sections in memory where credential details are stored.
+The author of the Nemty ransomware also appears to have shared Nemty’s source code with others.
+Key points of the blogpost: The attackers purchased advertisements to position their malicious websites in the “sponsored” section of Google search results.
+Additionally, Prisma Cloud Defender agents can be installed on Windows 2016 and 2019 servers, as well as on Windows Docker Container hosts. 
+Shortly after the encryption, the buffer containing the Salsa20 key is overwritten; therefore, the key is destroyed Encrypts the MFT and stores
+The campaign lasted less than three hours and within that timeframe ESET customers were already protected with detections identifying Fantasy as a wiper, and blocking its execution.
+T1547.001 Registry Run Keys/Startup Folder Persistence is maintained after boot/reboot via malicious autostart registry keys. 
+Issued to Hangzhou Leishite Laser Technology Co. in 2012 by Wosign and revoked in 2014, it seems most likely this certificate was stolen. 
+Researchers analyzed these logs and created a detailed map of the adversary's tactics, techniques, and procedures (TTPs).The threat actor primarily focused on exploiting four different remote code execution (RCE) vulnerabilities to target web services and heavily relied on open-source tools, some of which are exclusively available in Chinese underground forums.
+Added MITRE ATT&CK Technique T1592.003 used for reconnaissance May 20, 2021:
+Within the MSI file, we have found the components of NovaPDF 11 (Figure 6) and other garbage files shown in Figure 7.
+Convert]::FromBase64String($GBUus));$GBUus=$xCyRLo;iex($GBUus)}" The Powershell script, when double clicked (executed), will attempt to connect to a set of domains containing the Emotet malware.
+Group Policy Modification Black Basta can modify group policy for privilege escalation and defense evasion. T1218.010.
+This function also enables RedLine to steal credentials for additional installed applications. 
+The IDR team has successfully blocked over 550 thousand BazarLoader malspam emails throughout this campaign alone. 
+To execute the binary, Hancitor uses one of the following techniques: Create Process Create Thread Process Hollowing Thread Execution Hijacking Create Process If the method “Create Process” is chosen, then the malware writes the retrieved executable to disk into the temp folder and executes it using rundll32.exe with “start” as the argument for the entry function. 
+In a more recent campaign we’ve been tracking, we discovered Earth Preta delivering lure archives via spear-phishing emails and Google Drive links.
+In this latest campaign, threat actors are relying on compromised websites to socially engineer users by using a decoy forum template instructing them to download a malicious file. 
+When the UEFI transfers execution to the malicious loader, it first locates the original Windows Boot Manager.
+Using several modules, the malware can infect vulnerable devices built on diverse architectures and operating systems, find additional devices to infect, achieve persistence, and attack a range of protocols.
+This login was followed by several failed and successful logins from a VPS-related within the Autonomous System, AS396073 MAJESTIC-HOSTING-01.
+[T1049] on SCCM Server 1, which revealed an active Server Message Block (SMB) connection from SCCM Server 2. Attempted to move laterally to the SCCM Server 2 via AppDomain hijacking, but the HTTPS beacon failed to call back. 
+[4] “L-codes/Neo-reGeorg: Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.”
+T1036 Masquerading;The attackers use a SoftPerfect Network Scanner executable renamed to svchost.exe. ;T1112 Modify Registry;To propagate, BlackCat uses PsExec to modify the system registry parameter MaxMpxCt to increase the number of failed network requests for each client. 
+[T1059.006] JavaScript [T1059.007] Network Device CLI [T1059.008] Chinese state-sponsored cyber actors have been observed: Using cmd.exe, JavaScript/Jscript Interpreter, and network device command line interpreters (CLI). 
+This relationship was enough to prompt further analysis.
+-s LSM win_cobalt_strike_auto BEACHHEAD 1888 svchost.exe C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p
+MC_PINGMeant for DDoS on Minecraft servers.
+Customers running current AntiVirus updates are protected. 
+5.
+The post Detecting Credential Stealing Attacks Through Active In-Network Defense appeared first on McAfee Blog. 
+This case covers the activity from a campaign in late September of 2022.
+TA0002 Execution T1053.005 Scheduled Task/Job Scheduled Task.
+ISO Cloudflare_security_setup.iso The RAT installation is disguised to look similar to a Google Chrome installation. 
+[T1068], Indicator Removal on Host [T1070], Deobfuscate/Decode Files or Information
+The samples used the name ThunderboltService.exe and downloaded and loaded the Project Nemesis Stealer. 
+Figure 22.
+TA0001 Initial Access T1566 Phishing Vice Society is known to use phishing to gain initial access to victims’ systems. 
+A breakdown of the parent and child processes invoked: The command can be broken down as follows: ‘Q’ indicates turn off echo – no response. 
+It appears that WatchDog actors are attempting to expand their cryptojacking operations, while simultaneously masking their operations with those of the known cryptojacking operations performed by TeamTNT.
+Also, IronPython scripts don’t run with the original Python interpreter when .NET framework APIs are used in the code.
+This server was previously linked to FlowCloud (FlowingFrog).
+The team leveraged access available from SCCM 2 to move around the organization’s network for post-exploitation activities (See Post-Exploitation Activity section). 
+The malware decrypts the configuration data with the RC4 algorithm using an embedded 64-byte key. 
+The malicious side loaded DLL Western Digital's WDSyncService.exe executable abused to side-load a malicious DLL 
+A split like this is typically seen in Ransomware-as-a-Service, where the ransom payment is split between the RaaS operators and the affiliate who caused the infection.
+Figure 44.
+See MAR 10387061-1.v1 for additional information, including IOCs, on these four files. 
+Additionally, it is thoroughly documented and actively supported: benefits that are less likely with custom-built malware that provides similar functionality such as Andromeda, Nanocore, CirenegRAT, Dark Comet and others. 
+The 16-bit code uses this flag to determine whether to infect the MFT A random array of bytes 0x20 in length is generated using CryptGenRangom.
+droppers For some of their droppers, the attackers have used an AutoIt packer that comes heavily obfuscated.
+The custom binary is built to configure two tunnels from the local host to the I2P network.
+Attribution Based on the code and language analysis, research is confident that the threat actor behind this campaign belongs to Latin America, specifically Brazil. 
+Downloading files and getting a screenshot After EvilExtractor extracts all the data from the compromised endpoint, it uploads it to the attacker’s FTP server, shown in Figure 12.
+Additionally, the threat actor was observed attempting to dump the Local Security Authority Subsystem Service (LSASS) process [T1003.001] with task manager but this was stopped by additional anti-virus the FCEB organization had installed. MITRE ATT&CK TACTICS AND TECHNIQUES See table 1 for all referenced threat actor tactics and techniques in this advisory, as well as corresponding detection and/or mitigation recommendations.
+Figure 11 shows the RedLine Stealer code and how it enumerates several known Crypto Wallet directories and looks for files related to crypto currencies by looking for files having “wallet” substring on its file name. 
+With Chinese universities (including more than one in Nanjing) being heavily involved in training talent for the Chinese defense industry, it is also plausible that students or other threat actors that are at times associated with APT groups may be carrying out independent threat activity using tools they are familiar with.
+TA0003 Persistence T1053.005 Scheduled Task/Job Scheduled Task.
+SMOKEDHAM then sets the same UUID value in the subsequent HTTP POST request that contains the command output. 
+Figure 17 Fake error message Figure 18 shows the process tree of Qakbot: Figure 18 Process Chain IOCs: Type Value Product Detected Campain 1 – OneNote File 88c24db6c7513f47496d2e4b81331af60a70cf8fb491540424d2a0be0b62f5ea Total Protection and LiveSafe VBS/Qakbot.a Campain 1 – HTA File e85f2b92c0c2de054af2147505320e0ce955f08a2ff411a34dce69c28b11b4e4 Total Protection and LiveSafe VBS/Qakbot.b 
+These malware attacks can be as disruptive as ransomware attacks, but wipers are arguably worse since there is no potential escape door of a payment to recover the data. 
+c:\windows\system32\inetsrv\&ping -n
+The process whose traffic is to be hidden is set through the IOCTL_SET_TRAFFICHIDE_PROCESSID (0x222048) control code. 
+The following tips are highly recommended by Unit 42 researchers to assist in the protection of cloud infrastructure. 
+[T1140], Disable or Modify System Firewall
+While interacting with Workstation 4, the team found an open SSH socket file and a corresponding netstat connection to a host that the team identified as a bastion host from architecture documentation found on Workstation 4.
+CollectionT1056Input CaptureFlowCloud logs mouse clicks. 
+The reply to the initial POST request contains a shellcode that we called a Security Shellcode.
+Data from Network Shared Drive;The attackers collect information from available network resources for exfiltration purposes. ;T1074 Data Staged;Before exfiltration, the attackers may put collected data in 7Zip archives. ;T1119 Automated collection;The attackers use ExMatter, a tool for automated collection of sensitive information. 
+Based on version 1.25 (8e6945ae06dd849b9db0c2983bca82de1dddbf79afb371aa88da71c19c44c996), which was used in the attacks with LNK files, here we will describe the networking aspects of the malware in more detail. 
+The threat actor then started Active Directory mapping using Adfind. 
+T1049System Network Connections DiscoveryThe attackers have used various RATs that can list network connections on a victim’s computer. 
+Proofpoint has identified two new variants of the IcedID loader, namely “Lite” (first seen in November 2022) and “Forked” (first observed in February 2023), both delivering the same IcedID bot with a more narrow-focused feature set. 
+[WINDOWS-SYSMON] Rundll32 network connection detected 5008346 
+Authors: Denis Goydenko and Alexey Vishnyakov, Positive Technologies MITRE TTPs Tactic ID Name Initial Access T1190 Exploit Public-Facing Application T1199 Trusted Relationship Execution T1059 Command and Scripting Interpreter:
